@@ -420,6 +420,25 @@ button{
       </div>
     </div>
     <script>
+
+        // stranka sa po načítaní načíta v rovnakej scroll pozícii
+function storePagePosition() {
+  var page_y = window.pageYOffset;
+  localStorage.setItem("page_y", page_y);
+}
+window.addEventListener("scroll", storePagePosition);
+var currentPageY;
+try {
+  currentPageY = localStorage.getItem("page_y");
+  if (currentPageY === undefined) {
+    localStorage.setItem("page_y") = 0;
+  }
+  window.scrollTo( 0, currentPageY );
+} catch (e) {
+    // no localStorage available
+};
+
+
         // Po načítaní stránky pridáva udalosti tlačidlám a produktovým položkám
 window.addEventListener('load', () => {
     // Tlačidlo na zobrazenie všetkých produktov
