@@ -5,21 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="images/favicon.ico" />
     <link rel="stylesheet" href="main.css" />
+    <script type="text/javascript" src="digiprodukty.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&amp;display=swap" rel="stylesheet">
     <title></title>
 </head>
-<style>
-    
-        .filtrovacka {
-            display: none;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            margin-top: 45px;
-
-        }
-
+    <style>
         .section {
             display: flex;
             justify-content: space-between;
@@ -28,173 +18,222 @@
         .section a {
             width: 40%;
         }
-
         .section img {
             width: 100%;
             height: auto;
         }
-
-        .content {
-            margin-bottom: 40px;
+        .sub-categories-wrapper {
+            background-color: white;
+            padding: 10px 0;
         }
 
-        .content ul {
-            list-style-type: none;
-            line-height: 1.8;
-            margin-left: 0;
-        }
-
-        .content p {
-            margin-bottom: 10px;
-        }
-
-        .content p strong {
-            color: red;
-        }
-
-        .numbers {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-gap: 10px;
-            margin: 40px 0;
-        }
-
-        .number-item {
-            text-align: center;
-            font-size: 30px;
-        }
-
-        .number-item p {
-            margin-top: 10px;
-            font-size: 30px;
-        }
-               .number-item div {
-            color: red;
-        }
-
-        .tabs {
-            display: flex;
-            justify-content: center;
-            margin-bottom: 30px;
-        }
-
-        .tabs button {
-            text-decoration: none;
-            color: white;
-            background-color: #e50000;
-            padding: 10px 20px;
-            margin: 0 5px;
-            font-weight: 700;
-            cursor: pointer;
-        }
-
-        .tabs button.blue {
-            background-color: #003366;
-        }
-        #contactsDigital .contact-item {
-            width: 100%;
-        }
-
-        .contact-item {
-            padding-top: 10px;
-            animation: taadaa 1s;
-
-        }
-
-        .contact-item a {
-            color: red;
-            text-decoration: underline;
-            font-size: 28px;
-        }
-        .contact-item img{
-            height: auto;
-            margin-bottom: 40px;
-            width: 100%;
-        }
-        .contact-item h4{
-            text-align: center;
-
-        }
         .category-buttons img {
                 cursor: pointer;
         }
-                .category-buttons img:hover {
+        .category-buttons img:hover {
                 filter: contrast(1);
                 
         }
-        .subcategories button {
-            padding: 10px 20px;
-            margin-right: 10px;
-            border: 1px solid #ccc;
-            background-color: #f0f0f0;
-            cursor: pointer;
-            margin-bottom: 10px;
-            margin-left: 0px;
+        .sub-categories {
+            display: flex;
+            justify-content: flex-start;
+            padding: 10px 0;
         }
 
-        
-        .subcategories button.active {
-            background-color: #e50000;
+        .product-detail-btn {
+            background-color: #003049;
             color: white;
-            animation: taadaa 1s;
+            font-size: 16px;
+            padding: 10px 20px;
+            margin: 5px 5px;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
         }
-        .subcategories {
+
+        .sub-categories button.selected {
+            background-color: #D62828;
+        }
+        .layout {
+            display: flex;
+            max-width: 1200px;
+            height: 900px;
+            margin: 0 auto;
+        }
+.product-detail-text{
+    width: 25%;
+}
+.product-detail-holder{
+    width: 70%;
+}
+.product-detail-holder-mobile {
+    display: none;
+}
+
+
+        .main-content {
+            flex-grow: 1;
+            background: linear-gradient(to bottom, rgba(214, 40, 40, 0.1), rgba(214, 40, 40, 0.0));
+            box-sizing: border-box;
+            width: 100%;
+        }
+
+        .main-content .header-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .main-content p {
+            font-size: 16px;
+            color: black;
+            line-height: 1.6;
+        }
+
+        .main-content .buttons {
             margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            width: 200px;
         }
-        .subcategories ul {
-            list-style-type: none;
-            padding: 0;
+
+        .main-content .buttons button {
+            background-color: #003049;
+            color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            font-size: 16px;
+            border: none;
         }
-        .subcategories li {
-            padding: 8px 0;
+
+        .main-content img {
+            width: 100%;
+            height: auto;
         }
-        .contacts {
-            margin-top: 30px;
+
+        .main-content img:nth-of-type(2) {
+            float: right;
+            width: 400px;
+            height: auto;
+            margin-left: 20px;
         }
-        .contact {
-            display: none;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 70px;
-    margin-bottom: 70px;
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            margin-top: 45px;
+
         }
+        .buttons {
+      margin-bottom: 20px;
+    }
+    button {
+      margin-right: 10px;
+      padding: 10px 15px;
+      cursor: pointer;
+      border: 1px solid #ccc;
+      background-color: #003049;
+      color: white;
+    }
+    button.active {
+      background-color: #e4061f;
+      animation: taadaa 1s;
+    }
+
+    .product {
+      cursor: pointer;
+    }
+    .product-detail {
+      padding: 100px 20px;
+      position: relative;
+      display: flex;
+      animation: taadaa .5s;
+          justify-content: space-between;
+    }
+    .product-detail-headline {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      left: 0;
+          background: #e4061f;
+    color: white;
+    }
+    .product-detail-headline h2{
+        margin-left: 20px;
+    }
+
+    .product-list {
+            background: #003049;
+    margin-right: 3px;
+    margin-top: 0;
+    }
+    .hidden {
+      display: none;
+    }
+    .activeli {
+    background-color: #e4061f!important;
+    animation: taadaa 1s;
+}
+        .sidebar ul li:hover {
+            background-color: #004471;
+        }
+
 /* MOBILE */
 @media screen and (max-width: 768px) {
-.section, .content, .numbers, .subcategories, .contacts  {
-    padding: 0 17px;
+.sub-categories{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 0 10px;
 }
-.section img{
-    width: 45%;
+button{
+    margin: 5px;
+    font-size: 14px;
 }
-.content p {
-    text-align: left;
+.layout{
+        flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+    height: 100%;
 }
-
-.contact{
-       grid-template-columns: repeat(1, 1fr);
-               margin-bottom: 50px;
-}
-.contact-item {
-    width: 100%;
-    text-align: center;
-}
-.contact-item img {
-    margin-bottom: 5px;
+.sidebar {
+    width: 85%;
+    height: 200px;
+    margin-bottom: 25px;
 }
 .section {
     padding: 0 17px;
-}
-.section img {
-    width: 100%;
+    margin-bottom: 9px;
 }
 .section a {
     width: 47%;
 }
+.main-content{
+    width: 100%;
+    margin-left: 0px;
+    height: 100%;
+}
+.product-detail{
+        flex-direction: column;
+}
+.product-detail-text {
+    width: 100%;
+}
+.product-list {
+    margin-right: 8px;
+}
+.main-content img{
+    width: 100%;
+}
+.product-detail-holder{
+    display: none;
+}
+.product-detail-holder-mobile{
+    display: block;
+}
 
 }
-</style>
+    </style>
 <body>
-    <div class="header">
+     <div class="header">
       <div class="header-logo">
       <a href="index.html"><img alt="MAFRA Slovakia Logo" src="images/mafra_logo.png" /></a>
       </div>
@@ -207,7 +246,7 @@
           <input type="checkbox" id="porttit"/>
           <label for="porttit" ></label>
           <div class="submenu">
-            <a href="detail-produktu-digi.html">Online
+            <a href="detail-produktu-digi.html#/titul/1/hnonline">Online
             </a>
             <a href="detail-produktu-print.html#/titul/1/hospodarske-noviny">Print
             </a>
@@ -221,8 +260,8 @@
       </div>
     </div>
         <div class="budova" style="background-image:url(images/mafraslovakia_headers_portfolio.png)">
-        <video autoplay="" loop="" muted="">
-          <source src="example_video.mp4" type="video/mp4">
+        <video autoplay loop muted>
+          <source src="example_video.mp4" type="video/mp4" />
         </video>
         <div class="budova-text">
           <h1><span>Portfólio</span> titulov
@@ -231,73 +270,32 @@
         </div>
       </div>
 
-        <div class="container">
+<div class="container">
+
         <div class="section category-buttons" >
             <a href="detail-produktu-print.html#/titul/1/hospodarske-noviny"><img id="btnPrint" class="btn active" src="images/print_blue.png" alt="PRINT"></a>
-            <a href="detail-produktu-digi.html"><img id="btnDigital" class="btn" src="images/online_red.png" alt="ONLINE"></a>
+            <a href="detail-produktu-digi.html#/titul/1/hnonline"><img id="btnDigital" class="btn" src="images/online_red.png" alt="ONLINE"></a>
         </div>
 
-        <div class="subcategories" >
-            <div class="tabs" id="digitalSubcategories" style="display: block;">
-                <ul>
-                    <button class="blue active" onclick="filterContacts('digital', 'hnonline')">hnonline</button>
-                    <button class="blue" onclick="filterContacts('digital', 'svetevity')">svetevity</button>
-                    <button class="blue" onclick="filterContacts('digital', 'brainee')">brainee</button>
-                </ul>
-            </div>
-        </div>
- 
-        <div class="contacts ">
-            <div class="contact print" id="contactsPrint" style="display: none;">
-                <div class="contact-item">
-                <img src="https://static.svetevity.sk/pdfs/kuciak.jpg">
-                <span class="filtrovacka">Denník</span>
-                </div>
-                <div class="contact-item">
-                <img src="https://static.hnonline.sk/images/slike/2022/03/20/o_4912120_340.jpg?20241114110541">
-                <span class="filtrovacka">Odborné</span>
-                </div>
-                <div class="contact-item">
-                <img src="https://static.hnonline.sk/images/slike/2022/03/20/o_4247773_340.jpg?20240614093213">
-                <span class="filtrovacka">Odborné</span>
-                </div>
-                <div class="contact-item">
-                <img src="https://static.hnonline.sk/images/slike/2022/03/20/o_4828359_340.jpg?20241024132930">
-                <span class="filtrovacka">Ženské</span>
-                </div>
-                <div class="contact-item">
-                <img src="https://static.hnonline.sk/images/slike/2022/03/20/o_2910944_340.jpg?20241119153934">
-                <span class="filtrovacka">Ženské</span>
-                </div>
-                <div class="contact-item">
-                <img src="https://static.hnonline.sk/images/slike/2022/03/20/o_4828327_340.jpg?20241024131520">
-                <span class="filtrovacka">Ženské</span>
-                </div>
-            </div>
 
-            <div id="contactsDigital" class="contact digital" style="display: grid;">
-                <div class="contact-item" style="display: block;">
-                <img src="images/port_hnonline.png">
-                <h4><a href="https://hnonline.sk/" target="_blank"> HNonline.sk</a></h4>
-                <p>Danish biscuit liquorice chocolate cake ice cream marzipan gummi bears gummies. Jelly beans dessert bonbon croissant ice cream bonbon halvah. Icing toffee jujubes cookie bonbon pie powder. Dessert lemon drops pastry gummies jelly-o fruitcake. Candy canes wafer jelly beans toffee donut apple pie. Chocolate bar jelly marshmallow chocolate bar shortbread sesame snaps toffee croissant toffee. Croissant pudding topping marshmallow shortbread gingerbread gummi bears candy fruitcake. Chocolate bar jelly marshmallow chocolate bar shortbread sesame snaps toffee croissant toffee. Croissant pudding topping marshmallow shortbread gingerbread gummi bears candy fruitcake.Chocolate bar jelly marshmallow chocolate bar shortbread sesame snaps toffee croissant toffee. Croissant pudding topping marshmallow shortbread gingerbread gummi bears candy fruitcake.</p>
-                <span class="filtrovacka">hnonline</span>
-                </div>
-                <div class="contact-item" style="display: none;">
-                <img src="images/port_svetevity.png">
-                <h4><a href="https://svetevity.sk" target="_blank"> Svetevity.sk</a></h4>
-                <p>Danish biscuit liquorice chocolate cake ice cream marzipan gummi bears gummies. Jelly beans dessert bonbon croissant ice cream bonbon halvah. Icing toffee jujubes cookie bonbon pie powder. Dessert lemon drops pastry gummies jelly-o fruitcake. Candy canes wafer jelly beans toffee donut apple pie. Chocolate bar jelly marshmallow chocolate bar shortbread sesame snaps toffee croissant toffee. Croissant pudding topping marshmallow shortbread gingerbread gummi bears candy fruitcake.Chocolate bar jelly marshmallow chocolate bar shortbread sesame snaps toffee croissant toffee. Croissant pudding topping marshmallow shortbread gingerbread gummi bears candy fruitcake.Chocolate bar jelly marshmallow chocolate bar shortbread sesame snaps toffee croissant toffee. Croissant pudding topping marshmallow shortbread gingerbread gummi bears candy fruitcake. </p>
-                <span class="filtrovacka">svetevity</span>
-                </div>
-                <div class="contact-item" style="display: none;">
-                <img src="images/port_brainee.png">
-                <h4><a href="https://brainee.sk" target="_blank"> Brainee.sk</a></h4>
-                <p>Danish biscuit liquorice chocolate cake ice cream marzipan gummi bears gummies. Jelly beans dessert bonbon croissant ice cream bonbon halvah. Icing toffee jujubes cookie bonbon pie powder. Dessert lemon drops pastry gummies jelly-o fruitcake. Candy canes wafer jelly beans toffee donut apple pie. Chocolate bar jelly marshmallow chocolate bar shortbread sesame snaps toffee croissant toffee. Croissant pudding topping marshmallow shortbread gingerbread gummi bears candy fruitcake. Chocolate bar jelly marshmallow chocolate bar shortbread sesame snaps toffee croissant toffee. Croissant pudding topping marshmallow shortbread gingerbread gummi bears candy fruitcake.Chocolate bar jelly marshmallow chocolate bar shortbread sesame snaps toffee croissant toffee. Croissant pudding topping marshmallow shortbread gingerbread gummi bears candy fruitcake.Chocolate bar jelly marshmallow chocolate bar shortbread sesame snaps toffee croissant toffee. Croissant pudding topping marshmallow shortbread gingerbread gummi bears candy fruitcake.Chocolate bar jelly marshmallow chocolate bar shortbread sesame snaps toffee croissant toffee. Croissant pudding topping marshmallow shortbread gingerbread gummi bears candy fruitcake.</p>
-                <span class="filtrovacka">brainee</span>
-                </div>
+
+    
+        <div class="sub-categories-wrapper" >
+            <div id="product-list" class="sub-categories buttons">
+                <button class="product activeli" data-id="1" >HNonline</button>
+                <button class="product" data-id="2" >Brainee</button>
+                <button class="product" data-id="3" >Svetevity</button>
             </div>
         </div>
-</div>
-<div class="footer">
+
+        <div class="layout">
+        <div class="main-content">
+            <div id="product-detail-container" class="hidden"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="footer">
             <div class="map">
         <iframe style="border:0" allowfullscreen aria-hidden="false" frameborder="0" src="https://maps.google.com/maps?q=Kalinčiakova%2033,%20831%2004%20Bratislava&t=&z=13&ie=UTF8&iwloc=&output=embed" tabindex="0">
         </iframe>
@@ -364,61 +362,83 @@
       </div>
       </div>
     </div>
-<script>
-// Zmena aktívnej kategórie
-function filterCategory(category) {
-    // Skrytie všetkých kontaktov
-    document.getElementById('contactsPrint').style.display = 'none';
-    document.getElementById('contactsDigital').style.display = 'none';
+    <script>
+        // Po načítaní stránky pridáva udalosti tlačidlám a produktovým položkám
+window.addEventListener('load', () => {
+    // Pridanie udalostí kliknutia na jednotlivé produkty
+    const productItems = document.querySelectorAll('.product');
+    productItems.forEach(item => {
+        item.addEventListener('click', () => showProductDetail(item.dataset.id));
+    });
 
-    // Zobrazenie kontaktov podľa kategórie
-    if (category === 'print') {
-        document.getElementById('contactsPrint').style.display = 'grid';
-        document.getElementById('digitalSubcategories').style.display = 'none';
-    } else {
-        document.getElementById('contactsDigital').style.display = 'grid';
-        document.getElementById('digitalSubcategories').style.display = 'block';
-    }
+    // Inicializácia zobrazenia podľa aktuálneho hash v URL
+    handleHashChange();
+});
 
-    // Nastavenie aktívneho tlačidla
-    document.getElementById('btnPrint').classList.remove('active');
-    document.getElementById('btnDigital').classList.remove('active');
+// Premenné na sledovanie aktuálnej kategórie a produktu
+let currentCategory = null;
+let currentProductId = null;
 
-    if (category === 'print') {
-        document.getElementById('btnPrint').classList.add('active');
-    } else {
-        document.getElementById('btnDigital').classList.add('active');
-    }
-    
-    // Aktualizácia URL
-    window.location.hash = `#${category}`;
+// Funkcia na aktualizáciu URL pomocou hash
+function updateURL(path) {
+    location.hash = path; // Nastaví hash časť URL na zadanú cestu
 }
 
-// Filtrovanie kontaktov
-function filterContacts(category, subcategory) {
-    const contacts = document.querySelectorAll(`.contact.${category} .contact-item`);
-    
-    // Skrytie všetkých kontaktov
-    contacts.forEach(contact => contact.style.display = 'none');
+// Zobrazenie všetkých produktov a resetovanie URL na root
+function showAllProducts() {
+    const productElements = document.querySelectorAll('.product');
+    productElements.forEach(product => product.classList.remove('hidden')); // Odstráni skrytie všetkých produktov
 
-    if (subcategory === 'all') {
-        contacts.forEach(contact => contact.style.display = 'block');
-    } else {
-        contacts.forEach(contact => {
-            if (contact.textContent.includes(subcategory)) {
-                contact.style.display = 'block';
-            }
-        });
-    }
+    updateURL('/'); // Nastavenie hash na root
+    refreshProductDetail(); // Skrytie detailov produktu
+}
 
-    // Nastavenie aktívneho tlačidla podkategórie
-    const buttons = document.querySelectorAll(`#digitalSubcategories button`);
-    buttons.forEach(button => button.classList.remove('active'));
+// Filtrovanie produktov podľa kategórie
+function filterByCategory(category) {
+    const productElements = document.querySelectorAll('.product');
+    productElements.forEach(product => {
+        if (product.dataset.category === category) {
+            product.classList.remove('hidden'); // Zobraziť produkty v danej kategórii
+        } else {
+            product.classList.add('hidden'); // Skryť ostatné produkty
+        }
+    });
 
-    const selectedButton = Array.from(buttons).find(button => button.textContent === subcategory);
-    if (selectedButton) selectedButton.classList.add('active');
+    updateURL(`/kategoria/${category}`); // Aktualizácia hash URL podľa kategórie
+    refreshProductDetail(); // Skrytie detailov produktu
+}
 
-        function normalizeText(text) {
+// Zobrazenie detailu produktu podľa jeho identifikátora (slug)
+function showProductDetail(productSlug) {
+    const product = products[productSlug]; // Nájde produkt podľa ID
+    if (!product) return;
+
+    currentProductId = productSlug; // Nastaví aktuálny produkt
+
+    const detailContainer = document.getElementById('product-detail-container');
+    detailContainer.classList.remove('hidden'); // Zobrazí detailnú sekciu
+    detailContainer.innerHTML = `
+        <div class="product-detail">
+            <div class="product-detail-headline"><h2>${product.name}</h2></div>
+            <div class="product-detail-text">
+                <p>${product.description}</p>
+                <p>${product.kontakt}</p>
+             <div class="product-detail-holder-mobile">
+                <img class="product-detail-img" src="${product.image}" alt="${product.name}">
+            </div>
+                <div class="buttons">
+                    <a class="product-detail-btn" href="${product.btnCennikUrl}">${product.btnCennik}</a>
+                    <a class="product-detail-btn" href="${product.btnPredUrl}">${product.btnPred}</a>
+                </div>
+            </div>
+            <div class="product-detail-holder">
+                <img class="product-detail-img" src="${product.image}" alt="${product.name}">
+            </div>
+        </div>
+    `;
+
+    // Normalizácia textu na vytvorenie slug pre názov
+    function normalizeText(text) {
         return text
             .normalize("NFD")
             .replace(/[\u0300-\u036f]/g, "") // Odstránenie diakritiky
@@ -426,30 +446,89 @@ function filterContacts(category, subcategory) {
             .toLowerCase(); // Malé písmená
     }
 
-    const clearsubcategory = normalizeText(subcategory);
-
-    // Aktualizácia URL
-    window.location.hash = `#${category}/${subcategory}`;
+    const productNameSlug = normalizeText(product.name); // Vytvorí slug z názvu produktu
+    const urlPath = `/titul/${productSlug}/${productNameSlug}`; // Spojí ID a názov do URL
+    updateURL(urlPath); // Aktualizácia URL
 }
 
-// Inicializácia stránky
-function initializePage() {
-    const hash = window.location.hash.substring(1);
-    const parts = hash.split('/');
-    const category = parts[0] || 'digital';
-    const subcategory = parts[1] || '';
+// Obnovenie detailu produktu alebo jeho skrytie
+function refreshProductDetail() {
+    const detailContainer = document.getElementById('product-detail-container');
 
-    filterCategory(category);
-    if (subcategory) {
-        filterContacts(category, subcategory);
+    if (!currentProductId) { // Ak nie je aktuálny produkt
+        detailContainer.classList.add('hidden'); // Skryje detail
+        return;
+    }
+
+    const product = products[currentProductId];
+    if (!product) { // Ak sa produkt nenájde
+        detailContainer.classList.add('hidden'); // Skryje detail
+        return;
+    }
+
+    // Vygeneruje HTML pre detail produktu
+    detailContainer.innerHTML = `
+        <div class="product-detail">
+            <div class="product-detail-headline"><h2>${product.name}</h2></div>
+            <div class="product-detail-text">
+                <p>${product.description}</p>
+                <p>${product.kontakt}</p>
+             <div class="product-detail-holder-mobile">
+                <img class="product-detail-img" src="${product.image}" alt="${product.name}">
+            </div>
+                <div class="buttons">
+                    <a class="product-detail-btn" href="${product.btnCennikUrl}">${product.btnCennik}</a>
+                    <a class="product-detail-btn" href="${product.btnPredUrl}">${product.btnPred}</a>
+                </div>
+            </div>
+            <div class="product-detail-holder">
+                <img class="product-detail-img" src="${product.image}" alt="${product.name}">
+            </div>
+        </div>
+    `;
+    detailContainer.classList.remove('hidden'); // Zobrazí detail
+}
+
+// Spracovanie zmien v hash URL
+function handleHashChange() {
+    const hash = location.hash.slice(1); // Získa časť URL za #
+    const path = hash.split('/').filter(Boolean); // Rozdelí cestu podľa "/"
+
+    if (!path.length || path[0] === '') {
+        showAllProducts(); // Ak je hash prázdny, zobrazí všetky produkty
+    } else if (path[0] === 'kategoria') {
+        const category = path[1]; // Získa kategóriu
+        filterByCategory(category); // Filtrovanie podľa kategórie
+    } else if (path[0] === 'titul') {
+        const productSlug = path[1]; // Získa slug produktu
+        showProductDetail(productSlug); // Zobrazenie detailu produktu
     }
 }
 
+// Aktivácia tlačidiel podkategórií
+const subCategoryButtons = document.querySelectorAll('.sub-categories button');
+const productItems = document.querySelectorAll('.product');
 
-// Spustenie pri načítaní
-window.addEventListener('load', initializePage);
-</script>
+// Udalosti pre podkategórie
+subCategoryButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        subCategoryButtons.forEach(btn => btn.classList.remove('active')); // Odstráni triedu 'active'
+        button.classList.add('active'); // Pridá triedu 'active' kliknutému tlačidlu
+    });
+});
 
+// Udalosti pre produkty
+productItems.forEach(item => {
+    item.addEventListener('click', () => {
+        productItems.forEach(product => product.classList.remove('activeli')); // Odstráni triedu 'activeli'
+        item.classList.add('activeli'); // Pridá triedu 'activeli' kliknutému produktu
+    });
+});
 
+// Udalosť na spracovanie zmeny hash v URL
+window.addEventListener('hashchange', handleHashChange);
+
+  </script>
 </body>
 </html>
+
