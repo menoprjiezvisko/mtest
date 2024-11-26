@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css" />
+    <script type="text/javascript" src="produkty.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&amp;display=swap" rel="stylesheet">
+    <title></title>
+</head>
+    <style>
+        .section {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .section a {
+            width: 40%;
+        }
+        .section img {
+            width: 100%;
+            height: auto;
+        }
+        .sub-categories-wrapper {
+            background-color: white;
+            padding: 10px 0;
+        }
+
+        .category-buttons img {
+                filter: contrast(0.5);
+                cursor: pointer;
+        }
+        .category-buttons img:hover {
+                filter: contrast(1);
+                
+        }
+        .sub-categories {
+            display: flex;
+            justify-content: flex-start;
+            padding: 10px 0;
+        }
+
+        .product-detail-btn {
+            background-color: #003049;
+            color: white;
+            font-size: 16px;
+            padding: 10px 20px;
+            margin: 5px 5px;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .sub-categories button.selected {
+            background-color: #D62828;
+        }
+        .layout {
+            display: flex;
+            max-width: 1200px;
+            height: 900px;
+            margin: 0 auto;
+        }
+.product-detail-text{
+    width: 70%;
+}
+.product-detail-holder{
+    width: 30%;
+}
+        .sidebar {
+            background-color: transparent;
+            width: 20%;
+            height: 800px;
+            overflow-y: auto;
+        }
+
+        .sidebar::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        .sidebar::-webkit-scrollbar-thumb {
+            background-color: #D62828;
+        }
+
+        .sidebar {
+            scrollbar-width: thin;
+            scrollbar-color: #D62828 #02283b;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+            animation: taadaa 1s;
+        }
+
+        .sidebar ul li {
+            text-decoration: none;
+            color: white;
+            padding: 15px 5px;
+            font-size: 16px;
+            text-align: right;
+                border-bottom: 1px solid white;
+                padding-right: 15px;
+        }
+
+
+        .main-content {
+            flex-grow: 1;
+            background: linear-gradient(to bottom, rgba(214, 40, 40, 0.1), rgba(214, 40, 40, 0.0));
+            height: 100vh;
+            box-sizing: border-box;
+            width: 80%;
+            margin-left: 50px;
+        }
+
+        .main-content .header-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .main-content p {
+            font-size: 16px;
+            color: black;
+            line-height: 1.6;
+        }
+
+        .main-content .buttons {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+        }
+
+        .main-content .buttons button {
+            background-color: #003049;
+            color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            font-size: 16px;
+            border: none;
+        }
+
+        .main-content img {
+            width: 100%;
+            height: auto;
+        }
+
+        .main-content img:nth-of-type(2) {
+            float: right;
+            width: 400px;
+            height: auto;
+            margin-left: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            margin-top: 45px;
+
+        }
+        .buttons {
+      margin-bottom: 20px;
+    }
+    button {
+      margin-right: 10px;
+      padding: 10px 15px;
+      cursor: pointer;
+      border: 1px solid #ccc;
+      background-color: #003049;
+      color: white;
+    }
+    button.active {
+      background-color: #e4061f;
+      animation: taadaa 1s;
+    }
+
+    .product {
+      cursor: pointer;
+    }
+    .product-detail {
+      padding: 100px 20px;
+      position: relative;
+      display: flex;
+      animation: taadaa .5s;
+    }
+    .product-detail-headline {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      left: 0;
+          background: #e4061f;
+    color: white;
+    }
+    .product-detail-headline h2{
+        margin-left: 20px;
+    }
+
+    .product-list {
+            background: #003049;
+    margin-right: 3px;
+    margin-top: 0;
+    }
+    .hidden {
+      display: none;
+    }
+    .activeli {
+    background-color: #e4061f!important;
+    animation: taadaa 1s;
+}
+        .sidebar ul li:hover {
+            background-color: #004471;
+        }
+
+/* MOBILE */
+@media screen and (max-width: 768px) {
+.sub-categories{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 0 10px;
+}
+button{
+    margin: 5px;
+    font-size: 14px;
+}
+.layout{
+        flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+}
+.sidebar {
+    width: 85%;
+    height: 350px;
+    margin-bottom: 25px;
+}
+.main-content{
+    width: 100%;
+    margin-left: 0px;
+}
+.product-detail{
+        flex-direction: column;
+}
+.product-list {
+    margin-right: 8px;
+}
+.main-content img{
+    width: 100%;
+}
+}
+    </style>
+<body>
+     <div class="header">
+      <div class="header-logo">
+      <a href="index.html"><img alt="MAFRA Slovakia Logo" src="images/mafra_logo.png" /></a>
+      </div>
+      <div class="navbar" id="page-nav">
+        <input type="checkbox" id="hamburger"/>
+        <ul>
+        <li><a href="o-spolocnosti.html">O spoločnosti</a></li>
+        <li>
+          <span class="portfolio" id="page-nav-sub"><span><a href="portfolio-titulov.html">Portfólio titulov</a></span>
+          <input type="checkbox" id="porttit"/>
+          <label for="porttit" ></label>
+          <div class="submenu">
+            <a href="detail-produktu-digi.html">Online
+            </a>
+            <a href="detail-produktu-print.html#/titul/1/hospodarske-noviny">Print
+            </a>
+          </div>
+        </span></li>
+        <li><a href="inzercia.html">Inzercia</a></li>
+        <li><a href="pracovne-ponuky.html">Pracovné ponuky</a></li>
+        <li><a href="kontakt.html">Kontakty</a></li>
+        </ul>
+        <label for="hamburger" &#9776;></label>
+      </div>
+    </div>
+        <div class="budova">
+        <video autoplay loop muted>
+          <source src="example_video.mp4" type="video/mp4" />
+        </video>
+        <div class="budova-text">
+          <h1>Názov firmy...
+          </h1>
+          <p>Nejaký text o firme...
+          </p>
+        </div>
+      </div>
+
+<div class="container">
+
+
+        <div class="section category-buttons" >
+            <a href="detail-produktu-print.html#/titul/1/hospodarske-noviny"><img class="btn" src="images/print_red.jpg" alt="PRINT"></a>
+            <a href="detail-produktu-digi.html"><img class="btn" src="images/online_blue.jpg" alt="ONLINE"></a>
+        </div>
+    <div class="sub-categories-wrapper ">
+        <div class="sub-categories buttons" >
+            <button class="active" id="all-products-btn">Všetky</button>
+            <button id="dennik-btn">Denník</button>
+            <button id="odborne-btn">Odborné</button>
+            <button id="zenske-btn">Ženské</button>
+            <button id="spolocenske-btn">Spoločenské</button>
+            <button id="zaujmove-btn">Záujmové</button>
+            <button id="programove-btn">Programové</button>
+            <button id="krizovky-btn">Krížovky</button>
+        </div>
+    </div>
+    <div class="layout">
+        <div class="sidebar" >
+            <ul id="product-list" class="product-list">
+                <li class="product activeli" data-id="1" data-category="dennik">Hospodárske noviny</li>
+                <li class="product" data-id="2" data-category="krizovky">HN Magazín</li>
+                <li class="product" data-id="3" data-category="odborne">Prečo nie?!</li>
+                <li class="product" data-id="4" data-category="krizovky">Svet 2025</li>
+                <li class="product" data-id="5" data-category="dennik">Hospodárske noviny</li>
+                <li class="product" data-id="6" data-category="dennik">HN Magazín</li>
+                <li class="product" data-id="7" data-category="zaujmove">Prečo nie?!</li>
+                <li class="product" data-id="8" data-category="odborne">Svet 2025</li>
+                <li class="product" data-id="9" data-category="zenske">Hospodárske noviny</li>
+                <li class="product" data-id="10" data-category="dennik">HN Magazín</li>
+                <li class="product" data-id="11" data-category="odborne">Prečo nie?!</li>
+                <li class="product" data-id="12" data-category="zaujmove">Svet 2025</li>
+                <li class="product" data-id="13" data-category="zaujmove">Hospodárske noviny</li>
+                <li class="product" data-id="14" data-category="dennik">HN Magazín</li>
+                <li class="product" data-id="15" data-category="programove">Prečo nie?!</li>
+                <li class="product" data-id="16" data-category="odborne">Svet 2025</li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <div id="product-detail-container" class="hidden"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="footer">
+            <div class="map">
+        <iframe style="border:0" allowfullscreen aria-hidden="false" frameborder="0" src="https://maps.google.com/maps?q=Kalinčiakova%2033,%20831%2004%20Bratislava&t=&z=13&ie=UTF8&iwloc=&output=embed" tabindex="0">
+        </iframe>
+      </div>
+      <div class="top-section slider">
+        <div class="slide-track">
+        <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
+        <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
+        <div class="slide"><img alt="Brainee" src="images/brainee_logo.png" /></div>
+        <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
+        <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
+        <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
+        <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
+        <div class="slide"><img alt="Brainee" src="images/brainee_logo.png" /></div>
+        <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
+        <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
+        <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
+        <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
+        <div class="slide"><img alt="Brainee" src="images/brainee_logo.png" /></div>
+        <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
+        <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
+      </div>
+      </div>
+
+      <div class="footer-align">
+      <div class="columns">
+        <div class="column">
+          <p style="font-weight:700">Kontaktujte nás
+          </p>
+          <p> 
+          </p>
+          <p>MAFRA Slovakia a.s.
+          </p>
+          <p>Kalinčiakova 33
+          </p>
+          <p>831 04 Bratislava
+          </p>
+        </div>
+        <div class="column">
+          <p> 
+          </p>
+          <p> 
+          </p>
+          <p>Predplatné: +421 (2) 48 238 238
+          </p>
+          <p>Vydavateľstvo: +421 (2) 48 238 111
+          </p>
+          <p>Inzercia: +421 (2) 48 238 103
+          </p>
+        </div>
+        <div class="column logos">
+          <img alt="EKLogo" src="images/ek_logo.png" />
+        </div>
+        <div class="column logos">
+          <img alt="Mafra Logo" src="images/mafra_logo.png" />
+        </div>
+      </div>
+      <div class="copyright">
+        <p style="font-weight:700">© 2012-2022 MAFRA Slovakia, a.s.
+        </p>
+        <p>
+          Všetky práva vyhradené. Publikovanie alebo ďalšie šírenie správ, fotografií a dát je bez predchádzajúceho písomného súhlasu porušením autorského zákona.
+        </p>
+      </div>
+      </div>
+    </div>
+    <script>
+        // Po načítaní stránky pridáva udalosti tlačidlám a produktovým položkám
+window.addEventListener('load', () => {
+    // Tlačidlo na zobrazenie všetkých produktov
+    document.getElementById('all-products-btn').addEventListener('click', showAllProducts);
+
+    // Tlačidlá na filtrovanie podľa kategórie
+    document.getElementById('dennik-btn').addEventListener('click', () => filterByCategory('dennik'));
+    document.getElementById('odborne-btn').addEventListener('click', () => filterByCategory('odborne'));
+    document.getElementById('zenske-btn').addEventListener('click', () => filterByCategory('zenske'));
+    document.getElementById('spolocenske-btn').addEventListener('click', () => filterByCategory('spolocenske'));
+    document.getElementById('zaujmove-btn').addEventListener('click', () => filterByCategory('zaujmove'));
+    document.getElementById('programove-btn').addEventListener('click', () => filterByCategory('programove'));
+    document.getElementById('krizovky-btn').addEventListener('click', () => filterByCategory('krizovky'));
+
+    // Pridanie udalostí kliknutia na jednotlivé produkty
+    const productItems = document.querySelectorAll('.product');
+    productItems.forEach(item => {
+        item.addEventListener('click', () => showProductDetail(item.dataset.id));
+    });
+
+    // Inicializácia zobrazenia podľa aktuálneho hash v URL
+    handleHashChange();
+});
+
+// Premenné na sledovanie aktuálnej kategórie a produktu
+let currentCategory = null;
+let currentProductId = null;
+
+// Funkcia na aktualizáciu URL pomocou hash
+function updateURL(path) {
+    location.hash = path; // Nastaví hash časť URL na zadanú cestu
+}
+
+// Zobrazenie všetkých produktov a resetovanie URL na root
+function showAllProducts() {
+    const productElements = document.querySelectorAll('.product');
+    productElements.forEach(product => product.classList.remove('hidden')); // Odstráni skrytie všetkých produktov
+
+    updateURL('/'); // Nastavenie hash na root
+    refreshProductDetail(); // Skrytie detailov produktu
+}
+
+// Filtrovanie produktov podľa kategórie
+function filterByCategory(category) {
+    const productElements = document.querySelectorAll('.product');
+    productElements.forEach(product => {
+        if (product.dataset.category === category) {
+            product.classList.remove('hidden'); // Zobraziť produkty v danej kategórii
+        } else {
+            product.classList.add('hidden'); // Skryť ostatné produkty
+        }
+    });
+
+    updateURL(`/kategoria/${category}`); // Aktualizácia hash URL podľa kategórie
+    refreshProductDetail(); // Skrytie detailov produktu
+}
+
+// Zobrazenie detailu produktu podľa jeho identifikátora (slug)
+function showProductDetail(productSlug) {
+    const product = products[productSlug]; // Nájde produkt podľa ID
+    if (!product) return;
+
+    currentProductId = productSlug; // Nastaví aktuálny produkt
+
+    const detailContainer = document.getElementById('product-detail-container');
+    detailContainer.classList.remove('hidden'); // Zobrazí detailnú sekciu
+    detailContainer.innerHTML = `
+        <div class="product-detail">
+            <div class="product-detail-headline"><h2>${product.name}</h2></div>
+            <div class="product-detail-text">
+                <p>${product.description}</p>
+                <p>${product.zameranie}</p>
+                <p>${product.vznik}</p>
+                <p>${product.periodicita}</p>
+                <p>${product.kontakt}</p>
+                <div class="buttons">
+                    <a class="product-detail-btn" href="${product.btnCennikUrl}">${product.btnCennik}</a>
+                    <a class="product-detail-btn" href="${product.btnHarmUrl}">${product.btnHarm}</a>
+                    <a class="product-detail-btn" href="${product.btnPredUrl}">${product.btnPred}</a>
+                </div>
+            </div>
+            <div class="product-detail-holder">
+                <img class="product-detail-img" src="${product.image}" alt="${product.name}">
+            </div>
+        </div>
+    `;
+
+    // Normalizácia textu na vytvorenie slug pre názov
+    function normalizeText(text) {
+        return text
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "") // Odstránenie diakritiky
+            .replace(/\s+/g, "-") // Nahradenie medzier pomlčkami
+            .toLowerCase(); // Malé písmená
+    }
+
+    const productNameSlug = normalizeText(product.name); // Vytvorí slug z názvu produktu
+    const urlPath = `/titul/${productSlug}/${productNameSlug}`; // Spojí ID a názov do URL
+    updateURL(urlPath); // Aktualizácia URL
+}
+
+// Obnovenie detailu produktu alebo jeho skrytie
+function refreshProductDetail() {
+    const detailContainer = document.getElementById('product-detail-container');
+
+    if (!currentProductId) { // Ak nie je aktuálny produkt
+        detailContainer.classList.add('hidden'); // Skryje detail
+        return;
+    }
+
+    const product = products[currentProductId];
+    if (!product) { // Ak sa produkt nenájde
+        detailContainer.classList.add('hidden'); // Skryje detail
+        return;
+    }
+
+    // Vygeneruje HTML pre detail produktu
+    detailContainer.innerHTML = `
+        <div class="product-detail">
+            <div class="product-detail-headline"><h2>${product.name}</h2></div>
+            <div class="product-detail-text">
+                <p>${product.description}</p>
+                <p>${product.zameranie}</p>
+                <p>${product.vznik}</p>
+                <p>${product.periodicita}</p>
+                <p>${product.kontakt}</p>
+                <div class="buttons">
+                    <a class="product-detail-btn" href="${product.btnCennikUrl}">${product.btnCennik}</a>
+                    <a class="product-detail-btn" href="${product.btnHarmUrl}">${product.btnHarm}</a>
+                    <a class="product-detail-btn" href="${product.btnPredUrl}">${product.btnPred}</a>
+                </div>
+            </div>
+            <div class="product-detail-holder">
+                <img class="product-detail-img" src="${product.image}" alt="${product.name}">
+            </div>
+        </div>
+    `;
+    detailContainer.classList.remove('hidden'); // Zobrazí detail
+}
+
+// Spracovanie zmien v hash URL
+function handleHashChange() {
+    const hash = location.hash.slice(1); // Získa časť URL za #
+    const path = hash.split('/').filter(Boolean); // Rozdelí cestu podľa "/"
+
+    if (!path.length || path[0] === '') {
+        showAllProducts(); // Ak je hash prázdny, zobrazí všetky produkty
+    } else if (path[0] === 'kategoria') {
+        const category = path[1]; // Získa kategóriu
+        filterByCategory(category); // Filtrovanie podľa kategórie
+    } else if (path[0] === 'titul') {
+        const productSlug = path[1]; // Získa slug produktu
+        showProductDetail(productSlug); // Zobrazenie detailu produktu
+    }
+}
+
+// Aktivácia tlačidiel podkategórií
+const subCategoryButtons = document.querySelectorAll('.sub-categories button');
+const productItems = document.querySelectorAll('.product');
+
+// Udalosti pre podkategórie
+subCategoryButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        subCategoryButtons.forEach(btn => btn.classList.remove('active')); // Odstráni triedu 'active'
+        button.classList.add('active'); // Pridá triedu 'active' kliknutému tlačidlu
+    });
+});
+
+// Udalosti pre produkty
+productItems.forEach(item => {
+    item.addEventListener('click', () => {
+        productItems.forEach(product => product.classList.remove('activeli')); // Odstráni triedu 'activeli'
+        item.classList.add('activeli'); // Pridá triedu 'activeli' kliknutému produktu
+    });
+});
+
+// Udalosť na spracovanie zmeny hash v URL
+window.addEventListener('hashchange', handleHashChange);
+
+  </script>
+</body>
+</html>
+

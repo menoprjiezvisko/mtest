@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&amp;display=swap" rel="stylesheet">
+    <title></title>
+</head>
+<style>
+    
+        .filtrovacka {
+            display: none;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            margin-top: 45px;
+
+        }
+
+        .section {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .section img {
+            width: 40%;
+            height: auto;
+        }
+
+        .content {
+            margin-bottom: 40px;
+        }
+
+        .content ul {
+            list-style-type: none;
+            line-height: 1.8;
+            margin-left: 0;
+        }
+
+        .content p {
+            margin-bottom: 10px;
+        }
+
+        .content p strong {
+            color: red;
+        }
+
+        .numbers {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+            margin: 40px 0;
+        }
+
+        .number-item {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .number-item p {
+            margin-top: 10px;
+            font-size: 30px;
+        }
+               .number-item div {
+            color: red;
+        }
+
+        .tabs {
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        .tabs button {
+            text-decoration: none;
+            color: white;
+            background-color: #e50000;
+            padding: 10px 20px;
+            margin: 0 5px;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        .tabs button.blue {
+            background-color: #003366;
+        }
+        #contactsDigital .contact-item {
+            width: 100%;
+            text-align: center;
+        }
+
+        .contact-item {
+            padding-top: 10px;
+            position: relative;
+
+        }
+
+        .contact-item a {
+            color: black;
+            text-decoration: underline;
+            font-size: 20px;
+        }
+        .contact-item img{
+            height: auto;
+            margin-bottom: 40px;
+            width: 100%;
+        }
+        .category-buttons img {
+                
+                cursor: pointer;
+        }
+        .subcategories button {
+            padding: 10px 20px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            background-color: #f0f0f0;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+
+        .section img {
+                filter: contrast(0.5);
+                cursor: pointer;
+        }
+
+        .section img:hover {
+                filter: contrast(1);
+        }
+        
+        .subcategories button.active {
+            background-color: #e50000;
+            color: white;
+            animation: taadaa 1s;
+        }
+        .subcategories {
+            margin-top: 20px;
+        }
+        .subcategories ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .subcategories li {
+            padding: 8px 0;
+        }
+        .contacts {
+            margin-top: 30px;
+        }
+        .contact {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 70px;
+    animation: taadaa .5s;
+        }
+                #contactsDigital {
+                grid-template-columns: repeat(2, 1fr);
+        }
+
+/* MOBILE */
+@media screen and (max-width: 768px) {
+.section, .content, .numbers, .subcategories, .contacts  {
+    padding: 0 17px;
+}
+.section img{
+    width: 45%;
+}
+.content p {
+    text-align: left;
+}
+
+.contact{
+       grid-template-columns: repeat(1, 1fr);
+               margin-bottom: 50px;
+}
+                #contactsDigital {
+                grid-template-columns: repeat(1, 1fr);
+        }
+.contact-item {
+    width: 100%;
+    text-align: center;
+}
+.contact-item img {
+    margin-bottom: 5px;
+    width: 80%;
+}
+}
+</style>
+<body>
+    <div class="header">
+      <div class="header-logo">
+      <a href="index.html"><img alt="MAFRA Slovakia Logo" src="images/mafra_logo.png" /></a>
+      </div>
+      <div class="navbar" id="page-nav">
+        <input type="checkbox" id="hamburger"/>
+        <ul>
+        <li><a href="o-spolocnosti.html">O spoločnosti</a></li>
+        <li>
+          <span class="portfolio" id="page-nav-sub"><span><a href="portfolio-titulov.html">Portfólio titulov</a></span>
+          <input type="checkbox" id="porttit"/>
+          <label for="porttit" ></label>
+          <div class="submenu">
+            <a href="detail-produktu-digi.html">Online
+            </a>
+            <a href="detail-produktu-print.html#/titul/1/hospodarske-noviny#/titul/1/hospodarske-noviny">Print
+            </a>
+          </div>
+        </span></li>
+        <li><a href="inzercia.html">Inzercia</a></li>
+        <li><a href="pracovne-ponuky.html">Pracovné ponuky</a></li>
+        <li><a href="kontakt.html">Kontakty</a></li>
+        </ul>
+        <label for="hamburger" &#9776;></label>
+      </div>
+    </div>
+        <div class="budova" style="background-image:url(images/portfolio-titulov.png)">
+        <video autoplay loop muted>
+          <source src="example_video.mp4" type="video/mp4" />
+        </video>
+        <div class="budova-text">
+          <h1>Názov firmy...
+          </h1>
+          <p>Nejaký text o firme...
+          </p>
+        </div>
+      </div>
+
+        <div class="container">
+        <div class="section category-buttons" >
+            <img id="btnPrint" class="btn active"  onclick="filterCategory('print')" src="images/print_blue.jpg" data-active-src="images/print_red.jpg" alt="PRINT">
+            <img id="btnDigital" class="btn"  onclick="filterCategory('digital')"src="images/online_blue.jpg" data-active-src="images/online_red.jpg" alt="ONLINE">
+        </div>
+
+        <div class="subcategories" >
+            <div class="tabs" id="printSubcategories">
+                <ul>
+                    <button class="blue" id="btnPrintAll" class="active" onclick="filterContacts('print', 'all')">Všetky</button>
+                    <button class="blue" onclick="filterContacts('print', 'Denník')">Denník</button>
+                    <button class="blue" onclick="filterContacts('print', 'Odborné')">Odborné</button>
+                    <button class="blue" onclick="filterContacts('print', 'Ženské')">Ženské</button>
+                </ul>
+                
+            </div>
+
+            <div class="tabs" id="digitalSubcategories" style="display: none;">
+                <ul>
+                    <button class="blue" id="btnDigitalAll" class="active" onclick="filterContacts('digital', 'all')">Všetky</button>
+                    <button class="blue" onclick="filterContacts('digital', 'HNonline')">HNonline</button>
+                    <button class="blue" onclick="filterContacts('digital', 'Svetevity')">Svetevity</button>
+                    <button class="blue" onclick="filterContacts('digital', 'Brainee')">Brainee</button>
+                </ul>
+            </div>
+        </div>
+ 
+        <div class="contacts ">
+            <div class="contact print" id="contactsPrint" style="display: grid;">
+                <div class="contact-item">
+                    <a href="detail-produktu-print.html#/titul/1/hospodarske-noviny" style="position: absolute;width: 100%;height: 100%;"></a>
+                <img src="https://static.svetevity.sk/pdfs/kuciak.jpg">
+                <span class="filtrovacka">Denník</span>
+                </div>
+                <div class="contact-item">
+                <img src="https://static.hnonline.sk/images/slike/2022/03/20/o_4912120_340.jpg?20241114110541">
+                <span class="filtrovacka">Odborné</span>
+                </div>
+                <div class="contact-item">
+                <img src="https://static.hnonline.sk/images/slike/2022/03/20/o_4247773_340.jpg?20240614093213">
+                <span class="filtrovacka">Odborné</span>
+                </div>
+                <div class="contact-item">
+                <img src="https://static.hnonline.sk/images/slike/2022/03/20/o_4828359_340.jpg?20241024132930">
+                <span class="filtrovacka">Ženské</span>
+                </div>
+                <div class="contact-item">
+                <img src="https://static.hnonline.sk/images/slike/2022/03/20/o_2910944_340.jpg?20241119153934">
+                <span class="filtrovacka">Ženské</span>
+                </div>
+                <div class="contact-item">
+                <img src="https://static.hnonline.sk/images/slike/2022/03/20/o_4828327_340.jpg?20241024131520">
+                <span class="filtrovacka">Ženské</span>
+                </div>
+            </div>
+
+            <div id="contactsDigital" class="contact digital" style="display: none;">
+                <div class="contact-item" >
+                <img src="images/port_hnonline.png">
+                <h4><a href="https://hnonline.sk/" target="_blank"> HNonline.sk</a></h4>
+                <span class="filtrovacka">HNonline</span>
+                </div>
+                <div class="contact-item" >
+                <img src="images/port_svetevity.png">
+                <h4><a href="https://svetevity.sk" target="_blank"> Svetevity.sk</a></h4>
+                <span class="filtrovacka">Svetevity</span>
+                </div>
+                <div class="contact-item" >
+                <img src="images/port_brainee.png">
+                <h4><a href="https://brainee.sk" target="_blank"> Brainee.sk</a></h4>
+                <span class="filtrovacka">Brainee</span>
+                </div>
+            </div>
+        </div>
+</div>
+<div class="footer">
+            <div class="map">
+        <iframe style="border:0" allowfullscreen aria-hidden="false" frameborder="0" src="https://maps.google.com/maps?q=Kalinčiakova%2033,%20831%2004%20Bratislava&t=&z=13&ie=UTF8&iwloc=&output=embed" tabindex="0">
+        </iframe>
+      </div>
+      <div class="top-section slider">
+        <div class="slide-track">
+        <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
+        <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
+        <div class="slide"><img alt="Brainee" src="images/brainee_logo.png" /></div>
+        <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
+        <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
+        <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
+        <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
+        <div class="slide"><img alt="Brainee" src="images/brainee_logo.png" /></div>
+        <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
+        <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
+        <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
+        <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
+        <div class="slide"><img alt="Brainee" src="images/brainee_logo.png" /></div>
+        <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
+        <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
+      </div>
+      </div>
+
+      <div class="footer-align">
+      <div class="columns">
+        <div class="column">
+          <p style="font-weight:700">Kontaktujte nás
+          </p>
+          <p> 
+          </p>
+          <p>MAFRA Slovakia a.s.
+          </p>
+          <p>Kalinčiakova 33
+          </p>
+          <p>831 04 Bratislava
+          </p>
+        </div>
+        <div class="column">
+          <p> 
+          </p>
+          <p> 
+          </p>
+          <p>Predplatné: +421 (2) 48 238 238
+          </p>
+          <p>Vydavateľstvo: +421 (2) 48 238 111
+          </p>
+          <p>Inzercia: +421 (2) 48 238 103
+          </p>
+        </div>
+        <div class="column logos">
+          <img alt="EKLogo" src="images/ek_logo.png" />
+        </div>
+        <div class="column logos">
+          <img alt="Mafra Logo" src="images/mafra_logo.png" />
+        </div>
+      </div>
+      <div class="copyright">
+        <p style="font-weight:700">© 2012-2022 MAFRA Slovakia, a.s.
+        </p>
+        <p>
+          Všetky práva vyhradené. Publikovanie alebo ďalšie šírenie správ, fotografií a dát je bez predchádzajúceho písomného súhlasu porušením autorského zákona.
+        </p>
+      </div>
+      </div>
+    </div>
+<script>
+// Filtrovanie podľa URL
+function loadFromURL() {
+    const hash = window.location.hash.slice(1);  // Get the hash part of the URL
+    if (hash) {
+        const [category, subcategory] = hash.split('/');
+        if (category) filterCategory(category);
+        if (subcategory) filterContacts(category, subcategory);
+    } else {
+        filterCategory('print');
+        filterContacts('print', 'all');
+    }
+}
+
+// Načítanie podľa URL pri otvorení stránky
+window.addEventListener('DOMContentLoaded', loadFromURL);
+
+// Prednastavené správanie pri zmene histórie (napríklad pri späť/do prehliadača)
+window.addEventListener('popstate', loadFromURL);
+
+
+// Zmena aktívnej kategórie a obrázkov
+function filterCategory(category) {
+    // Aktualizácia URL podľa hlavnej kategórie
+    history.pushState(null, '', `#${category}`);
+
+    // Skrytie všetkých kontaktov
+    document.getElementById('contactsPrint').style.display = 'none';
+    document.getElementById('contactsDigital').style.display = 'none';
+
+    // Zobrazenie kontaktov pre vybranú kategóriu
+    if (category === 'print') {
+        document.getElementById('contactsPrint').style.display = 'grid';
+        document.getElementById('printSubcategories').style.display = 'block';
+        document.getElementById('digitalSubcategories').style.display = 'none';
+        
+        // Zmena obrázka pre tlačidlo Print
+        document.getElementById('btnPrint').src = "images/print_red.jpg";
+        document.getElementById('btnDigital').src = "images/online_blue.jpg"; // Resetovanie obrázku Digital
+    } else {
+        document.getElementById('contactsDigital').style.display = 'grid';
+        document.getElementById('digitalSubcategories').style.display = 'block';
+        document.getElementById('printSubcategories').style.display = 'none';
+        
+        // Zmena obrázka pre tlačidlo Digital
+        document.getElementById('btnDigital').src = "images/online_red.jpg";
+        document.getElementById('btnPrint').src = "images/print_blue.jpg"; // Resetovanie obrázku Print
+    }
+
+    // Nastavenie aktívneho tlačidla pre kategóriu
+    document.getElementById('btnPrint').classList.remove('active');
+    document.getElementById('btnDigital').classList.remove('active');
+
+    if (category === 'print') {
+        document.getElementById('btnPrint').classList.add('active');
+    } else {
+        document.getElementById('btnDigital').classList.add('active');
+    }
+
+    // Resetovanie aktivity podkategórií
+    const buttons = document.querySelectorAll(`#${category}Subcategories button`);
+    buttons.forEach(button => button.classList.remove('active'));
+    document.getElementById(`btn${category.charAt(0).toUpperCase() + category.slice(1)}All`).classList.add('active');
+}
+
+
+function normalizeText(text) {
+    return text
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "") // Remove diacritics
+        .replace(/\s+/g, "-") // Replace spaces with dashes
+        .toLowerCase();
+}
+
+// Filtrovanie kontaktov podľa podkategórie
+function filterContacts(category, subcategory) {
+    const contacts = document.querySelectorAll(`.contact.${category} div`);
+    const clearsubcategory = normalizeText(subcategory)
+
+    // Aktualizácia URL pre podkategóriu
+    const newURL = subcategory === 'all' ? `#${category}` : `#${category}/${clearsubcategory}`;
+    history.pushState(null, '', newURL);
+
+    // Skrytie všetkých kontaktov
+    contacts.forEach(contact => contact.style.display = 'none');
+
+    if (subcategory === 'all') {
+        // Zobrazenie všetkých kontaktov pre danú kategóriu
+        contacts.forEach(contact => contact.style.display = 'block');
+    } else {
+        // Zobrazenie iba kontaktov zodpovedajúcich podkategórii
+        contacts.forEach(contact => {
+            if (contact.textContent.includes(subcategory)) {
+                contact.style.display = 'block';
+            }
+        });
+    }
+
+    // Nastavenie aktívneho tlačidla podkategórie
+    const subcategoryButtons = document.querySelectorAll(`#${category}Subcategories button`);
+    subcategoryButtons.forEach(button => button.classList.remove('active'));
+
+    // Ak je vybrané tlačidlo "Zobraziť všetky", označí sa ako aktívne
+    if (subcategory === 'all') {
+        document.getElementById(`btn${category.charAt(0).toUpperCase() + category.slice(1)}All`).classList.add('active');
+    } else {
+        // Inak sa označí tlačidlo podkategórie ako aktívne
+        const selectedButton = Array.from(subcategoryButtons).find(button => button.textContent === subcategory);
+        if (selectedButton) selectedButton.classList.add('active');
+    }
+}
+
+// Prednastavený filter
+function loadFromURL() {
+    const hash = window.location.hash.slice(1);
+    if (hash) {
+        const [category, subcategory] = hash.split('/');
+        if (category) filterCategory(category);
+        if (subcategory) filterContacts(category, subcategory);
+    } else {
+        filterCategory('print');
+        filterContacts('print', 'all');
+    }
+}
+
+// Načítanie podľa URL pri otvorení stránky
+window.addEventListener('load', loadFromURL);
+
+// Prednastavené správanie pri zmene histórie (napríklad pri späť/do prehliadača)
+window.addEventListener('popstate', loadFromURL);
+
+
+    </script>
+</body>
+</html>

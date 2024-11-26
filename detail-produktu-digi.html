@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&amp;display=swap" rel="stylesheet">
+    <title></title>
+</head>
+<style>
+    
+        .filtrovacka {
+            display: none;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            margin-top: 45px;
+
+        }
+
+        .section {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .section a {
+            width: 40%;
+        }
+
+        .section img {
+            width: 100%;
+            height: auto;
+        }
+
+        .content {
+            margin-bottom: 40px;
+        }
+
+        .content ul {
+            list-style-type: none;
+            line-height: 1.8;
+            margin-left: 0;
+        }
+
+        .content p {
+            margin-bottom: 10px;
+        }
+
+        .content p strong {
+            color: red;
+        }
+
+        .numbers {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+            margin: 40px 0;
+        }
+
+        .number-item {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .number-item p {
+            margin-top: 10px;
+            font-size: 30px;
+        }
+               .number-item div {
+            color: red;
+        }
+
+        .tabs {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        .tabs button {
+            text-decoration: none;
+            color: white;
+            background-color: #e50000;
+            padding: 10px 20px;
+            margin: 0 5px;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        .tabs button.blue {
+            background-color: #003366;
+        }
+        #contactsDigital .contact-item {
+            width: 100%;
+        }
+
+        .contact-item {
+            padding-top: 10px;
+            animation: taadaa 1s;
+
+        }
+
+        .contact-item a {
+            color: red;
+            text-decoration: underline;
+            font-size: 28px;
+        }
+        .contact-item img{
+            height: auto;
+            margin-bottom: 40px;
+            width: 100%;
+        }
+        .contact-item h4{
+            text-align: center;
+
+        }
+        .category-buttons img {
+                filter: contrast(0.5);
+                cursor: pointer;
+        }
+                .category-buttons img:hover {
+                filter: contrast(1);
+                
+        }
+        .subcategories button {
+            padding: 10px 20px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            background-color: #f0f0f0;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+
+        
+        .subcategories button.active {
+            background-color: #e50000;
+            color: white;
+            animation: taadaa 1s;
+        }
+        .subcategories {
+            margin-top: 20px;
+        }
+        .subcategories ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .subcategories li {
+            padding: 8px 0;
+        }
+        .contacts {
+            margin-top: 30px;
+        }
+        .contact {
+            display: none;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 70px;
+    margin-bottom: 70px;
+        }
+/* MOBILE */
+@media screen and (max-width: 768px) {
+.section, .content, .numbers, .subcategories, .contacts  {
+    padding: 0 17px;
+}
+.section img{
+    width: 45%;
+}
+.content p {
+    text-align: left;
+}
+
+.contact{
+       grid-template-columns: repeat(1, 1fr);
+               margin-bottom: 50px;
+}
+.contact-item {
+    width: 100%;
+    text-align: center;
+}
+.contact-item img {
+    margin-bottom: 5px;
+}
+}
+</style>
+<body>
+    <div class="header">
+      <div class="header-logo">
+      <a href="index.html"><img alt="MAFRA Slovakia Logo" src="images/mafra_logo.png" /></a>
+      </div>
+      <div class="navbar" id="page-nav">
+        <input type="checkbox" id="hamburger"/>
+        <ul>
+        <li><a href="o-spolocnosti.html">O spoločnosti</a></li>
+        <li>
+          <span class="portfolio" id="page-nav-sub"><span><a href="portfolio-titulov.html">Portfólio titulov</a></span>
+          <input type="checkbox" id="porttit"/>
+          <label for="porttit" ></label>
+          <div class="submenu">
+            <a href="detail-produktu-digi.html">Online
+            </a>
+            <a href="detail-produktu-print.html#/titul/1/hospodarske-noviny">Print
+            </a>
+          </div>
+        </span></li>
+        <li><a href="inzercia.html">Inzercia</a></li>
+        <li><a href="pracovne-ponuky.html">Pracovné ponuky</a></li>
+        <li><a href="kontakt.html">Kontakty</a></li>
+        </ul>
+        <label for="hamburger" &#9776;></label>
+      </div>
+    </div>
+        <div class="budova">
+        <video autoplay loop muted>
+          <source src="example_video.mp4" type="video/mp4" />
+        </video>
+        <div class="budova-text">
+          <h1>Názov firmy...
+          </h1>
+          <p>Nejaký text o firme...
+          </p>
+        </div>
+      </div>
+
+        <div class="container">
+        <div class="section category-buttons" >
+            <a href="detail-produktu-print.html#/titul/1/hospodarske-noviny"><img id="btnPrint" class="btn active" src="images/print_blue.jpg" alt="PRINT"></a>
+            <a href="detail-produktu-digi.html"><img id="btnDigital" class="btn" src="images/online_red.jpg" alt="ONLINE"></a>
+        </div>
+
+        <div class="subcategories" >
+            <div class="tabs" id="digitalSubcategories" style="display: block;">
+                <ul>
+                    <button class="blue active" onclick="filterContacts('digital', 'hnonline')">hnonline</button>
+                    <button class="blue" onclick="filterContacts('digital', 'svetevity')">svetevity</button>
+                    <button class="blue" onclick="filterContacts('digital', 'brainee')">brainee</button>
+                </ul>
+            </div>
+        </div>
+ 
+        <div class="contacts ">
+            <div class="contact print" id="contactsPrint" style="display: none;">
+                <div class="contact-item">
+                <img src="https://static.svetevity.sk/pdfs/kuciak.jpg">
+                <span class="filtrovacka">Denník</span>
+                </div>
+                <div class="contact-item">
+                <img src="https://static.hnonline.sk/images/slike/2022/03/20/o_4912120_340.jpg?20241114110541">
+                <span class="filtrovacka">Odborné</span>
+                </div>
+                <div class="contact-item">
+                <img src="https://static.hnonline.sk/images/slike/2022/03/20/o_4247773_340.jpg?20240614093213">
+                <span class="filtrovacka">Odborné</span>
+                </div>
+                <div class="contact-item">
+                <img src="https://static.hnonline.sk/images/slike/2022/03/20/o_4828359_340.jpg?20241024132930">
+                <span class="filtrovacka">Ženské</span>
+                </div>
+                <div class="contact-item">
+                <img src="https://static.hnonline.sk/images/slike/2022/03/20/o_2910944_340.jpg?20241119153934">
+                <span class="filtrovacka">Ženské</span>
+                </div>
+                <div class="contact-item">
+                <img src="https://static.hnonline.sk/images/slike/2022/03/20/o_4828327_340.jpg?20241024131520">
+                <span class="filtrovacka">Ženské</span>
+                </div>
+            </div>
+
+            <div id="contactsDigital" class="contact digital" style="display: grid;">
+                <div class="contact-item" style="display: block;">
+                <img src="images/port_hnonline.png">
+                <h4><a href="https://hnonline.sk/" target="_blank"> HNonline.sk</a></h4>
+                <p>Danish biscuit liquorice chocolate cake ice cream marzipan gummi bears gummies. Jelly beans dessert bonbon croissant ice cream bonbon halvah. Icing toffee jujubes cookie bonbon pie powder. Dessert lemon drops pastry gummies jelly-o fruitcake. Candy canes wafer jelly beans toffee donut apple pie. Chocolate bar jelly marshmallow chocolate bar shortbread sesame snaps toffee croissant toffee. Croissant pudding topping marshmallow shortbread gingerbread gummi bears candy fruitcake. Chocolate bar jelly marshmallow chocolate bar shortbread sesame snaps toffee croissant toffee. Croissant pudding topping marshmallow shortbread gingerbread gummi bears candy fruitcake.Chocolate bar jelly marshmallow chocolate bar shortbread sesame snaps toffee croissant toffee. Croissant pudding topping marshmallow shortbread gingerbread gummi bears candy fruitcake.</p>
+                <span class="filtrovacka">hnonline</span>
+                </div>
+                <div class="contact-item" style="display: none;">
+                <img src="images/port_svetevity.png">
+                <h4><a href="https://svetevity.sk" target="_blank"> Svetevity.sk</a></h4>
+                <p>Danish biscuit liquorice chocolate cake ice cream marzipan gummi bears gummies. Jelly beans dessert bonbon croissant ice cream bonbon halvah. Icing toffee jujubes cookie bonbon pie powder. Dessert lemon drops pastry gummies jelly-o fruitcake. Candy canes wafer jelly beans toffee donut apple pie. Chocolate bar jelly marshmallow chocolate bar shortbread sesame snaps toffee croissant toffee. Croissant pudding topping marshmallow shortbread gingerbread gummi bears candy fruitcake.Chocolate bar jelly marshmallow chocolate bar shortbread sesame snaps toffee croissant toffee. Croissant pudding topping marshmallow shortbread gingerbread gummi bears candy fruitcake.Chocolate bar jelly marshmallow chocolate bar shortbread sesame snaps toffee croissant toffee. Croissant pudding topping marshmallow shortbread gingerbread gummi bears candy fruitcake. </p>
+                <span class="filtrovacka">svetevity</span>
+                </div>
+                <div class="contact-item" style="display: none;">
+                <img src="images/port_brainee.png">
+                <h4><a href="https://brainee.sk" target="_blank"> Brainee.sk</a></h4>
+                <p>Danish biscuit liquorice chocolate cake ice cream marzipan gummi bears gummies. Jelly beans dessert bonbon croissant ice cream bonbon halvah. Icing toffee jujubes cookie bonbon pie powder. Dessert lemon drops pastry gummies jelly-o fruitcake. Candy canes wafer jelly beans toffee donut apple pie. Chocolate bar jelly marshmallow chocolate bar shortbread sesame snaps toffee croissant toffee. Croissant pudding topping marshmallow shortbread gingerbread gummi bears candy fruitcake. Chocolate bar jelly marshmallow chocolate bar shortbread sesame snaps toffee croissant toffee. Croissant pudding topping marshmallow shortbread gingerbread gummi bears candy fruitcake.Chocolate bar jelly marshmallow chocolate bar shortbread sesame snaps toffee croissant toffee. Croissant pudding topping marshmallow shortbread gingerbread gummi bears candy fruitcake.Chocolate bar jelly marshmallow chocolate bar shortbread sesame snaps toffee croissant toffee. Croissant pudding topping marshmallow shortbread gingerbread gummi bears candy fruitcake.Chocolate bar jelly marshmallow chocolate bar shortbread sesame snaps toffee croissant toffee. Croissant pudding topping marshmallow shortbread gingerbread gummi bears candy fruitcake.</p>
+                <span class="filtrovacka">brainee</span>
+                </div>
+            </div>
+        </div>
+</div>
+<div class="footer">
+            <div class="map">
+        <iframe style="border:0" allowfullscreen aria-hidden="false" frameborder="0" src="https://maps.google.com/maps?q=Kalinčiakova%2033,%20831%2004%20Bratislava&t=&z=13&ie=UTF8&iwloc=&output=embed" tabindex="0">
+        </iframe>
+      </div>
+      <div class="top-section slider">
+        <div class="slide-track">
+        <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
+        <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
+        <div class="slide"><img alt="Brainee" src="images/brainee_logo.png" /></div>
+        <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
+        <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
+        <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
+        <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
+        <div class="slide"><img alt="Brainee" src="images/brainee_logo.png" /></div>
+        <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
+        <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
+        <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
+        <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
+        <div class="slide"><img alt="Brainee" src="images/brainee_logo.png" /></div>
+        <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
+        <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
+      </div>
+      </div>
+
+      <div class="footer-align">
+      <div class="columns">
+        <div class="column">
+          <p style="font-weight:700">Kontaktujte nás
+          </p>
+          <p> 
+          </p>
+          <p>MAFRA Slovakia a.s.
+          </p>
+          <p>Kalinčiakova 33
+          </p>
+          <p>831 04 Bratislava
+          </p>
+        </div>
+        <div class="column">
+          <p> 
+          </p>
+          <p> 
+          </p>
+          <p>Predplatné: +421 (2) 48 238 238
+          </p>
+          <p>Vydavateľstvo: +421 (2) 48 238 111
+          </p>
+          <p>Inzercia: +421 (2) 48 238 103
+          </p>
+        </div>
+        <div class="column logos">
+          <img alt="EKLogo" src="images/ek_logo.png" />
+        </div>
+        <div class="column logos">
+          <img alt="Mafra Logo" src="images/mafra_logo.png" />
+        </div>
+      </div>
+      <div class="copyright">
+        <p style="font-weight:700">© 2012-2022 MAFRA Slovakia, a.s.
+        </p>
+        <p>
+          Všetky práva vyhradené. Publikovanie alebo ďalšie šírenie správ, fotografií a dát je bez predchádzajúceho písomného súhlasu porušením autorského zákona.
+        </p>
+      </div>
+      </div>
+    </div>
+<script>
+// Zmena aktívnej kategórie
+function filterCategory(category) {
+    // Skrytie všetkých kontaktov
+    document.getElementById('contactsPrint').style.display = 'none';
+    document.getElementById('contactsDigital').style.display = 'none';
+
+    // Zobrazenie kontaktov podľa kategórie
+    if (category === 'print') {
+        document.getElementById('contactsPrint').style.display = 'grid';
+        document.getElementById('digitalSubcategories').style.display = 'none';
+    } else {
+        document.getElementById('contactsDigital').style.display = 'grid';
+        document.getElementById('digitalSubcategories').style.display = 'block';
+    }
+
+    // Nastavenie aktívneho tlačidla
+    document.getElementById('btnPrint').classList.remove('active');
+    document.getElementById('btnDigital').classList.remove('active');
+
+    if (category === 'print') {
+        document.getElementById('btnPrint').classList.add('active');
+    } else {
+        document.getElementById('btnDigital').classList.add('active');
+    }
+    
+    // Aktualizácia URL
+    window.location.hash = `#${category}`;
+}
+
+// Filtrovanie kontaktov
+function filterContacts(category, subcategory) {
+    const contacts = document.querySelectorAll(`.contact.${category} .contact-item`);
+    
+    // Skrytie všetkých kontaktov
+    contacts.forEach(contact => contact.style.display = 'none');
+
+    if (subcategory === 'all') {
+        contacts.forEach(contact => contact.style.display = 'block');
+    } else {
+        contacts.forEach(contact => {
+            if (contact.textContent.includes(subcategory)) {
+                contact.style.display = 'block';
+            }
+        });
+    }
+
+    // Nastavenie aktívneho tlačidla podkategórie
+    const buttons = document.querySelectorAll(`#digitalSubcategories button`);
+    buttons.forEach(button => button.classList.remove('active'));
+
+    const selectedButton = Array.from(buttons).find(button => button.textContent === subcategory);
+    if (selectedButton) selectedButton.classList.add('active');
+
+        function normalizeText(text) {
+        return text
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "") // Odstránenie diakritiky
+            .replace(/\s+/g, "-") // Nahradenie medzier pomlčkami
+            .toLowerCase(); // Malé písmená
+    }
+
+    const clearsubcategory = normalizeText(subcategory);
+
+    // Aktualizácia URL
+    window.location.hash = `#${category}/${subcategory}`;
+}
+
+// Inicializácia stránky
+function initializePage() {
+    const hash = window.location.hash.substring(1);
+    const parts = hash.split('/');
+    const category = parts[0] || 'digital';
+    const subcategory = parts[1] || '';
+
+    filterCategory(category);
+    if (subcategory) {
+        filterContacts(category, subcategory);
+    }
+}
+
+
+// Spustenie pri načítaní
+window.addEventListener('load', initializePage);
+</script>
+
+
+</body>
+</html>

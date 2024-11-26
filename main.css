@@ -1,0 +1,674 @@
+    body{
+      font-family:Montserrat,sans-serif;
+      margin:0;
+      padding:0;
+      color:#000;
+      display:flex;
+      flex-direction:column;
+      align-items:center}
+      @keyframes taadaa { 
+    0% {
+      opacity: 0.6;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+    .container{
+      width:100%;
+      max-width:1200px;
+      background-color:#fff;
+      padding:0 20px;
+    }
+    .header{
+      display:flex;
+      align-items:flex-end;
+      justify-content:space-around;
+      padding: 0;
+      background-color:#fff;
+      margin-top:15px;
+      width: 100%;
+      border-bottom: 1px solid #ffb7b7;
+    }
+    .header-logo {
+      border-bottom: 2px solid #ee6575;
+      padding-bottom: 19px;
+    }
+    .header:after{
+      display:none;
+      content:'';
+      position:absolute;
+      left:0;
+      width:100vw;
+      height:1px;
+      background-color:rgba(255,0,0,.5);
+      top:66px}
+    .header img{
+      width:150px}
+    .navbar{
+      display:flex;
+      justify-content:flex-end;
+      background-color:#fff;
+      font-size: 16px;
+    }
+    .navbar ul li a{
+      text-decoration:none;
+      color:#000;
+      padding-bottom: 15px;
+      border-bottom: 2px solid transparent;
+    }
+    .navbar a:hover{
+          border-bottom: 2px solid #ee6575;
+    }
+    .budova{
+      position:relative;
+      text-align:center;
+      color:#fff;
+      background-size: cover;
+      background-image:url(images/portfolio-titulov.png);
+            width:100%;
+      height:420px;
+    }
+    .budova-text{
+      display:none;
+      position:absolute;
+      top:50%;
+      left:50%;
+      transform:translate(-50%,-50%);
+      background-color:rgba(0,0,0,.5);
+      padding:20px;
+      border-radius:10px}
+    .budova-text h1{
+      margin:0;
+      font-size:2.5em}
+    .content{
+      text-align:center;
+    }
+    .content-vydavatelstvo{
+      font-size:32px;
+      text-align:left;
+      color:#000
+    }
+    .content h1{
+      color:#e30613;
+      margin-bottom:20px}
+    .ponuka{
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 45px 0px;
+    }
+    .ponuka::before{
+      content: "";
+      width: 100%;
+      height: 4px;
+      background: #002f63;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    }
+    .ponuka h2 {
+    display: inline-flex;
+    justify-content: center;
+    z-index: 10;
+    position: relative;
+    background: white;
+    padding: 0px 65px;
+    font-size: 40px;
+    font-weight: 200;
+    }
+    .ponuka-box {
+      display: flex;
+      max-width: 1200px;
+      justify-content: space-between;
+      padding: 20px 0px;
+    }
+    .ponuka-box div img {
+      height: 250px;
+      cursor: pointer;
+    }
+    .preco-mafra{
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 45px 0px;
+    }
+    .preco-mafra::before{
+      content: "";
+      width: 100%;
+      height: 4px;
+      background: #e30613;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    }
+    .preco-mafra h2 {
+    display: inline-flex;
+    justify-content: center;
+    z-index: 10;
+    position: relative;
+    background: white;
+    padding: 0px 35px;
+        padding: 0px 65px;
+    font-size: 40px;
+    font-weight: 200;
+    }
+    .spravy-noviny{
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 45px 0px;
+    }
+    .spravy-noviny::before{
+      content: "";
+      width: 100%;
+      height: 4px;
+      background: #002f63;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    }
+    .spravy-noviny h2 {
+    display: inline-flex;
+    justify-content: center;
+    z-index: 10;
+    position: relative;
+    background: white;
+    padding: 0px 35px;
+        padding: 0px 65px;
+    font-size: 40px;
+    font-weight: 200;
+    }
+    .spravy-btn {
+      padding-top: 10px;
+      padding-bottom: 85px;
+      text-align: center;
+    }
+    .spravy-btn a {
+      text-decoration: none;
+    padding: 10px 15px;
+    background: #002f63;
+    color: white;
+    font-size: 25px;
+    }
+    .news,.services,.why-mafra{
+      display:flex;
+      justify-content:center;
+      gap:20px;
+      padding:20px;
+      flex-wrap:nowrap;}
+      .news div {
+        position: relative;
+      }
+    .news div{
+      padding:20px;
+      max-width:300px;
+      padding: 25px;
+    }
+
+    .news div p{
+      text-align:left;
+      position:absolute;
+      bottom: 0px;
+    color: white;}
+    .services div{
+      border-radius:10px;
+      padding:20px;
+      flex:1 1 300px;
+      max-width:300px;
+      text-align:center;
+      background-color:#fff}
+    .services h2{
+      top:-146px;
+      position:relative;
+      font-size:47px;
+      color:transparent}
+    .services img{
+      width:100%;
+      height:150px;
+      object-fit:cover}
+    .footer{
+      background-color:#007bff;
+      color:#fff;
+      padding-top: 0px;
+      width: 100%;
+      text-align: center;
+    }
+    .footer-content{
+      display:flex;
+      justify-content:flex-end;
+      align-items:center;
+      flex-wrap:wrap;
+      gap:20px}
+    .footer img{
+      width:150px}
+    .footer a{
+      color:#fff;
+      text-decoration:none;
+      margin:0 10px}
+      .map {
+        height: 300px;
+      }
+      .footer-align {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      .map iframe {
+        width: 100%;
+        height: 100%;
+      }
+    .why-mafra{
+      position:relative;
+    flex-direction: row;
+    flex-wrap: wrap;}
+    .why-mafra h2{
+      position:relative;
+      top:112px;
+      font-weight:100}
+.time-breakdown {
+  width: 20%;
+}
+    @keyframes fill{
+      0%{
+        transform:rotate(0)}
+      100%{
+        transform:rotate(180deg)}
+    }
+    .news div{
+      background-color:#002f63;
+      color:#fff}
+      .news h3 {
+        margin-top: 0px;
+        margin-bottom: 25px;
+        position: relative;
+        top: 0;
+      }
+    .news h2{
+      color:#fff;
+      text-align:left}
+    .footer-bottom{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      background-color:#036;
+      color:#fff;
+      padding:10px 20px}
+    .footer-bottom div{
+      display:flex;
+      flex-direction:column;
+      align-items:center}
+    .footer-bottom a{
+      color:#fff;
+      text-decoration:none}
+    .header-title{
+      position:relative;
+      display:inline-block}
+    .news-title{
+      position:relative;
+      display:inline-block}
+    .news-title::after{
+      content:'';
+      position:absolute;
+      width:100%;
+      height:5px;
+      background-color:#007bff;
+      bottom:-5px;
+      left:0;
+      z-index:-1}
+      .portfolio {
+        position: relative;
+        cursor: pointer;
+      }
+    .portfolio:after{
+      content:'';
+      position:absolute;
+      transform:rotate(315deg);
+      width:10px;
+      height:10px;
+      right: -18px;
+      border-left:1px solid rgba(51,51,51,.5);
+      border-bottom:1px solid rgba(51,51,51,.5);
+    }
+
+    .submenu{
+      z-index:1;
+      display:none;
+      position:absolute;
+      background:#f9f9f9;
+      padding:10px}
+    .submenu a{
+      display:block;
+        padding: 1rem 1rem;
+    margin: 0;
+border: 1px solid #ec8b9a;
+border-bottom: 2px solid transparent;
+  }
+    .submenu:hover{
+      display:block}
+    .portfolio:hover .submenu{
+      display:block;
+      width: 120%;
+      padding: 0px;
+      padding-top: 18px;
+      border-bottom: 1px solid #ec8b9a;
+    }
+    .footer{
+      background-color:#002f63;
+      color:#fff}
+    .footer .top-section{
+      background-color:#d71921;
+      padding:10px 0;
+      text-align:center}
+    .footer .top-section img{
+      margin:0 20px;
+      vertical-align:middle}
+    .footer .columns{
+      display:flex;
+      justify-content:space-around;
+      text-align:left;
+      padding:20px}
+    .footer .columns .column{
+      flex:1;
+      margin:10px}
+    .footer .columns .column p{
+      margin:5px 0}
+    .footer .logos img{
+      margin:10px}
+    .footer .copyright{
+      margin:20px 0;
+      border-top:1px solid #fff;
+      padding-top:10px;
+      text-align: left;
+    }
+
+ .slider {
+    background: white;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.slider::before {
+    left: 0;
+    top: 0;
+}
+
+.slider .slide-track {
+    animation: scroll 90s linear infinite;
+    display: flex;
+    width: calc(250px * 20);
+
+}
+
+.slider .slide-track:hover {
+    animation-play-state: paused;
+}
+
+.slider .slide {
+    width: 250px;
+}
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 9));
+    }
+}
+
+
+/* [ON BIG SCREEN] */
+/* Wrapper */
+#page-nav {
+}
+
+/* Hide Hamburger */
+#page-nav label, #hamburger, #porttit{
+  display: none;
+}
+
+/* Menu Items */
+#page-nav ul {
+  list-style-type: none;
+}
+#page-nav ul li {
+  display: inline-block;
+  margin: 0 25px;
+}
+@property --percentage {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+
+.counter {
+  animation: counter 3s ease-out;
+  animation-fill-mode: forwards;
+  counter-reset: num var(--percentage);
+}
+.counter::before {
+  content: counter(num) "%";
+  display: block;
+    text-align: center;
+}
+
+@keyframes counter {
+  from {
+    --percentage: 0;
+  }
+  to {
+    --percentage: var(--counter-end);
+  }
+}
+
+.percentage-chart {
+  width: 180px;
+  height: 180px;
+  position: relative;
+}
+.percentage-chart-bg {
+  fill: none;
+  stroke: #ffc9c9;
+  stroke-width: 3;
+}
+
+.percentage-chart-stroke {
+  fill: none;
+  stroke-width: 3;
+  stroke: #e30613;
+  stroke-linecap: round;
+  animation: progress 3s ease-out forwards;
+}
+
+.counter {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 24px;
+  color: black;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+/* MOBILE */
+@media screen and (max-width: 768px){
+  /* Show Hamburger */
+  #page-nav label {
+    display: inline-block;
+    color: #e4051f;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+  #page-nav label:before {
+    content: "☰";
+    color: darkred;
+    font-size: 25px;
+  }
+  .container {
+    padding: 0px;
+  }
+.container-holder {
+      padding: 0px 20px;
+    }
+  /* Break down menu items into vertical */
+  #page-nav ul li {
+    display: block;
+  }
+  #page-nav ul li {
+    border-top: 1px solid #333;
+  }
+
+  /* Toggle show/hide menu on checkbox click */
+  #page-nav ul {
+    display: none;
+  }
+  #page-nav input:checked ~ ul {
+    display: block;
+    position: absolute;
+    top: 29px;
+    left: 0;
+    height: 100%;
+    z-index: 10;
+    background: red;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    padding-top: 10%;
+  }
+  .header {
+        justify-content: space-between;
+  }
+  .header img {
+    margin-left: 10px;
+  }
+  .header-logo {
+    padding-bottom: 10px;
+    border-bottom: none;
+  }
+   .navbar ul li a {
+    color: white;
+    border-bottom: none;
+    font-weight: 600;
+   }
+   #page-nav ul li {
+    border: none;
+    margin: 0;
+  padding: 10px 0px;
+   }
+   .submenu {
+    background: transparent;
+    position: inherit;
+   }
+   .submenu a {
+    border: none;
+   }
+
+
+
+  #page-nav-sub label {
+    display: inline-block;
+    color: #e4051f;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+  #page-nav-sub label:before {
+    content: "Portfólio titulov";
+            color: white;
+        border-bottom: none;
+        font-weight: 600;
+        font-size: 16px;
+  }
+
+     /* Break down menu items into vertical */
+  #page-nav-sub .submenu a {
+    display: block;
+  }
+
+  /* Toggle show/hide menu on checkbox click */
+  #page-nav-sub .submenu {
+    display: none;
+  }
+  #page-nav-sub input:checked ~ .submenu {
+    display: block;
+    position: relative;
+    left: 0;
+    height: 100%;
+    z-index: 10;
+    background: red;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+            border-top: 1px solid #ffffffa8;
+        border-bottom: 1px solid #ffffffa8;
+  }
+   .portfolio:after {
+    color: white;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    right: -12px;
+    top: -1px;
+   }
+   .header {
+    margin-top: 0px;
+   }
+
+   #page-nav input:checked ~ label:before{
+    content: "✕";
+   }
+       #page-nav-sub input:checked ~ label:before{
+    content: "Portfólio titulov";
+   }
+   .content-vydavatelstvo{
+    font-size: 25px;
+   }
+   .ponuka-box {
+    flex-direction: column;
+        align-items: center;
+   }
+   .footer-align .columns {
+    flex-direction: column;
+        align-items: center;
+   }
+   .ponuka-box div img{
+    height: 190px;
+            margin-bottom: 15px;
+   }
+   .news {
+        flex-direction: column;
+   }
+   .time-breakdown {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+   }
+   .percentage-chart {
+    width: 110px;
+    height: 135px;
+   }
+   .counter {
+        top: 35%;
+    font-size: 15px;
+   }
+   .why-mafra{
+        justify-content: space-around;
+        gap: none;
+        padding: 0;
+   }
+   .portfolio span {
+    display: none;
+   }
+}
