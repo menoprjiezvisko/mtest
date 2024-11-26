@@ -208,8 +208,8 @@
       </div>
     <div class="container">
         <div class="section category-buttons" >
-            <img id="btnPrint" class="btn active"  onclick="filterCategory('print')" src="images/print_blue.jpg" data-active-src="images/print_red.jpg" alt="PRINT">
-            <img id="btnDigital" class="btn"  onclick="filterCategory('digital')"src="images/online_blue.jpg" data-active-src="images/online_red.jpg" alt="ONLINE">
+            <img id="btnPrint" class="btn active"  onclick="filterCategory('print')" src="images/print_blue.png" data-active-src="images/print_red.png" alt="PRINT">
+            <img id="btnDigital" class="btn"  onclick="filterCategory('digital')"src="images/online_blue.png" data-active-src="images/online_red.png" alt="ONLINE">
         </div>
         <div class="content">
                     <p>
@@ -457,16 +457,16 @@ function filterCategory(category) {
         document.getElementById('digitalSubcategories').style.display = 'none';
         
         // Zmena obrázka pre tlačidlo Print
-        document.getElementById('btnPrint').src = "images/print_red.jpg";
-        document.getElementById('btnDigital').src = "images/online_blue.jpg"; // Resetovanie obrázku Digital
+        document.getElementById('btnPrint').src = "images/print_red.png";
+        document.getElementById('btnDigital').src = "images/online_blue.png"; // Resetovanie obrázku Digital
     } else {
         document.getElementById('contactsDigital').style.display = 'flex';
         document.getElementById('digitalSubcategories').style.display = 'block';
         document.getElementById('printSubcategories').style.display = 'none';
         
         // Zmena obrázka pre tlačidlo Digital
-        document.getElementById('btnDigital').src = "images/online_red.jpg";
-        document.getElementById('btnPrint').src = "images/print_blue.jpg"; // Resetovanie obrázku Print
+        document.getElementById('btnDigital').src = "images/online_red.png";
+        document.getElementById('btnPrint').src = "images/print_blue.png"; // Resetovanie obrázku Print
     }
 
     // Nastavenie aktívneho tlačidla pre kategóriu
