@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/favicon.ico" />
     <link rel="stylesheet" href="main.css" />
     <script type="text/javascript" src="produkty.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&amp;display=swap" rel="stylesheet">
@@ -27,7 +28,6 @@
         }
 
         .category-buttons img {
-                filter: contrast(0.5);
                 cursor: pointer;
         }
         .category-buttons img:hover {
@@ -65,6 +65,9 @@
 }
 .product-detail-holder{
     width: 30%;
+}
+.product-detail-holder-mobile {
+    display: none;
 }
         .sidebar {
             background-color: transparent;
@@ -225,18 +228,30 @@ button{
         flex-direction: column;
     align-items: center;
     padding: 0 15px;
+    height: 100%;
 }
 .sidebar {
     width: 85%;
-    height: 350px;
+    height: 200px;
     margin-bottom: 25px;
+}
+.section {
+    padding: 0 17px;
+    margin-bottom: 9px;
+}
+.section a {
+    width: 47%;
 }
 .main-content{
     width: 100%;
     margin-left: 0px;
+    height: 100%;
 }
 .product-detail{
         flex-direction: column;
+}
+.product-detail-text {
+    width: 100%;
 }
 .product-list {
     margin-right: 8px;
@@ -244,6 +259,13 @@ button{
 .main-content img{
     width: 100%;
 }
+.product-detail-holder{
+    display: none;
+}
+.product-detail-holder-mobile{
+    display: block;
+}
+
 }
     </style>
 <body>
@@ -273,15 +295,14 @@ button{
         <label for="hamburger" &#9776;></label>
       </div>
     </div>
-        <div class="budova">
+        <div class="budova" style="background-image:url(images/mafraslovakia_headers_portfolio.png)">
         <video autoplay loop muted>
           <source src="example_video.mp4" type="video/mp4" />
         </video>
         <div class="budova-text">
-          <h1>Názov firmy...
+          <h1><span>Portfólio</span> titulov
           </h1>
-          <p>Nejaký text o firme...
-          </p>
+          
         </div>
       </div>
 
@@ -474,6 +495,9 @@ function showProductDetail(productSlug) {
                 <p>${product.vznik}</p>
                 <p>${product.periodicita}</p>
                 <p>${product.kontakt}</p>
+             <div class="product-detail-holder-mobile">
+                <img class="product-detail-img" src="${product.image}" alt="${product.name}">
+            </div>
                 <div class="buttons">
                     <a class="product-detail-btn" href="${product.btnCennikUrl}">${product.btnCennik}</a>
                     <a class="product-detail-btn" href="${product.btnHarmUrl}">${product.btnHarm}</a>
@@ -525,6 +549,9 @@ function refreshProductDetail() {
                 <p>${product.vznik}</p>
                 <p>${product.periodicita}</p>
                 <p>${product.kontakt}</p>
+             <div class="product-detail-holder-mobile">
+                <img class="product-detail-img" src="${product.image}" alt="${product.name}">
+            </div>
                 <div class="buttons">
                     <a class="product-detail-btn" href="${product.btnCennikUrl}">${product.btnCennik}</a>
                     <a class="product-detail-btn" href="${product.btnHarmUrl}">${product.btnHarm}</a>

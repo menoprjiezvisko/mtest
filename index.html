@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 <html lang="sk">
   <meta charset="UTF-8" />
+  <link rel="icon" href="images/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>MAFRA Slovakia
   </title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="main.css" />
+  <style>
+    @media screen and (max-width: 768px) {
+      .ponuka h2,
+      .preco-mafra h2,
+      .spravy-noviny h2 {
+        font-size: 25px;
+        padding: 0px 20px;
+      }
+
+      .ponuka,
+      .preco-mafra,
+      .spravy-noviny {
+           padding: 0px 0px;
+           margin-top: 15px;
+      }
+    }
+  </style>
   <body>
     <div class="header">
       <div class="header-logo">
@@ -38,10 +56,9 @@
           <source src="example_video.mp4" type="video/mp4" />
         </video>
         <div class="budova-text">
-          <h1>Názov firmy...
+          <h1><span></span> 
           </h1>
-          <p>Nejaký text o firme...
-          </p>
+          
         </div>
       </div>
   <div class="container">
@@ -63,7 +80,7 @@
       </div>
       <div class="ponuka-box">
         <div>
-          <a href="portfolio-titulov.html#digital"><img alt="Online" src="images/mafra_online.png" /></a>
+          <a href="detail-produktu-digi.html"><img alt="Online" src="images/mafra_online.png" /></a>
           </h2>
         </div>
         <div>
@@ -71,7 +88,7 @@
           </h2>
         </div>
         <div>
-          <a href="portfolio-titulov.html#print"><img alt="Print" src="images/mafra_print.png" /></a>
+          <a href="detail-produktu-print.html"><img alt="Print" src="images/mafra_print.png" /></a>
           </h2>
         </div>
       </div>
