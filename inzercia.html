@@ -7,6 +7,7 @@
     <title>Inzercia</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css" />
+    <script type="text/javascript" src="main.js"></script>
     <style>
         .filtrovacka {
             display: none;
@@ -178,17 +179,14 @@
         <input type="checkbox" id="hamburger"/>
         <ul>
         <li><a href="o-spolocnosti.html">O spoločnosti</a></li>
-        <li>
-          <span class="portfolio" id="page-nav-sub"><span><a href="portfolio-titulov.html">Portfólio titulov</a></span>
-          <input type="checkbox" id="porttit"/>
-          <label for="porttit" ></label>
-          <div class="submenu">
-            <a href="detail-produktu-digi.html#/titul/1/hnonline">Online
-            </a>
-            <a href="detail-produktu-print.html#/titul/1/hospodarske-noviny">Print
-            </a>
-          </div>
-        </span></li>
+        <li class="menu-item">
+  <a href="portfolio-titulov.html">Portfólio titulov</a>
+  <span class="arrow" onclick="toggleSubmenu(event)">⌵</span>
+  <div class="submenu">
+    <a href="detail-produktu-digi.html">Online</a>
+    <a href="detail-produktu-print.html#/titul/1/hospodarske-noviny">Print</a>
+  </div>
+</li>
         <li><a href="inzercia.html">Inzercia</a></li>
         <li><a href="pracovne-ponuky.html">Pracovné ponuky</a></li>
         <li><a href="kontakt.html">Kontakty</a></li>

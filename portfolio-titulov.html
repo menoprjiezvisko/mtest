@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="images/favicon.ico" />
     <link rel="stylesheet" href="main.css" />
+    <script type="text/javascript" src="main.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&amp;display=swap" rel="stylesheet">
     <title></title>
 </head>
@@ -197,17 +198,14 @@
         <input type="checkbox" id="hamburger"/>
         <ul>
         <li><a href="o-spolocnosti.html">O spoločnosti</a></li>
-        <li>
-          <span class="portfolio" id="page-nav-sub"><span><a href="portfolio-titulov.html">Portfólio titulov</a></span>
-          <input type="checkbox" id="porttit"/>
-          <label for="porttit" ></label>
-          <div class="submenu">
-            <a href="detail-produktu-digi.html#/titul/1/hnonline">Online
-            </a>
-            <a href="detail-produktu-print.html#/titul/1/hospodarske-noviny#/titul/1/hospodarske-noviny">Print
-            </a>
-          </div>
-        </span></li>
+        <li class="menu-item">
+  <a href="portfolio-titulov.html">Portfólio titulov</a>
+  <span class="arrow" onclick="toggleSubmenu(event)">⌵</span>
+  <div class="submenu">
+    <a href="detail-produktu-digi.html">Online</a>
+    <a href="detail-produktu-print.html#/titul/1/hospodarske-noviny">Print</a>
+  </div>
+</li>
         <li><a href="inzercia.html">Inzercia</a></li>
         <li><a href="pracovne-ponuky.html">Pracovné ponuky</a></li>
         <li><a href="kontakt.html">Kontakty</a></li>
@@ -255,7 +253,7 @@
         <div class="contacts ">
             <div class="contact print" id="contactsPrint" style="display: grid;">
                 <div class="contact-item">
-                    <a href="detail-produktu-print.html#/titul/1/hospodarske-noviny" style="position: absolute;width: 100%;height: 100%;"></a>
+                    <a href="" style="position: absolute;width: 100%;height: 100%;"></a>
                 <img src="https://static.svetevity.sk/pdfs/kuciak.jpg">
                 <span class="filtrovacka">Denník</span>
                 </div>
@@ -497,6 +495,8 @@ window.addEventListener('load', loadFromURL);
 
 // Prednastavené správanie pri zmene histórie (napríklad pri späť/do prehliadača)
 window.addEventListener('popstate', loadFromURL);
+
+
 
 
     </script>

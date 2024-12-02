@@ -507,7 +507,27 @@ border-bottom: 2px solid transparent;
     stroke-dasharray: 0 100;
   }
 }
+.menu-item {
+  position: relative;
+}
 
+.submenu {
+  display: none;
+}
+
+  .menu-item:hover .submenu {
+    display: block;
+    width: 120%;
+    padding: 0px;
+    padding-top: 18px;
+    border-bottom: 1px solid #ec8b9a;
+  }
+
+    .arrow {
+        cursor: pointer;
+        font-size: 25px;
+        color: ;
+      }
 /* MOBILE */
 @media screen and (max-width: 768px){
   /* Show Hamburger */
@@ -680,4 +700,22 @@ border-bottom: 2px solid transparent;
    .footer .copyright {
     padding: 20px;
    }
+  .menu-item:hover .submenu {
+        display: none;
+      }
+      .menu-item.open .submenu {
+        display: block;
+        width: 100%;
+      }
+
+    .arrow {
+        cursor: pointer;
+        font-size: 25px;
+        display: inline-block;
+        position: absolute;
+        top: 0px;
+        margin-left: 7px;
+        color: white;
+        font-weight: bold;
+      }
 }

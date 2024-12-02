@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+-
+- Kreacommerce &raquo; Export predaja
+- Doplnok k modulu Kreacommerce
+-
+- Kreacommerce XML Export
+- Version 2.0
+- http://www.mega.sk
+- Created: 02.Dec, 2024 - 09:30
+-->
+
+<products>
+<product>
+	<order_number>20203465</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia ŠKORPIÓN (narodení 24. 10. – 22. 11.)]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203464</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Živel Zem - tigrie oko set]]></product_name>
+	<amount>1</amount>
+	<price>39.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203464</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Očistné drevo Palo Santo]]></product_name>
+	<amount>1</amount>
+	<price>12.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+</products>

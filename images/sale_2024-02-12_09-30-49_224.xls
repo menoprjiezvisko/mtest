@@ -1,0 +1,3966 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+-
+- Kreacommerce &raquo; Export predaja
+- Doplnok k modulu Kreacommerce
+-
+- Kreacommerce XML Export
+- Version 2.0
+- http://www.mega.sk
+- Created: 02.Dec, 2024 - 09:30
+-->
+
+<products>
+<product>
+	<order_number>20203465</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia ŠKORPIÓN (narodení 24. 10. – 22. 11.)]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203464</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Živel Zem - tigrie oko set]]></product_name>
+	<amount>1</amount>
+	<price>39.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203464</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Očistné drevo Palo Santo]]></product_name>
+	<amount>1</amount>
+	<price>12.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203463</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sójová sviečka DOMOV s minerálom ametyst]]></product_name>
+	<amount>2</amount>
+	<price>31.8</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203462</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Krištáľová vločka]]></product_name>
+	<amount>4</amount>
+	<price>36</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203461</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Trojnásobná ochrana (Krištáľ)]]></product_name>
+	<amount>2</amount>
+	<price>26.4</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>25</order_discount>
+</product>
+<product>
+	<order_number>20203461</order_number>
+	<sku><![CDATA[978-80-8254-096-6]]></sku>
+	<product_name><![CDATA[Zelená kuchárka]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203460</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>1</amount>
+	<price>10.95</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203459</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>1</amount>
+	<price>10.95</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203459</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Očistná biela šalvia]]></product_name>
+	<amount>1</amount>
+	<price>7.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203459</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia BARAN]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203459</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia BÝK]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203459</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia RYBY]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203458</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>1</amount>
+	<price>10.95</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203457</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia BARAN]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>25</order_discount>
+</product>
+<product>
+	<order_number>20203457</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Pánska záležitosť]]></product_name>
+	<amount>1</amount>
+	<price>12</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203457</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Pánsky náramok Ochrana a sila]]></product_name>
+	<amount>1</amount>
+	<price>13.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203456</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok 7. korunnej čakry – AMETYST, KRIŠTÁĽ]]></product_name>
+	<amount>1</amount>
+	<price>18.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203456</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Slnko v duši (ruženín, krištáľ, aqua aura)]]></product_name>
+	<amount>1</amount>
+	<price>23.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203456</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Kúpeľová soľ z Mŕtveho mora s olejom z nechtíka]]></product_name>
+	<amount>1</amount>
+	<price>9.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203455</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Anjelská ochrana]]></product_name>
+	<amount>1</amount>
+	<price>17</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203455</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Pánsky náramok Ochrana a sila]]></product_name>
+	<amount>1</amount>
+	<price>13.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203454</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Krištáľová vločka]]></product_name>
+	<amount>3</amount>
+	<price>27</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203454</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Anjelská ochrana]]></product_name>
+	<amount>2</amount>
+	<price>34</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203453</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Nekonečno v pozlátenom striebre]]></product_name>
+	<amount>1</amount>
+	<price>14.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203452</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>1</amount>
+	<price>10.95</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203451</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Očistná biela šalvia]]></product_name>
+	<amount>2</amount>
+	<price>15.8</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203451</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>1</amount>
+	<price>10.95</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203450</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Relaxačné maľovanky - 3 kusy v balení]]></product_name>
+	<amount>1</amount>
+	<price>6.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203450</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>1</amount>
+	<price>10.95</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203450</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Slnko v duši]]></product_name>
+	<amount>1</amount>
+	<price>23.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203450</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Šťastie a nádej Ruženín]]></product_name>
+	<amount>1</amount>
+	<price>21.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203450</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Pánsky náramok Sila ducha]]></product_name>
+	<amount>1</amount>
+	<price>18.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203450</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Rovnováha tela aj duše - prívesok Budha]]></product_name>
+	<amount>1</amount>
+	<price>16</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203449</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Bylinkový balzam na dušu]]></product_name>
+	<amount>1</amount>
+	<price>12.8</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203448</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>1</amount>
+	<price>10.95</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203447</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>2</amount>
+	<price>21.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203447</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Živel Voda - akvamarín set]]></product_name>
+	<amount>1</amount>
+	<price>39.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203447</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Kúpeľová soľ z Mŕtveho mora s olejom z nechtíka]]></product_name>
+	<amount>1</amount>
+	<price>9.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203446</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Živel Vzduch - krištáľ set]]></product_name>
+	<amount>1</amount>
+	<price>39.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203445</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Živel Vzduch - krištáľ set]]></product_name>
+	<amount>1</amount>
+	<price>39.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203444</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>5</amount>
+	<price>54.75</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203443</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Živel Voda - akvamarín náramok]]></product_name>
+	<amount>1</amount>
+	<price>19.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203443</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>1</amount>
+	<price>10.95</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203443</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Srdiečko FANTÁZIA zelený opál]]></product_name>
+	<amount>2</amount>
+	<price>19</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203442</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>1</amount>
+	<price>10.95</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203442</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sójová sviečka Miluj srdcom]]></product_name>
+	<amount>1</amount>
+	<price>15.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203441</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Energia a radosť]]></product_name>
+	<amount>1</amount>
+	<price>27</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203441</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Trojnásobná ochrana]]></product_name>
+	<amount>1</amount>
+	<price>13.2</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203441</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok 3. čakry solar plexus – CITRÍN, KRIŠTÁĽ]]></product_name>
+	<amount>1</amount>
+	<price>18.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203440</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia VÁHY]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203440</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia RYBY]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203439</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia VÁHY]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203439</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia RYBY]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203438</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>1</amount>
+	<price>10.95</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203438</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 6/2024]]></product_name>
+	<amount>1</amount>
+	<price>2.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203438</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 7/2024]]></product_name>
+	<amount>1</amount>
+	<price>2.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203437</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>1</amount>
+	<price>10.95</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203437</order_number>
+	<sku><![CDATA[978-80-89950-53-9]]></sku>
+	<product_name><![CDATA[Žite svoje sny]]></product_name>
+	<amount>1</amount>
+	<price>6.3</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203437</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sójová sviečka BALANS s minerálmi ametyst a ruženín]]></product_name>
+	<amount>1</amount>
+	<price>18.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203437</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[CEYLON ELEPHANT Prechádzka lesom – prírodná aromatická sviečka]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203436</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia BÝK]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203435</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[SLNEČNÝ OLEJ]]></product_name>
+	<amount>1</amount>
+	<price>7.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203434</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sójová sviečka Zhlboka dýchaj]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203433</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok pre milovníčku mačiek]]></product_name>
+	<amount>1</amount>
+	<price>14</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203432</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>1</amount>
+	<price>10.95</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203431</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>2</amount>
+	<price>21.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203431</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[PARTNERSKÉ NÁRAMKY pre porozumenie vo vzťahu]]></product_name>
+	<amount>1</amount>
+	<price>19.2</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203431</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Tinktúra z brezovej huby čaga]]></product_name>
+	<amount>1</amount>
+	<price>8.84</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203430</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia ŠKORPIÓN]]></product_name>
+	<amount>2</amount>
+	<price>36</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203430</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok pre milovníčku psov]]></product_name>
+	<amount>1</amount>
+	<price>14</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203430</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Šťastie a láska]]></product_name>
+	<amount>1</amount>
+	<price>20.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203430</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia BÝK]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203429</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Slnko v duši]]></product_name>
+	<amount>1</amount>
+	<price>23.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203429</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Recepty pre celiatikov]]></product_name>
+	<amount>1</amount>
+	<price>12.8</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203429</order_number>
+	<sku><![CDATA[978-80-8254-096-6]]></sku>
+	<product_name><![CDATA[Zelená kuchárka]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203428</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Relaxačné maľovanky - 3 kusy v balení]]></product_name>
+	<amount>1</amount>
+	<price>6.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203427</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia STRELEC]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203427</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia PANNA]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203426</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>2</amount>
+	<price>21.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203426</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Očistná biela šalvia]]></product_name>
+	<amount>1</amount>
+	<price>7.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203425</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia KOZOROŽEC]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203424</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Očistná biela šalvia]]></product_name>
+	<amount>3</amount>
+	<price>23.7</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203424</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>1</amount>
+	<price>10.95</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203424</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Očistné drevo Palo Santo]]></product_name>
+	<amount>1</amount>
+	<price>12.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203424</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Yerba santa - zväzok na vydymovanie]]></product_name>
+	<amount>1</amount>
+	<price>7.8</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203423</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 7/2024]]></product_name>
+	<amount>1</amount>
+	<price>2.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203423</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Tyrkys peru, citrín a kalcit: VYROVNANOSŤ A OCHRANA]]></product_name>
+	<amount>1</amount>
+	<price>22.4</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203423</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Krištáľová geoda]]></product_name>
+	<amount>1</amount>
+	<price>45</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203423</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Ochranný ametyst_c3]]></product_name>
+	<amount>1</amount>
+	<price>34.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203422</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>6</amount>
+	<price>65.7</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>13.14</order_discount>
+</product>
+<product>
+	<order_number>20203421</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>2</amount>
+	<price>21.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203420</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>1</amount>
+	<price>10.95</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203420</order_number>
+	<sku><![CDATA[978-80-89950-53-9]]></sku>
+	<product_name><![CDATA[Žite svoje sny]]></product_name>
+	<amount>1</amount>
+	<price>6.3</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203420</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia RAK]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203420</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sójová sviečka Miluj srdcom]]></product_name>
+	<amount>1</amount>
+	<price>15.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203419</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>1</amount>
+	<price>10.95</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203419</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 9/2022]]></product_name>
+	<amount>1</amount>
+	<price>2.3</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203418</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>2</amount>
+	<price>21.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203417</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sójová sviečka ŠŤASTIE s minerálom ruženín]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203416</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Slnko v duši]]></product_name>
+	<amount>1</amount>
+	<price>23.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203415</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>1</amount>
+	<price>10.95</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203415</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Očistná biela šalvia]]></product_name>
+	<amount>1</amount>
+	<price>7.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203414</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Očistná biela šalvia]]></product_name>
+	<amount>3</amount>
+	<price>23.7</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203414</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Očistné drevo Palo Santo]]></product_name>
+	<amount>1</amount>
+	<price>12.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203414</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Chudnutie a chuť do života]]></product_name>
+	<amount>1</amount>
+	<price>13.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203413</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Očistná biela šalvia]]></product_name>
+	<amount>3</amount>
+	<price>23.7</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203413</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Chudnutie a chuť do života]]></product_name>
+	<amount>1</amount>
+	<price>13.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203413</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Očistné drevo Palo Santo]]></product_name>
+	<amount>1</amount>
+	<price>12.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203412</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Ružová láska strieborná]]></product_name>
+	<amount>1</amount>
+	<price>12.8</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203412</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sebaprijatie a vyrovnanosť]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203412</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Srdiečko FANTÁZIA zelený opál]]></product_name>
+	<amount>1</amount>
+	<price>9.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203412</order_number>
+	<sku><![CDATA[978-80-8254-096-6]]></sku>
+	<product_name><![CDATA[Zelená kuchárka]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203411</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>1</amount>
+	<price>10.95</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203411</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia VÁHY]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203410</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[SLNEČNÝ OLEJ]]></product_name>
+	<amount>4</amount>
+	<price>30</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203410</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náhrdelník BALANS]]></product_name>
+	<amount>1</amount>
+	<price>25.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203409</order_number>
+	<sku><![CDATA[978-80-8254-096-6]]></sku>
+	<product_name><![CDATA[Zelená kuchárka]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203409</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>1</amount>
+	<price>10.95</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203408</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balik Recepty pre celiatikov]]></product_name>
+	<amount>1</amount>
+	<price>21.45</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203408</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 6/2024]]></product_name>
+	<amount>1</amount>
+	<price>2.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203407</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia PANNA]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203406</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>1</amount>
+	<price>10.95</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203405</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>2</amount>
+	<price>21.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203404</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Dámsky náramok Štíhlosť a bohatstvo – avanturín, krištáľ]]></product_name>
+	<amount>1</amount>
+	<price>19.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203404</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[MANDALA RADOSŤ visiace náušnice]]></product_name>
+	<amount>1</amount>
+	<price>16</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203404</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sebaprijatie a vyrovnanosť]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203403</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Cisársky jaspis: ZMIERNENIE STRESU A NAPÄTIA]]></product_name>
+	<amount>1</amount>
+	<price>22.4</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203402</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Dámsky náramok Štíhlosť a bohatstvo – avanturín, krištáľ]]></product_name>
+	<amount>1</amount>
+	<price>19.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203401</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Prírodná sviečka CITRONELA]]></product_name>
+	<amount>3</amount>
+	<price>41.7</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203401</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Očistná biela šalvia]]></product_name>
+	<amount>1</amount>
+	<price>7.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203400</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>1</amount>
+	<price>10.95</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203399</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia BÝK]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203399</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia LEV]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203399</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Krištáľová vločka]]></product_name>
+	<amount>1</amount>
+	<price>9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203398</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sójová sviečka BALANS s minerálmi ametyst a ruženín]]></product_name>
+	<amount>1</amount>
+	<price>18.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203397</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Chudnutie a chuť do života]]></product_name>
+	<amount>1</amount>
+	<price>13.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203397</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok 1.koreňovej čakry - JASPIS červenohnedý, KRIŠTÁĽ]]></product_name>
+	<amount>1</amount>
+	<price>18.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203396</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sójová sviečka ŠŤASTIE s minerálom ruženín]]></product_name>
+	<amount>2</amount>
+	<price>31.8</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203395</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Štíhlosť a ochrana]]></product_name>
+	<amount>1</amount>
+	<price>12.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203394</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>1</amount>
+	<price>10.95</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203394</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Ružová láska strieborná]]></product_name>
+	<amount>1</amount>
+	<price>12.8</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203393</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>1</amount>
+	<price>10.95</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203392</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[HOJIVÝ KONOPNÝ OLEJ]]></product_name>
+	<amount>1</amount>
+	<price>6.2</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203392</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[SLNEČNÝ OLEJ]]></product_name>
+	<amount>1</amount>
+	<price>7.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203391</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>1</amount>
+	<price>10.95</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203390</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>1</amount>
+	<price>10.95</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203389</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia VODNÁR]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203388</order_number>
+	<sku><![CDATA[978-80-89950-53-9]]></sku>
+	<product_name><![CDATA[Žite svoje sny]]></product_name>
+	<amount>2</amount>
+	<price>12.6</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203388</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>4</amount>
+	<price>43.8</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203387</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Tinktúra z brezovej huby čaga]]></product_name>
+	<amount>2</amount>
+	<price>17.68</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203387</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia PANNA]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203387</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Nekonečno v pozlátenom striebre]]></product_name>
+	<amount>1</amount>
+	<price>14.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203386</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Dámsky náramok Štíhlosť a bohatstvo – avanturín, krištáľ]]></product_name>
+	<amount>1</amount>
+	<price>19.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203386</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Chudnutie a chuť do života]]></product_name>
+	<amount>1</amount>
+	<price>13.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203386</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia BARAN]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203385</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Dámsky náramok Štíhlosť a bohatstvo – avanturín, krištáľ]]></product_name>
+	<amount>1</amount>
+	<price>19.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203385</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok 6. čakry tretie oko – SODALIT, KRIŠTÁĽ]]></product_name>
+	<amount>1</amount>
+	<price>18.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203385</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Ružová láska strieborná]]></product_name>
+	<amount>1</amount>
+	<price>12.8</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203384</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Šťastie a láska]]></product_name>
+	<amount>2</amount>
+	<price>41.8</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203384</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sebadôvera a komunikácia]]></product_name>
+	<amount>2</amount>
+	<price>41.8</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203383</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok 5. krčnej čakry – AKVAMARÍN, KRIŠTÁĽ]]></product_name>
+	<amount>1</amount>
+	<price>18.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203383</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Mesačný kameň a achát: PODPORA ŽENSTVA]]></product_name>
+	<amount>1</amount>
+	<price>22.4</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203383</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Slnko v duši]]></product_name>
+	<amount>1</amount>
+	<price>23.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203382</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>1</amount>
+	<price>10.95</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203381</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>1</amount>
+	<price>10.95</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203379</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>1</amount>
+	<price>10.95</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203378</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Dámska korková peňaženka so zlatými odleskami]]></product_name>
+	<amount>1</amount>
+	<price>25.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203373</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>1</amount>
+	<price>10.95</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203369</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Dámsky náramok Štíhlosť a bohatstvo – avanturín, krištáľ]]></product_name>
+	<amount>2</amount>
+	<price>39.8</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203369</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Očistná biela šalvia]]></product_name>
+	<amount>1</amount>
+	<price>7.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203369</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[SANTALOVÉ DREVO červené]]></product_name>
+	<amount>1</amount>
+	<price>7.4</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203368</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Dámsky náramok Štíhlosť a bohatstvo – avanturín, krištáľ]]></product_name>
+	<amount>2</amount>
+	<price>39.8</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203368</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Očistná biela šalvia]]></product_name>
+	<amount>1</amount>
+	<price>7.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203368</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[SANTALOVÉ DREVO červené]]></product_name>
+	<amount>1</amount>
+	<price>7.4</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203367</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>1</amount>
+	<price>10.95</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203366</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>4</amount>
+	<price>43.8</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203366</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia PANNA]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203365</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>1</amount>
+	<price>10.95</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203365</order_number>
+	<sku><![CDATA[978-80-89950-53-9]]></sku>
+	<product_name><![CDATA[Žite svoje sny]]></product_name>
+	<amount>1</amount>
+	<price>6.3</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203364</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok 4. srdcovej čakry – AVANTURÍN, KRIŠTÁĽ]]></product_name>
+	<amount>1</amount>
+	<price>18.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203364</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Slnko v duši]]></product_name>
+	<amount>1</amount>
+	<price>23.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203363</order_number>
+	<sku><![CDATA[978 80 8254 105 5]]></sku>
+	<product_name><![CDATA[Balans diár na šťastný rok 2025]]></product_name>
+	<amount>1</amount>
+	<price>10.95</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203362</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia BARAN]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203361</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia VÁHY]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203361</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sójová sviečka BALANS s minerálmi ametyst a ruženín]]></product_name>
+	<amount>1</amount>
+	<price>18.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203360</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 7/2024]]></product_name>
+	<amount>3</amount>
+	<price>7.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203359</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Slnko v duši]]></product_name>
+	<amount>1</amount>
+	<price>23.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203358</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Slnko v duši]]></product_name>
+	<amount>1</amount>
+	<price>23.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203357</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 6/2024]]></product_name>
+	<amount>1</amount>
+	<price>2.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203357</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 7/2024]]></product_name>
+	<amount>1</amount>
+	<price>2.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203356</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok 7. korunnej čakry – AMETYST, KRIŠTÁĽ]]></product_name>
+	<amount>1</amount>
+	<price>18.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203356</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Yerba santa - zväzok na vydymovanie]]></product_name>
+	<amount>1</amount>
+	<price>7.8</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203356</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Očistné drevo Palo Santo]]></product_name>
+	<amount>1</amount>
+	<price>12.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203352</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 6/2024]]></product_name>
+	<amount>1</amount>
+	<price>2.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203352</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 7/2024]]></product_name>
+	<amount>1</amount>
+	<price>2.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203352</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 11/2023]]></product_name>
+	<amount>1</amount>
+	<price>2.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203352</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 12/2023]]></product_name>
+	<amount>1</amount>
+	<price>2.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203351</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Ružová láska strieborná]]></product_name>
+	<amount>2</amount>
+	<price>25.6</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203350</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č.3/2021]]></product_name>
+	<amount>3</amount>
+	<price>6.3</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203350</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Všeliek – organický Niaouli]]></product_name>
+	<amount>1</amount>
+	<price>7.15</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203349</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Anjel strážny strieborný]]></product_name>
+	<amount>2</amount>
+	<price>35</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203349</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Ochrana a liečenie]]></product_name>
+	<amount>1</amount>
+	<price>12.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203346</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok pre milovníčku psov]]></product_name>
+	<amount>1</amount>
+	<price>14</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203345</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 7/2024]]></product_name>
+	<amount>1</amount>
+	<price>2.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203345</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 6/2024]]></product_name>
+	<amount>1</amount>
+	<price>2.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203344</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Chudnutie a chuť do života]]></product_name>
+	<amount>1</amount>
+	<price>13.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203344</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok pre milovníčku mačiek]]></product_name>
+	<amount>1</amount>
+	<price>14</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203343</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Očistné drevo Palo Santo]]></product_name>
+	<amount>1</amount>
+	<price>12.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203343</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Očistná biela šalvia]]></product_name>
+	<amount>1</amount>
+	<price>7.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203343</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[SANTALOVÉ DREVO červené]]></product_name>
+	<amount>1</amount>
+	<price>7.4</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203342</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia BARAN (narodení 21. 3. – 20. 4.)]]></product_name>
+	<amount>3</amount>
+	<price>54</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203341</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Slnko v duši (ruženín, krištáľ, aqua aura)]]></product_name>
+	<amount>1</amount>
+	<price>23.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203340</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia STRELEC]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203339</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Slnko v duši]]></product_name>
+	<amount>3</amount>
+	<price>71.7</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203338</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Červená šnúrka s čírym krištáľom veľký korálik]]></product_name>
+	<amount>1</amount>
+	<price>8.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203338</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Očistná biela šalvia]]></product_name>
+	<amount>1</amount>
+	<price>7.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203337</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Krištáľová geoda]]></product_name>
+	<amount>1</amount>
+	<price>45</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203336</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Očistná biela šalvia]]></product_name>
+	<amount>1</amount>
+	<price>7.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0.85</order_discount>
+</product>
+<product>
+	<order_number>20203336</order_number>
+	<sku><![CDATA[978-80-8254-096-6]]></sku>
+	<product_name><![CDATA[Zelená kuchárka]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203336</order_number>
+	<sku><![CDATA[978-80-89950-62-1]]></sku>
+	<product_name><![CDATA[Šťastné vzťahy]]></product_name>
+	<amount>1</amount>
+	<price>7.7</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203336</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 6/2024]]></product_name>
+	<amount>1</amount>
+	<price>2.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203336</order_number>
+	<sku><![CDATA[978-80-89950-53-9]]></sku>
+	<product_name><![CDATA[Žite svoje sny]]></product_name>
+	<amount>1</amount>
+	<price>6.3</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203336</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Chudnutie a chuť do života]]></product_name>
+	<amount>1</amount>
+	<price>13.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203336</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Očistné drevo Palo Santo]]></product_name>
+	<amount>1</amount>
+	<price>12.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203335</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Láska a nádej]]></product_name>
+	<amount>1</amount>
+	<price>16.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203334</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 6/2024]]></product_name>
+	<amount>1</amount>
+	<price>2.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203334</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Očistná biela šalvia]]></product_name>
+	<amount>1</amount>
+	<price>7.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203334</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[BYLINNÝ REPELENT]]></product_name>
+	<amount>1</amount>
+	<price>9.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203333</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia BLÍŽENCI]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203333</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sebaláska a ochrana]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203333</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[MANDALA BALANS napichovacie náušnice]]></product_name>
+	<amount>1</amount>
+	<price>14</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203333</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Chudnutie a chuť do života]]></product_name>
+	<amount>1</amount>
+	<price>13.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203332</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok 7. korunnej čakry – AMETYST, KRIŠTÁĽ]]></product_name>
+	<amount>1</amount>
+	<price>18.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203332</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Trojnásobná ochrana]]></product_name>
+	<amount>1</amount>
+	<price>13.2</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203332</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[SANTALOVÉ DREVO červené]]></product_name>
+	<amount>1</amount>
+	<price>7.4</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203331</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náhrdelník Láska mora Perleť]]></product_name>
+	<amount>1</amount>
+	<price>23.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203330</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sebadôvera a komunikácia]]></product_name>
+	<amount>2</amount>
+	<price>41.8</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203330</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia BÝK]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203329</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 6/2024]]></product_name>
+	<amount>1</amount>
+	<price>2.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203329</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 12/2023]]></product_name>
+	<amount>1</amount>
+	<price>2.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203329</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 11/2023]]></product_name>
+	<amount>1</amount>
+	<price>2.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203328</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia RAK]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203327</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia VODNÁR]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203327</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Dámsky náramok Štíhlosť a bohatstvo – avanturín, krištáľ]]></product_name>
+	<amount>1</amount>
+	<price>19.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203326</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia RAK]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203325</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia RAK]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203324</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[SLNEČNÝ OLEJ]]></product_name>
+	<amount>2</amount>
+	<price>17</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203324</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[BYLINNÝ REPELENT]]></product_name>
+	<amount>1</amount>
+	<price>9.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203323</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[BYLINNÝ REPELENT]]></product_name>
+	<amount>1</amount>
+	<price>9.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203322</order_number>
+	<sku><![CDATA[978-80-8254-096-6]]></sku>
+	<product_name><![CDATA[Zelená kuchárka]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203321</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Bylinkový balzam na dušu]]></product_name>
+	<amount>1</amount>
+	<price>12.8</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203320</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia BLÍŽENCI]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203319</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia RAK]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203318</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Rýchlozápalné uhlíky na vydymovanie]]></product_name>
+	<amount>2</amount>
+	<price>9.88</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203317</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[LÁSKA – balíček minerálov]]></product_name>
+	<amount>1</amount>
+	<price>16.8</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203317</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[OCHRANA A ZDRAVIE – balíček minerálov]]></product_name>
+	<amount>1</amount>
+	<price>21</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203317</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[HOME OFFICE – balíček minerálov]]></product_name>
+	<amount>2</amount>
+	<price>43.8</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203317</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[HOJNOSŤ – balíček minerálov]]></product_name>
+	<amount>1</amount>
+	<price>21.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203316</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sebaláska a ochrana]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203315</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[HOJNOSŤ – balíček minerálov]]></product_name>
+	<amount>1</amount>
+	<price>21.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203314</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[HOJNOSŤ – balíček minerálov (avanturín, malachit, smaragd, pyrit, krištáľ)]]></product_name>
+	<amount>1</amount>
+	<price>21.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203313</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Štíhlosť a ochrana]]></product_name>
+	<amount>1</amount>
+	<price>12.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203313</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Dámsky náramok Štíhlosť a bohatstvo – avanturín, krištáľ]]></product_name>
+	<amount>1</amount>
+	<price>19.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203312</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Štíhlosť a ochrana]]></product_name>
+	<amount>1</amount>
+	<price>12.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203312</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Anjelská ochrana]]></product_name>
+	<amount>1</amount>
+	<price>17</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203311</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Peace - upokojujúci balzam]]></product_name>
+	<amount>1</amount>
+	<price>13</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203311</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[OCHRANA A ZDRAVIE – balíček minerálov]]></product_name>
+	<amount>1</amount>
+	<price>21</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203311</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[CEYLON ELEPHANT Prechádzka lesom – prírodná aromatická sviečka]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203310</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[PARTNERSKÉ NÁRAMKY pre porozumenie vo vzťahu]]></product_name>
+	<amount>1</amount>
+	<price>19.2</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203309</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náhrdelník BALANS]]></product_name>
+	<amount>1</amount>
+	<price>25.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203308</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok 2. sakrálnej čakry –  KARNEOL, KRIŠTÁĽ]]></product_name>
+	<amount>1</amount>
+	<price>18.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203307</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Očistná biela šalvia]]></product_name>
+	<amount>1</amount>
+	<price>4.18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203306</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok 5. krčnej čakry – AKVAMARÍN, KRIŠTÁĽ]]></product_name>
+	<amount>1</amount>
+	<price>18.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203306</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok 4. srdcovej čakry – AVANTURÍN, KRIŠTÁĽ]]></product_name>
+	<amount>1</amount>
+	<price>18.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203306</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Ružová láska zlatá]]></product_name>
+	<amount>1</amount>
+	<price>11.18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203305</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[HOJNOSŤ – balíček minerálov]]></product_name>
+	<amount>1</amount>
+	<price>21.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203304</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 12/2022]]></product_name>
+	<amount>1</amount>
+	<price>2.4</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203304</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č.11/2021]]></product_name>
+	<amount>1</amount>
+	<price>2.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203304</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 8/2022]]></product_name>
+	<amount>1</amount>
+	<price>2.3</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203303</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sebaláska a ochrana]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203303</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Očistná biela šalvia]]></product_name>
+	<amount>1</amount>
+	<price>8.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203303</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Červená šnúrka s čírym krištáľom veľký korálik]]></product_name>
+	<amount>1</amount>
+	<price>8.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203302</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Trojnásobná ochrana]]></product_name>
+	<amount>1</amount>
+	<price>13.2</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203301</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia BÝK]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203300</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sebaláska a ochrana]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203299</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Štíhlosť a ochrana]]></product_name>
+	<amount>1</amount>
+	<price>12.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203298</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Štíhlosť a ochrana (Krištáľ, Magnezit)]]></product_name>
+	<amount>1</amount>
+	<price>12.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203297</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia KOZOROŽEC]]></product_name>
+	<amount>1</amount>
+	<price>14.8</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203296</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sebaláska a ochrana]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203295</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sójová sviečka ŠŤASTIE s minerálom ruženín]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203294</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Tinktúra badián pre lepšie trávenie a imunitu]]></product_name>
+	<amount>2</amount>
+	<price>15.98</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203293</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 11/2023]]></product_name>
+	<amount>1</amount>
+	<price>2.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203293</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č.4/2021]]></product_name>
+	<amount>1</amount>
+	<price>2.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203292</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Ochrana a liečenie]]></product_name>
+	<amount>1</amount>
+	<price>12.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203292</order_number>
+	<sku><![CDATA[978-80-89950-53-9]]></sku>
+	<product_name><![CDATA[Žite svoje sny]]></product_name>
+	<amount>1</amount>
+	<price>6.3</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203291</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia KOZOROŽEC]]></product_name>
+	<amount>1</amount>
+	<price>14.8</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0.85</order_discount>
+</product>
+<product>
+	<order_number>20203291</order_number>
+	<sku><![CDATA[978-80-89950-53-9]]></sku>
+	<product_name><![CDATA[Žite svoje sny]]></product_name>
+	<amount>1</amount>
+	<price>6.3</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203291</order_number>
+	<sku><![CDATA[978-80-89950-62-1]]></sku>
+	<product_name><![CDATA[Šťastné vzťahy]]></product_name>
+	<amount>1</amount>
+	<price>7.7</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203290</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia KOZOROŽEC]]></product_name>
+	<amount>1</amount>
+	<price>14.8</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203289</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia STRELEC]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203289</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[SANTALOVÉ DREVO červené]]></product_name>
+	<amount>1</amount>
+	<price>7.4</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203289</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Hojivá dračia krv]]></product_name>
+	<amount>2</amount>
+	<price>15.8</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203289</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Dámska korková peňaženka NATURE]]></product_name>
+	<amount>1</amount>
+	<price>26.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203289</order_number>
+	<sku><![CDATA[978-80-89950-62-1]]></sku>
+	<product_name><![CDATA[Šťastné vzťahy]]></product_name>
+	<amount>1</amount>
+	<price>7.7</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203289</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Dobrá nálada]]></product_name>
+	<amount>1</amount>
+	<price>19</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203288</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia BLÍŽENCI]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203288</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Pánska záležitosť]]></product_name>
+	<amount>1</amount>
+	<price>12</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203287</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[OČISTNÁ MODRÁ ŠALVIA s kopálovou živicou]]></product_name>
+	<amount>1</amount>
+	<price>9.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203286</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Ružová láska zlatá]]></product_name>
+	<amount>1</amount>
+	<price>11.18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203285</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Slnko v duši (ruženín, krištáľ, aqua aura)]]></product_name>
+	<amount>1</amount>
+	<price>23.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203284</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok pre milovníčku psov]]></product_name>
+	<amount>1</amount>
+	<price>14</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203284</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sebaláska a ochrana]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203283</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sójová sviečka ŠŤASTIE s minerálom ruženín]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203283</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[LÁSKA – balíček minerálov]]></product_name>
+	<amount>1</amount>
+	<price>16.8</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203282</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sójová sviečka DOMOV s minerálom ametyst]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203282</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sójová sviečka ŠŤASTIE s minerálom ruženín]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203282</order_number>
+	<sku><![CDATA[978-80-89950-53-9]]></sku>
+	<product_name><![CDATA[Žite svoje sny]]></product_name>
+	<amount>1</amount>
+	<price>6.3</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203282</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sviečka ENERGIA]]></product_name>
+	<amount>1</amount>
+	<price>18.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203281</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sviečka ENERGIA]]></product_name>
+	<amount>1</amount>
+	<price>18.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203281</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[BYLINNÝ REPELENT]]></product_name>
+	<amount>1</amount>
+	<price>8.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203280</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Štíhlosť a ochrana]]></product_name>
+	<amount>1</amount>
+	<price>12.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203279</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 11/2023]]></product_name>
+	<amount>1</amount>
+	<price>2.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203279</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 10/2023]]></product_name>
+	<amount>1</amount>
+	<price>2.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203279</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 9/2023]]></product_name>
+	<amount>1</amount>
+	<price>2.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203279</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 8/2023]]></product_name>
+	<amount>1</amount>
+	<price>2.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203279</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 7/2023]]></product_name>
+	<amount>1</amount>
+	<price>2.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203279</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 5/2023]]></product_name>
+	<amount>1</amount>
+	<price>2.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203279</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 4/2023]]></product_name>
+	<amount>1</amount>
+	<price>2.4</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203279</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č.4/2021]]></product_name>
+	<amount>1</amount>
+	<price>2.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203279</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 3/2023]]></product_name>
+	<amount>1</amount>
+	<price>2.4</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203279</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 2/2023]]></product_name>
+	<amount>1</amount>
+	<price>2.4</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203279</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 12/2022]]></product_name>
+	<amount>1</amount>
+	<price>2.4</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203279</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 10/2022]]></product_name>
+	<amount>1</amount>
+	<price>2.3</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203279</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 9/2022]]></product_name>
+	<amount>1</amount>
+	<price>2.3</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203279</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 8/2022]]></product_name>
+	<amount>1</amount>
+	<price>2.3</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203279</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 7/2022]]></product_name>
+	<amount>2</amount>
+	<price>4.6</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203279</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 6/2022]]></product_name>
+	<amount>1</amount>
+	<price>2.3</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203279</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 5/2022]]></product_name>
+	<amount>1</amount>
+	<price>2.3</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203279</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 4/2022]]></product_name>
+	<amount>1</amount>
+	<price>2.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203279</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 3/2022]]></product_name>
+	<amount>1</amount>
+	<price>2.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203279</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č.1/2022]]></product_name>
+	<amount>1</amount>
+	<price>2.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203279</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č.12/2021]]></product_name>
+	<amount>1</amount>
+	<price>2.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203279</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č.11/2021]]></product_name>
+	<amount>1</amount>
+	<price>2.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203279</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č.10/2021]]></product_name>
+	<amount>1</amount>
+	<price>2.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203279</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č.9/2021]]></product_name>
+	<amount>1</amount>
+	<price>2.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203279</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č.8/2021]]></product_name>
+	<amount>1</amount>
+	<price>2.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203279</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č.3/2021]]></product_name>
+	<amount>1</amount>
+	<price>2.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203278</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sójová sviečka Miluj srdcom]]></product_name>
+	<amount>1</amount>
+	<price>15.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203278</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sójová sviečka ŠŤASTIE s minerálom ruženín]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203277</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Ochrana a liečenie]]></product_name>
+	<amount>1</amount>
+	<price>12.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203277</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Slnko v duši]]></product_name>
+	<amount>1</amount>
+	<price>23.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203276</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sójová sviečka ŠŤASTIE s minerálom ruženín]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203276</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sójová sviečka Zhlboka dýchaj]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203276</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Bylinkový balzam na dušu]]></product_name>
+	<amount>1</amount>
+	<price>12.8</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203276</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Kúpeľová soľ z Mŕtveho mora s olejom z nechtíka]]></product_name>
+	<amount>1</amount>
+	<price>9.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203275</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Masážna tyčinka selenit]]></product_name>
+	<amount>1</amount>
+	<price>15</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203275</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Venušin krém s bulharskou ružou]]></product_name>
+	<amount>1</amount>
+	<price>9.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203275</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Bylinkový balzam na dušu]]></product_name>
+	<amount>1</amount>
+	<price>12.8</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203275</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[SANTALOVÉ DREVO červené]]></product_name>
+	<amount>1</amount>
+	<price>7.4</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203275</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Parfum IGNIS-Lev-Strelec-Baran]]></product_name>
+	<amount>1</amount>
+	<price>41.52</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203274</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[7 dní očisty, vydymovacie uhlíky]]></product_name>
+	<amount>1</amount>
+	<price>7.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203273</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Slnko v duši]]></product_name>
+	<amount>1</amount>
+	<price>23.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203272</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Očistná biela šalvia]]></product_name>
+	<amount>1</amount>
+	<price>8.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203271</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[LÁSKA – balíček minerálov]]></product_name>
+	<amount>1</amount>
+	<price>16.8</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203271</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[OCHRANA A ZDRAVIE – balíček minerálov]]></product_name>
+	<amount>1</amount>
+	<price>21</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203270</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia LEV]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203269</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Intuícia a ochrana]]></product_name>
+	<amount>1</amount>
+	<price>19</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203269</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Trojnásobná ochrana]]></product_name>
+	<amount>1</amount>
+	<price>13.2</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203269</order_number>
+	<sku><![CDATA[978-80-89950-53-9]]></sku>
+	<product_name><![CDATA[Žite svoje sny]]></product_name>
+	<amount>1</amount>
+	<price>6.3</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203268</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Kvet života šungit – čierny prívesok]]></product_name>
+	<amount>1</amount>
+	<price>17.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203267</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Relaxačné maľovanky - 3 kusy v balení]]></product_name>
+	<amount>1</amount>
+	<price>6.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203266</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Štíhlosť a ochrana]]></product_name>
+	<amount>1</amount>
+	<price>12.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203266</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Šťastie a nádej Ruženín]]></product_name>
+	<amount>1</amount>
+	<price>21.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203266</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Ochrana a liečenie]]></product_name>
+	<amount>1</amount>
+	<price>12.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203266</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok 3. čakry solar plexus – CITRÍN, KRIŠTÁĽ]]></product_name>
+	<amount>1</amount>
+	<price>18.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203265</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Očistná biela šalvia]]></product_name>
+	<amount>1</amount>
+	<price>8.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203265</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Slnko v duši]]></product_name>
+	<amount>1</amount>
+	<price>23.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203265</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Intuícia a ochrana]]></product_name>
+	<amount>1</amount>
+	<price>19</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203264</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia LEV]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203263</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Očistné drevo Palo Santo]]></product_name>
+	<amount>1</amount>
+	<price>12.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203263</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Všeliek – organický Niaouli]]></product_name>
+	<amount>1</amount>
+	<price>7.15</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203262</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia BÝK]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203262</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Ochrana a liečenie]]></product_name>
+	<amount>1</amount>
+	<price>12.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203262</order_number>
+	<sku><![CDATA[978-80-89950-62-1]]></sku>
+	<product_name><![CDATA[Šťastné vzťahy]]></product_name>
+	<amount>1</amount>
+	<price>7.7</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203261</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia LEV]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203260</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Očistná biela šalvia]]></product_name>
+	<amount>1</amount>
+	<price>8.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203259</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Ružová láska zlatá]]></product_name>
+	<amount>1</amount>
+	<price>11.18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203258</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Očistná biela šalvia]]></product_name>
+	<amount>6</amount>
+	<price>53.4</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203257</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok znamenia VODNÁR]]></product_name>
+	<amount>1</amount>
+	<price>18</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203256</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Očistná biela šalvia]]></product_name>
+	<amount>2</amount>
+	<price>17.8</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203255</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[7 dní očisty, vydymovacie uhlíky]]></product_name>
+	<amount>1</amount>
+	<price>7.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203254</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok 3. čakry solar plexus – CITRÍN, KRIŠTÁĽ]]></product_name>
+	<amount>1</amount>
+	<price>18.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203253</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náhrdelník INTUÍCIA labradorit]]></product_name>
+	<amount>1</amount>
+	<price>23.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203253</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Kvet života šungit – čierny prívesok]]></product_name>
+	<amount>1</amount>
+	<price>17.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203253</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Dámsky náramok Štíhlosť a bohatstvo – avanturín, krištáľ]]></product_name>
+	<amount>1</amount>
+	<price>19.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203252</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[7 dní očisty, vydymovacie uhlíky]]></product_name>
+	<amount>1</amount>
+	<price>7.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203252</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[SANTALOVÉ DREVO červené]]></product_name>
+	<amount>1</amount>
+	<price>7.4</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203251</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Očistná biela šalvia]]></product_name>
+	<amount>2</amount>
+	<price>17.8</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203250</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Energia a radosť (Aqua aura, Granát)]]></product_name>
+	<amount>1</amount>
+	<price>27</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203249</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sebaláska a ochrana]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203248</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Anjelská ochrana]]></product_name>
+	<amount>1</amount>
+	<price>17</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203248</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sebaláska a ochrana (krištáľ, achát, jaspis)]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203247</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Čakry harmonizujúce mydlo KADIDLO & GÁFROVÁ LIMETKA]]></product_name>
+	<amount>2</amount>
+	<price>24</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203246</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Chudnutie a chuť do života]]></product_name>
+	<amount>1</amount>
+	<price>12.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203246</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náhrdelník Láska mora Perleť]]></product_name>
+	<amount>1</amount>
+	<price>23.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203245</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 11/2023]]></product_name>
+	<amount>3</amount>
+	<price>7.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203244</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Ochrana a liečenie]]></product_name>
+	<amount>1</amount>
+	<price>12.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203243</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Dámsky náramok Štíhlosť a bohatstvo – avanturín, krištáľ]]></product_name>
+	<amount>1</amount>
+	<price>19.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203242</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Ochrana a liečenie]]></product_name>
+	<amount>1</amount>
+	<price>12.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203241</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 3/2023]]></product_name>
+	<amount>1</amount>
+	<price>2.4</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203241</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 2/2023]]></product_name>
+	<amount>1</amount>
+	<price>2.4</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203241</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 1/2023]]></product_name>
+	<amount>1</amount>
+	<price>2.4</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203241</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 9/2022]]></product_name>
+	<amount>1</amount>
+	<price>2.3</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203241</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 4/2022]]></product_name>
+	<amount>1</amount>
+	<price>2.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203241</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č.4/2021]]></product_name>
+	<amount>1</amount>
+	<price>2.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203240</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Harmonizujúci náramok BALANS (Ruženín, Krištáľ, Mesačný kameň)]]></product_name>
+	<amount>1</amount>
+	<price>20</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203239</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Dámsky náramok Štíhlosť a bohatstvo – avanturín, krištáľ]]></product_name>
+	<amount>1</amount>
+	<price>19.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203238</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Cisársky jaspis: ZMIERNENIE STRESU A NAPÄTIA]]></product_name>
+	<amount>1</amount>
+	<price>22.4</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203238</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Ochrana a liečenie]]></product_name>
+	<amount>1</amount>
+	<price>12.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203237</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 12/2023]]></product_name>
+	<amount>1</amount>
+	<price>2.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203237</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 11/2023]]></product_name>
+	<amount>1</amount>
+	<price>2.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203237</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 10/2023]]></product_name>
+	<amount>1</amount>
+	<price>2.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203237</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 4/2023]]></product_name>
+	<amount>1</amount>
+	<price>2.4</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203237</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 8/2023]]></product_name>
+	<amount>1</amount>
+	<price>2.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203237</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Balans č. 7/2023]]></product_name>
+	<amount>1</amount>
+	<price>2.5</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203236</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Trojnásobná ochrana]]></product_name>
+	<amount>1</amount>
+	<price>13.2</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203235</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Štíhlosť a ochrana]]></product_name>
+	<amount>1</amount>
+	<price>12.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203235</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sójová sviečka DOMOV s minerálom ametyst]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203234</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Sójová sviečka DOMOV s minerálom ametyst]]></product_name>
+	<amount>1</amount>
+	<price>15.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203234</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Štíhlosť a ochrana]]></product_name>
+	<amount>1</amount>
+	<price>12.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203233</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Anjelská ochrana]]></product_name>
+	<amount>1</amount>
+	<price>17</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203232</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Štíhlosť a ochrana]]></product_name>
+	<amount>1</amount>
+	<price>12.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203232</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Chudnutie a chuť do života]]></product_name>
+	<amount>1</amount>
+	<price>12.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203231</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[KEFÍROVÉ ZRNÁ na vodný kefír]]></product_name>
+	<amount>1</amount>
+	<price>16.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203230</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[OCHRANA A ZDRAVIE – balíček minerálov]]></product_name>
+	<amount>1</amount>
+	<price>21</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203230</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Náramok 4. srdcovej čakry – AVANTURÍN, KRIŠTÁĽ]]></product_name>
+	<amount>1</amount>
+	<price>18.9</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203229</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Štíhlosť a ochrana]]></product_name>
+	<amount>1</amount>
+	<price>12.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+<product>
+	<order_number>20203229</order_number>
+	<sku><![CDATA[]]></sku>
+	<product_name><![CDATA[Chudnutie a chuť do života]]></product_name>
+	<amount>1</amount>
+	<price>12.1</price>
+	<sales_representative><![CDATA[]]></sales_representative>
+	<order_discount>0</order_discount>
+</product>
+</products>
