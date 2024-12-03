@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/favicon.ico" />
-    <title>Inzercia</title>
+    <meta name="description" content="Mafraslovakia - hlavná stránka">
+    <title>MAFRA Slovakia - Inzercia</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css" />
     <script type="text/javascript" src="main.js"></script>
@@ -29,13 +30,13 @@
             width: 40%;
             height: auto;
         }
-                .section img {
-                
-                cursor: pointer;
+        .section img {
+
+            cursor: pointer;
         }
 
         .section img:hover {
-                filter: contrast(1);
+            filter: contrast(1);
         }
 
         .content {
@@ -72,7 +73,7 @@
             margin-top: 10px;
             font-size: 30px;
         }
-               .number-item div {
+        .number-item div {
             color: red;
         }
 
@@ -115,7 +116,7 @@
             text-decoration: none;
         }
         .category-buttons img {
-                cursor: pointer;
+            cursor: pointer;
         }
         .subcategories button {
             padding: 10px 20px;
@@ -146,256 +147,256 @@
         }
         .contact {
             display: none;
-                flex-wrap: wrap;
-    justify-content: flex-start;
+            flex-wrap: wrap;
+            justify-content: flex-start;
             animation: taadaa 1s;
         }
 /* MOBILE */
 @media screen and (max-width: 768px) {
-.section, .content, .numbers, .subcategories, .contacts  {
-    padding: 0 17px;
-}
-.section img{
-    width: 45%;
-}
-.content p {
-    text-align: left;
-}
+    .section, .content, .numbers, .subcategories, .contacts  {
+        padding: 0 17px;
+    }
+    .section img{
+        width: 45%;
+    }
+    .content p {
+        text-align: left;
+    }
 
-.contact{
+    .contact{
         flex-direction: column;
-    align-items: flex-start;
-}
+        align-items: flex-start;
+    }
 }
 
-    </style>
+</style>
 </head>
 <body>
     <div class="header">
       <div class="header-logo">
-      <a href="index.html"><img alt="MAFRA Slovakia Logo" src="images/mafra_logo.png" /></a>
+          <a href="index.html"><img alt="MAFRA Slovakia Logo" src="images/mafra_logo.png" /></a>
       </div>
       <div class="navbar" id="page-nav">
         <input type="checkbox" id="hamburger"/>
         <ul>
-        <li><a href="o-spolocnosti.html">O spoločnosti</a></li>
-        <li class="menu-item">
-  <a href="portfolio-titulov.html">Portfólio titulov</a>
-  <span class="arrow" >⌵</span>
-  <div class="submenu">
-    <a href="detail-produktu-digi.html">Online</a>
-    <a href="detail-produktu-print.html#/titul/1/hospodarske-noviny">Print</a>
-  </div>
-</li>
+            <li><a href="o-spolocnosti.html">O spoločnosti</a></li>
+            <li class="menu-item">
+              <a href="portfolio-titulov.html">Portfólio titulov</a>
+              <span class="arrow" >⌵</span>
+              <div class="submenu">
+                <a href="detail-produktu-digi.html#/titul/1/hnonline">Online</a>
+                <a href="detail-produktu-print.html#/titul/1/hospodarske-noviny">Print</a>
+            </div>
+        </li>
         <li><a href="inzercia.html">Inzercia</a></li>
         <li><a href="pracovne-ponuky.html">Pracovné ponuky</a></li>
         <li><a href="kontakt.html">Kontakty</a></li>
-        </ul>
-        <label for="hamburger" &#9776;></label>
-      </div>
+    </ul>
+    <label for="hamburger" &#9776;></label>
+</div>
+</div>
+<div class="budova" style="background-image:url(images/mafraslovakia_headers_inzercia.png)">
+    <video autoplay loop muted>
+      <source src="example_video.mp4" type="video/mp4" />
+  </video>
+  <div class="budova-text">
+      <h1><span>Inzercia</span>
+      </h1>
+
+  </div>
+</div>
+<div class="container">
+    <div class="section category-buttons" >
+        <img id="btnPrint" class="btn active"  onclick="filterCategory('print')" src="images/print_blue.png" data-active-src="images/print_red.png" alt="PRINT">
+        <img id="btnDigital" class="btn"  onclick="filterCategory('digital')"src="images/online_blue.png" data-active-src="images/online_red.png" alt="ONLINE">
     </div>
-        <div class="budova" style="background-image:url(images/mafraslovakia_headers_inzercia.png)">
-        <video autoplay loop muted>
-          <source src="example_video.mp4" type="video/mp4" />
-        </video>
-        <div class="budova-text">
-          <h1><span>Inzercia</span>
-          </h1>
-          
+    <div class="content">
+        <p>
+            • Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+            totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
+            sunt explicabo.
+        </p>
+        <p>
+            • Nemo enim ipsam voluptatem quia voluptas sit <strong>aspernatur</strong> aut odit aut fugit, sed
+            quia
+            consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+        </p>
+    </ul>
+</div>
+<div class="numbers">
+    <div class="number-item">
+        <div>123454</div>
+        <p>Lorem Ipsum</p>
+    </div>
+    <div class="number-item">
+        <div>123454</div>
+        <p>Lorem Ipsum</p>
+    </div>
+    <div class="number-item">
+        <div>123454</div>
+        <p>Lorem Ipsum</p>
+    </div>
+    <div class="number-item">
+        <div>123454</div>
+        <p>Lorem Ipsum</p>
+    </div>
+    <div class="number-item">
+        <div>123454</div>
+        <p>Lorem Ipsum</p>
+    </div>
+    <div class="number-item">
+        <div>123454</div>
+        <p>Lorem Ipsum</p>
+    </div>
+</div>
+
+<div>
+    <div class="subcategories" >
+        <div class="tabs" id="printSubcategories">
+            <ul>
+                <button class="blue" id="btnPrintAll" class="active" onclick="filterContacts('print', 'all')">Všetky</button>
+                <button class="blue" onclick="filterContacts('print', 'Denník')">Denník</button>
+                <button class="blue" onclick="filterContacts('print', 'Odborné')">Odborné</button>
+                <button class="blue" onclick="filterContacts('print', 'Ženské')">Ženské</button>
+            </ul>
+
         </div>
-      </div>
-    <div class="container">
-        <div class="section category-buttons" >
-            <img id="btnPrint" class="btn active"  onclick="filterCategory('print')" src="images/print_blue.png" data-active-src="images/print_red.png" alt="PRINT">
-            <img id="btnDigital" class="btn"  onclick="filterCategory('digital')"src="images/online_blue.png" data-active-src="images/online_red.png" alt="ONLINE">
-        </div>
-        <div class="content">
-                    <p>
-                    • Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
-                    sunt explicabo.
-                </p>
-                <p>
-                    • Nemo enim ipsam voluptatem quia voluptas sit <strong>aspernatur</strong> aut odit aut fugit, sed
-                    quia
-                    consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-                </p>
+
+        <div class="tabs" id="digitalSubcategories" style="display: none;">
+            <ul>
+                <button class="blue" id="btnDigitalAll" class="active" onclick="filterContacts('digital', 'all')">Všetky</button>
+                <button class="blue" onclick="filterContacts('digital', 'HNonline')">HNonline</button>
+                <button class="blue" onclick="filterContacts('digital', 'Svetevity')">Svetevity</button>
+                <button class="blue" onclick="filterContacts('digital', 'Brainee')">Brainee</button>
             </ul>
         </div>
-        <div class="numbers">
-            <div class="number-item">
-                <div>123454</div>
-                <p>Lorem Ipsum</p>
-            </div>
-            <div class="number-item">
-                <div>123454</div>
-                <p>Lorem Ipsum</p>
-            </div>
-            <div class="number-item">
-                <div>123454</div>
-                <p>Lorem Ipsum</p>
-            </div>
-            <div class="number-item">
-                <div>123454</div>
-                <p>Lorem Ipsum</p>
-            </div>
-            <div class="number-item">
-                <div>123454</div>
-                <p>Lorem Ipsum</p>
-            </div>
-            <div class="number-item">
-                <div>123454</div>
-                <p>Lorem Ipsum</p>
-            </div>
+    </div>
+</div>
+
+<div class="contacts ">
+    <div class="contact print" id="contactsPrint" style="display: block;">
+        <div class="contact-item">
+            <p class="contact-ochodnik">Denník</p>
+            <p class="contact-meno">Meno 1</p>
+            <p>tel.: +421 (2) 00 000 000</p>
+            <a href="mailto:meno1@mafraslovakia.sk">meno1@mafraslovakia.sk</a>
+            <span class="filtrovacka">Denník</span>
         </div>
 
-        <div>
-        <div class="subcategories" >
-            <div class="tabs" id="printSubcategories">
-                <ul>
-                    <button class="blue" id="btnPrintAll" class="active" onclick="filterContacts('print', 'all')">Všetky</button>
-                    <button class="blue" onclick="filterContacts('print', 'Denník')">Denník</button>
-                    <button class="blue" onclick="filterContacts('print', 'Odborné')">Odborné</button>
-                    <button class="blue" onclick="filterContacts('print', 'Ženské')">Ženské</button>
-                </ul>
-                
-            </div>
-
-            <div class="tabs" id="digitalSubcategories" style="display: none;">
-                <ul>
-                    <button class="blue" id="btnDigitalAll" class="active" onclick="filterContacts('digital', 'all')">Všetky</button>
-                    <button class="blue" onclick="filterContacts('digital', 'HNonline')">HNonline</button>
-                    <button class="blue" onclick="filterContacts('digital', 'Svetevity')">Svetevity</button>
-                    <button class="blue" onclick="filterContacts('digital', 'Brainee')">Brainee</button>
-                </ul>
-            </div>
-        </div>
+        <div class="contact-item">
+            <p class="contact-ochodnik">Denník</p>
+            <p class="contact-meno">Meno 1</p>
+            <p>tel.: +421 (2) 00 000 000</p>
+            <a href="mailto:meno1@mafraslovakia.sk">meno1@mafraslovakia.sk</a>
+            <span class="filtrovacka">Denník</span>
         </div>
 
-        <div class="contacts ">
-            <div class="contact print" id="contactsPrint" style="display: block;">
-                <div class="contact-item">
-                <p class="contact-ochodnik">Denník</p>
-                <p class="contact-meno">Meno 1</p>
-                <p>tel.: +421 (2) 00 000 000</p>
-                <a href="mailto:meno1@mafraslovakia.sk">meno1@mafraslovakia.sk</a>
-                <span class="filtrovacka">Denník</span>
-                </div>
+        <div class="contact-item">
+            <p class="contact-ochodnik">Odborné</p>
+            <p class="contact-meno">Meno 1</p>
+            <p>tel.: +421 (2) 00 000 000</p>
+            <a href="mailto:meno1@mafraslovakia.sk">meno1@mafraslovakia.sk</a>
+            <span class="filtrovacka">Odborné</span>
+        </div>
 
-                <div class="contact-item">
-                <p class="contact-ochodnik">Denník</p>
-                <p class="contact-meno">Meno 1</p>
-                <p>tel.: +421 (2) 00 000 000</p>
-                <a href="mailto:meno1@mafraslovakia.sk">meno1@mafraslovakia.sk</a>
-                <span class="filtrovacka">Denník</span>
-                </div>
+        <div class="contact-item">
+            <p class="contact-ochodnik">Odborné</p>
+            <p class="contact-meno">Meno 1</p>
+            <p>tel.: +421 (2) 00 000 000</p>
+            <a href="mailto:meno1@mafraslovakia.sk">meno1@mafraslovakia.sk</a>
+            <span class="filtrovacka">Odborné</span>
+        </div>
 
-                <div class="contact-item">
-                <p class="contact-ochodnik">Odborné</p>
-                <p class="contact-meno">Meno 1</p>
-                <p>tel.: +421 (2) 00 000 000</p>
-                <a href="mailto:meno1@mafraslovakia.sk">meno1@mafraslovakia.sk</a>
-                <span class="filtrovacka">Odborné</span>
-                </div>
+        <div class="contact-item">
+            <p class="contact-ochodnik">Odborné</p>
+            <p class="contact-meno">Meno 1</p>
+            <p>tel.: +421 (2) 00 000 000</p>
+            <a href="mailto:meno1@mafraslovakia.sk">meno1@mafraslovakia.sk</a>
+            <span class="filtrovacka">Odborné</span>
+        </div>
 
-                <div class="contact-item">
-                <p class="contact-ochodnik">Odborné</p>
-                <p class="contact-meno">Meno 1</p>
-                <p>tel.: +421 (2) 00 000 000</p>
-                <a href="mailto:meno1@mafraslovakia.sk">meno1@mafraslovakia.sk</a>
-                <span class="filtrovacka">Odborné</span>
-                </div>
-
-                <div class="contact-item">
-                <p class="contact-ochodnik">Odborné</p>
-                <p class="contact-meno">Meno 1</p>
-                <p>tel.: +421 (2) 00 000 000</p>
-                <a href="mailto:meno1@mafraslovakia.sk">meno1@mafraslovakia.sk</a>
-                <span class="filtrovacka">Odborné</span>
-                </div>
-
-                <div class="contact-item">
-                <p class="contact-ochodnik">Ženské</p>
-                <p class="contact-meno">Meno 1</p>
-                <p>tel.: +421 (2) 00 000 000</p>
-                <a href="mailto:meno1@mafraslovakia.sk">meno1@mafraslovakia.sk</a>
-                <span class="filtrovacka">Ženské</span>
-                </div>
-            </div>
-
-            <div id="contactsDigital" class="contact digital" style="display: none;">
-                <div class="contact-item ">
-                    <p class="contact-ochodnik">HNonline</p>
-                    <p class="contact-meno">Meno 2</p>
-                    <p>tel.: +421 (2) 00 000 000</p>
-                    <a href="mailto:meno2@mafraslovakia.sk">meno2@mafraslovakia.sk</a>
-                    <span class="filtrovacka">HNonline</span>
-                </div>
-                <div class="contact-item ">
-                    <p class="contact-ochodnik">HNonline</p>
-                    <p class="contact-meno">Meno 2</p>
-                    <p>tel.: +421 (2) 00 000 000</p>
-                    <a href="mailto:meno2@mafraslovakia.sk">meno2@mafraslovakia.sk</a>
-                    <span class="filtrovacka">HNonline</span>
-                </div>
-                <div class="contact-item ">
-                    <p class="contact-ochodnik">Svetevity</p>
-                    <p class="contact-meno">Meno 2</p>
-                    <p>tel.: +421 (2) 00 000 000</p>
-                    <a href="mailto:meno2@mafraslovakia.sk">meno2@mafraslovakia.sk</a>
-                    <span class="filtrovacka">Svetevity</span>
-                </div>
-                <div class="contact-item ">
-                    <p class="contact-ochodnik">Brainee</p>
-                    <p class="contact-meno">Meno 2</p>
-                    <p>tel.: +421 (2) 00 000 000</p>
-                    <a href="mailto:meno2@mafraslovakia.sk">meno2@mafraslovakia.sk</a>
-                    <span class="filtrovacka">Brainee</span>
-                </div>
-                <div class="contact-item ">
-                    <p class="contact-ochodnik" class="contact-ochodnik">Obchodník 5</p>
-                    <p class="contact-meno">Brainee</p>
-                    <p>tel.: +421 (2) 00 000 000</p>
-                    <a href="mailto:meno2@mafraslovakia.sk">meno2@mafraslovakia.sk</a>
-                    <span class="filtrovacka">Brainee</span>
-                </div>
-                <div class="contact-item ">
-                    <p class="contact-ochodnik">Brainee</p>
-                    <p class="contact-meno">Meno 2</p>
-                    <p>tel.: +421 (2) 00 000 000</p>
-                    <a href="mailto:meno2@mafraslovakia.sk">meno2@mafraslovakia.sk</a>
-                    <span class="filtrovacka">Brainee</span>
-                </div>
-            </div>
+        <div class="contact-item">
+            <p class="contact-ochodnik">Ženské</p>
+            <p class="contact-meno">Meno 1</p>
+            <p>tel.: +421 (2) 00 000 000</p>
+            <a href="mailto:meno1@mafraslovakia.sk">meno1@mafraslovakia.sk</a>
+            <span class="filtrovacka">Ženské</span>
         </div>
     </div>
 
-    <div class="footer">
-            <div class="map">
+    <div id="contactsDigital" class="contact digital" style="display: none;">
+        <div class="contact-item ">
+            <p class="contact-ochodnik">HNonline</p>
+            <p class="contact-meno">Meno 2</p>
+            <p>tel.: +421 (2) 00 000 000</p>
+            <a href="mailto:meno2@mafraslovakia.sk">meno2@mafraslovakia.sk</a>
+            <span class="filtrovacka">HNonline</span>
+        </div>
+        <div class="contact-item ">
+            <p class="contact-ochodnik">HNonline</p>
+            <p class="contact-meno">Meno 2</p>
+            <p>tel.: +421 (2) 00 000 000</p>
+            <a href="mailto:meno2@mafraslovakia.sk">meno2@mafraslovakia.sk</a>
+            <span class="filtrovacka">HNonline</span>
+        </div>
+        <div class="contact-item ">
+            <p class="contact-ochodnik">Svetevity</p>
+            <p class="contact-meno">Meno 2</p>
+            <p>tel.: +421 (2) 00 000 000</p>
+            <a href="mailto:meno2@mafraslovakia.sk">meno2@mafraslovakia.sk</a>
+            <span class="filtrovacka">Svetevity</span>
+        </div>
+        <div class="contact-item ">
+            <p class="contact-ochodnik">Brainee</p>
+            <p class="contact-meno">Meno 2</p>
+            <p>tel.: +421 (2) 00 000 000</p>
+            <a href="mailto:meno2@mafraslovakia.sk">meno2@mafraslovakia.sk</a>
+            <span class="filtrovacka">Brainee</span>
+        </div>
+        <div class="contact-item ">
+            <p class="contact-ochodnik" class="contact-ochodnik">Obchodník 5</p>
+            <p class="contact-meno">Brainee</p>
+            <p>tel.: +421 (2) 00 000 000</p>
+            <a href="mailto:meno2@mafraslovakia.sk">meno2@mafraslovakia.sk</a>
+            <span class="filtrovacka">Brainee</span>
+        </div>
+        <div class="contact-item ">
+            <p class="contact-ochodnik">Brainee</p>
+            <p class="contact-meno">Meno 2</p>
+            <p>tel.: +421 (2) 00 000 000</p>
+            <a href="mailto:meno2@mafraslovakia.sk">meno2@mafraslovakia.sk</a>
+            <span class="filtrovacka">Brainee</span>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="footer">
+    <div class="map">
         <iframe style="border:0" allowfullscreen aria-hidden="false" frameborder="0" src="https://maps.google.com/maps?q=Kalinčiakova%2033,%20831%2004%20Bratislava&t=&z=13&ie=UTF8&iwloc=&output=embed" tabindex="0">
         </iframe>
-      </div>
-      <div class="top-section slider">
+    </div>
+    <div class="top-section slider">
         <div class="slide-track">
-        <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
-        <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
-        <div class="slide"><img alt="Brainee" src="images/brainee_logo.png" /></div>
-        <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
-        <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
-        <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
-        <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
-        <div class="slide"><img alt="Brainee" src="images/brainee_logo.png" /></div>
-        <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
-        <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
-        <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
-        <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
-        <div class="slide"><img alt="Brainee" src="images/brainee_logo.png" /></div>
-        <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
-        <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
-      </div>
-      </div>
+            <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
+            <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
+            <div class="slide"><img alt="Brainee" src="images/brainee_logo.png" /></div>
+            <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
+            <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
+            <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
+            <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
+            <div class="slide"><img alt="Brainee" src="images/brainee_logo.png" /></div>
+            <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
+            <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
+            <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
+            <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
+            <div class="slide"><img alt="Brainee" src="images/brainee_logo.png" /></div>
+            <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
+            <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
+        </div>
+    </div>
 
-      <div class="footer-align">
+    <div class="footer-align">
       <div class="columns">
         <div class="column">
           <p style="font-weight:700">Kontaktujte nás
@@ -408,8 +409,8 @@
           </p>
           <p>831 04 Bratislava
           </p>
-        </div>
-        <div class="column">
+      </div>
+      <div class="column">
           <p> 
           </p>
           <p> 
@@ -420,42 +421,42 @@
           </p>
           <p>Inzercia: +421 (2) 48 238 103
           </p>
-        </div>
-        <div class="column logos">
+      </div>
+      <div class="column logos">
           <img alt="EKLogo" src="images/ek_logo.png" />
-        </div>
-        <div class="column logos">
+      </div>
+      <div class="column logos">
           <img alt="Mafra Logo" src="images/mafra_logo.png" />
-        </div>
       </div>
-      <div class="copyright">
-        <p style="font-weight:700">© 2012-2022 MAFRA Slovakia, a.s.
-        </p>
-        <p>
-          Všetky práva vyhradené. Publikovanie alebo ďalšie šírenie správ, fotografií a dát je bez predchádzajúceho písomného súhlasu porušením autorského zákona.
-        </p>
-      </div>
-      </div>
-    </div>
+  </div>
+  <div class="copyright">
+    <p style="font-weight:700">© 2012-2022 MAFRA Slovakia, a.s.
+    </p>
+    <p>
+      Všetky práva vyhradené. Publikovanie alebo ďalšie šírenie správ, fotografií a dát je bez predchádzajúceho písomného súhlasu porušením autorského zákona.
+  </p>
+</div>
+</div>
+</div>
 
-    <script>
+<script>
 
                 // stranka sa po načítaní načíta v rovnakej scroll pozícii
-        function storePagePosition() {
-          var page_y = window.pageYOffset;
-          localStorage.setItem("page_y", page_y);
-        }
-        window.addEventListener("scroll", storePagePosition);
-        var currentPageY;
-        try {
-          currentPageY = localStorage.getItem("page_y");
-          if (currentPageY === undefined) {
-            localStorage.setItem("page_y") = 0;
-          }
-          window.scrollTo( 0, currentPageY );
-        } catch (e) {
+    function storePagePosition() {
+      var page_y = window.pageYOffset;
+      localStorage.setItem("page_y", page_y);
+  }
+  window.addEventListener("scroll", storePagePosition);
+  var currentPageY;
+  try {
+      currentPageY = localStorage.getItem("page_y");
+      if (currentPageY === undefined) {
+        localStorage.setItem("page_y") = 0;
+    }
+    window.scrollTo( 0, currentPageY );
+} catch (e) {
             // no localStorage available
-        };
+};
 // Zmena aktívnej kategórie a obrázkov
 function filterCategory(category) {
     // Aktualizácia URL podľa hlavnej kategórie
@@ -501,42 +502,42 @@ function filterCategory(category) {
 }
 
     // Filtrovanie kontaktov podľa podkategórie alebo zobrazenie všetkých
-    function filterContacts(category, subcategory) {
-        const contacts = document.querySelectorAll(`.contact.${category} div`);
-        
+function filterContacts(category, subcategory) {
+    const contacts = document.querySelectorAll(`.contact.${category} div`);
+
         // Skryj všetky kontakty
-        contacts.forEach(contact => contact.style.display = 'none');
+    contacts.forEach(contact => contact.style.display = 'none');
 
-        if (subcategory === 'all') {
+    if (subcategory === 'all') {
             // Zobraz všetky kontakty pre danú kategóriu
-            contacts.forEach(contact => contact.style.display = 'block');
-        } else {
+        contacts.forEach(contact => contact.style.display = 'block');
+    } else {
             // Zobraz iba kontakty zodpovedajúce podkategórii
-            contacts.forEach(contact => {
-                if (contact.textContent.includes(subcategory)) {
-                    contact.style.display = 'block';
-                }
-            });
-        }
-
-        // Nastavenie aktívnosti tlačidiel podkategórií
-        const subcategoryButtons = document.querySelectorAll(`#${category}Subcategories button`);
-        subcategoryButtons.forEach(button => button.classList.remove('active'));
-
-        // Ak je vybrané tlačidlo "Zobraziť všetky", označí sa ako aktívne
-        if (subcategory === 'all') {
-            document.getElementById(`btn${category.charAt(0).toUpperCase() + category.slice(1)}All`).classList.add('active');
-        } else {
-            // Inak sa označí tlačidlo podkategórie ako aktívne
-            const selectedButton = Array.from(subcategoryButtons).find(button => button.textContent === subcategory);
-            if (selectedButton) selectedButton.classList.add('active');
-        }
+        contacts.forEach(contact => {
+            if (contact.textContent.includes(subcategory)) {
+                contact.style.display = 'block';
+            }
+        });
     }
 
-    // Prednastavený filter
-    filterCategory('print');
-    filterContacts('print', 'all');
+        // Nastavenie aktívnosti tlačidiel podkategórií
+    const subcategoryButtons = document.querySelectorAll(`#${category}Subcategories button`);
+    subcategoryButtons.forEach(button => button.classList.remove('active'));
 
-    </script>
+        // Ak je vybrané tlačidlo "Zobraziť všetky", označí sa ako aktívne
+    if (subcategory === 'all') {
+        document.getElementById(`btn${category.charAt(0).toUpperCase() + category.slice(1)}All`).classList.add('active');
+    } else {
+            // Inak sa označí tlačidlo podkategórie ako aktívne
+        const selectedButton = Array.from(subcategoryButtons).find(button => button.textContent === subcategory);
+        if (selectedButton) selectedButton.classList.add('active');
+    }
+}
+
+    // Prednastavený filter
+filterCategory('print');
+filterContacts('print', 'all');
+
+</script>
 </body>
 </html>

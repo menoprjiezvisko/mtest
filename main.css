@@ -5,7 +5,9 @@
       color:#000;
       display:flex;
       flex-direction:column;
-      align-items:center}
+      align-items:center;
+      -webkit-tap-highlight-color: transparent;
+    }
       @keyframes taadaa { 
     0% {
       opacity: 0.6;
@@ -55,7 +57,7 @@
     .navbar ul li a{
       text-decoration:none;
       color:#000;
-      padding-bottom: 15px;
+      padding-bottom: 19px;
       border-bottom: 2px solid transparent;
     }
     .navbar a:hover{
@@ -206,7 +208,8 @@
       justify-content:center;
       gap:20px;
       padding:20px;
-      flex-wrap:nowrap;}
+      flex-wrap:nowrap;
+    }
       .news div {
         position: relative;
       }
@@ -220,7 +223,8 @@
       text-align:left;
       position:absolute;
       bottom: 0px;
-    color: white;}
+    color: white;
+  }
     .services div{
       border-radius:10px;
       padding:20px;
@@ -270,7 +274,8 @@
     .why-mafra{
       position:relative;
     flex-direction: row;
-    flex-wrap: wrap;}
+    flex-wrap: wrap;
+  }
     .why-mafra h2{
       position:relative;
       top:112px;
