@@ -52,6 +52,9 @@
         border: none;
         cursor: pointer;
     }
+    .btn-predplatne {
+        background: #e4061f;
+    }
 
     .sub-categories button.selected {
         background-color: #D62828;
@@ -445,8 +448,8 @@ function showProductDetail(productSlug) {
     <img class="product-detail-img" src="${product.image}" alt="${product.name}">
     </div>
     <div class="buttons">
+    <a class="product-detail-btn btn-predplatne" href="${product.btnPredUrl}">${product.btnPred}</a>
     <a class="product-detail-btn" href="${product.btnCennikUrl}">${product.btnCennik}</a>
-    <a class="product-detail-btn" href="${product.btnPredUrl}">${product.btnPred}</a>
     </div>
     </div>
     <div class="product-detail-holder">
@@ -505,8 +508,8 @@ function refreshProductDetail() {
     <img class="product-detail-img" src="${product.image}" alt="${product.name}">
     </div>
     <div class="buttons">
+    <a class="product-detail-btn btn-predplatne" href="${product.btnPredUrl}">${product.btnPred}</a>
     <a class="product-detail-btn" href="${product.btnCennikUrl}">${product.btnCennik}</a>
-    <a class="product-detail-btn" href="${product.btnPredUrl}">${product.btnPred}</a>
     </div>
     </div>
     <div class="product-detail-holder">

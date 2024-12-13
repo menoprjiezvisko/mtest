@@ -17,6 +17,12 @@
       opacity: 1;
     }
   }
+
+.ponuka-box a:hover,
+  #btnPrint:hover,
+  #btnDigital:hover {
+            filter: drop-shadow(0px 1px 3px #000000ab);
+  }
     .container{
       width:100%;
       max-width:1200px;
