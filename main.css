@@ -549,6 +549,9 @@ border-bottom: 2px solid transparent;
     font-size: 1.2em;
     padding: 10px;
   }
+    .budova video {
+        height: auto;
+    }
   #page-nav label:before {
     content: "☰";
     color: darkred;
