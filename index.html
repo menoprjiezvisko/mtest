@@ -10,6 +10,77 @@
 <link rel="stylesheet" href="main.css" />
 <script type="text/javascript" src="main.js"></script>
 <style>
+      .box-container {
+      flex: 1 1 calc(25% - 20px);
+      min-width: 200px;
+    }
+      .box {
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+      font-size: 2rem;
+      height: 130px;
+    }
+    .box .value {
+      font-size: 48px;
+      font-weight: 800;
+    }
+    .box .label {
+        font-size: 25px;
+        margin-top: 5px;
+        font-weight: 600;
+    }
+    .progress-container {
+      background: #ddd;
+      height: 25px;
+      width: 100%;
+      overflow: hidden;
+    }
+    .progress-bar {
+      background: #e30613;
+      height: 100%;
+      width: 0%;
+      transition: width 0.1s linear;
+    }
+    .box-0 {
+      background: #e30613;
+      color: white;
+    }
+    .box-1 {
+      background: #002f63;
+      color: white;
+    }
+    .box-2 {
+      background: black;
+      color: white;
+    }
+    .box-2 .label{
+      font-size: 20px;
+    }
+    .box-3 {
+      background: #e30613;
+      color: white;
+
+    }
+    .box-4 {
+      background: #002f63;
+      color: white;
+    }
+    .box-5 {
+      background: #e30613;
+      color: white;
+      
+    }
+    .box-6 {
+      background: black;
+      color: white;
+
+    }
+    .box-7 {
+      background: #002f63;
+      color: white;
+    }
 
   @media screen and (max-width: 768px) {
     .ponuka h2,
@@ -62,9 +133,6 @@
     </div>
   </div>
   -->
-<video class="budova" width="100%" height="450px" autoplay muted loop>
-<source src="https://static.hnonline.sk/pdfs/Mafra_logo_opener.mp4" type="video/mp4">
-</video>
 
   <video class="budova" width="100%" height="450px" autoplay muted loop>
 <source src="https://static.hnonline.sk/pdfs/Mafra_logo_opener%20(1).mp4" type="video/mp4">
@@ -105,143 +173,15 @@
   <span><h2 class="">Prečo Mafra
   </h2></span>
 </div>
-<div class="why-mafra">
-  <div class="time-breakdown">
-    <div class="time-breakdown-chart">
-      <!-- Focus chart -->
-      <div class="percentage-chart percentage-chart-focus">
-        <svg viewBox="0 0 36 36">
-          <path class="percentage-chart-bg" d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831" />
-          <path class="percentage-chart-stroke" stroke-dasharray="60, 100" d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831" />
-        </svg>
-        <div class="counter" style="--counter-end:60"><div class="counter-text">aôsldkfj</div></div>
-      </div>
-    </div>
-  </div>
 
+<!-- <div class="why-mafra">
   <div class="time-breakdown">
-    <div class="time-breakdown-chart">
-      <!-- Focus chart -->
-      <div class="percentage-chart percentage-chart-focus">
-        <svg viewBox="0 0 36 36">
-          <path class="percentage-chart-bg" d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831" />
-          <path class="percentage-chart-stroke" stroke-dasharray="48, 100" d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831" />
-        </svg>
-        <div class="counter" style="--counter-end:48"><div class="counter-text">sdfhsfghfd</div></div>
-      </div>
-    </div>
+<div id="boxes"></div>
   </div>
+</div> -->
 
-  <div class="time-breakdown">
-    <div class="time-breakdown-chart">
-      <!-- Focus chart -->
-      <div class="percentage-chart percentage-chart-focus">
-        <svg viewBox="0 0 36 36">
-          <path class="percentage-chart-bg" d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831" />
-          <path class="percentage-chart-stroke" stroke-dasharray="57, 100" d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831" />
-        </svg>
-        <div class="counter" style="--counter-end:57"><div class="counter-text">utzuiztiuz</div></div>
-      </div>
-    </div>
-  </div>
+<div id="boxes" class="why-mafra"></div>
 
-  <div class="time-breakdown">
-    <div class="time-breakdown-chart">
-      <!-- Focus chart -->
-      <div class="percentage-chart percentage-chart-focus">
-        <svg viewBox="0 0 36 36">
-          <path class="percentage-chart-bg" d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831" />
-          <path class="percentage-chart-stroke" stroke-dasharray="25, 100" d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831" />
-        </svg>
-        <div class="counter" style="--counter-end:25"><div class="counter-text">mvbnvmb</div></div>
-      </div>
-    </div>
-  </div>
-
-  <div class="time-breakdown">
-    <div class="time-breakdown-chart">
-      <!-- Focus chart -->
-      <div class="percentage-chart percentage-chart-focus">
-        <svg viewBox="0 0 36 36">
-          <path class="percentage-chart-bg" d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831" />
-          <path class="percentage-chart-stroke" stroke-dasharray="89, 100" d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831" />
-        </svg>
-        <div class="counter" style="--counter-end:89"><div class="counter-text">qerwegdf</div></div>
-      </div>
-    </div>
-  </div>
-
-  <div class="time-breakdown">
-    <div class="time-breakdown-chart">
-      <!-- Focus chart -->
-      <div class="percentage-chart percentage-chart-focus">
-        <svg viewBox="0 0 36 36">
-          <path class="percentage-chart-bg" d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831" />
-          <path class="percentage-chart-stroke" stroke-dasharray="66, 100" d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831" />
-        </svg>
-        <div class="counter" style="--counter-end:66"><div class="counter-text">xcvbxc</div></div>
-      </div>
-    </div>
-  </div>
-
-  <div class="time-breakdown">
-    <div class="time-breakdown-chart">
-      <!-- Focus chart -->
-      <div class="percentage-chart percentage-chart-focus">
-        <svg viewBox="0 0 36 36">
-          <path class="percentage-chart-bg" d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831" />
-          <path class="percentage-chart-stroke" stroke-dasharray="15, 100" d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831" />
-        </svg>
-        <div class="counter" style="--counter-end:15"><div class="counter-text">juikuiluzl</div></div>
-      </div>
-    </div>
-  </div>
-
-  <div class="time-breakdown">
-    <div class="time-breakdown-chart">
-      <!-- Focus chart -->
-      <div class="percentage-chart percentage-chart-focus">
-        <svg viewBox="0 0 36 36">
-          <path class="percentage-chart-bg" d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831" />
-          <path class="percentage-chart-stroke" stroke-dasharray="32, 100" d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831" />
-        </svg>
-        <div class="counter" style="--counter-end:32"><div class="counter-text">qwer</div></div>
-      </div>
-    </div>
-  </div>
-</div>
 <div class="spravy-noviny">
   <span><h2>Správy a novinky
   </h2></span>
@@ -336,5 +276,97 @@
     </div>
   </div>
 </div>
+  <script>
+function easeInOutQuad(t) {
+      return t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
+    }
+
+    function animateValue(element, start, end, duration, formatFn = val => val, updateOnly = false) {
+  const startTime = performance.now();
+  const isDecimal = !Number.isInteger(end); // Skontrolujeme, či je cieľ desatinné číslo
+
+  function update(currentTime) {
+    const elapsed = currentTime - startTime;
+    let progress = Math.min(elapsed / duration, 1);
+    let eased = easeInOutQuad(progress);
+    const rawValue = start + (end - start) * eased;
+    const value = isDecimal ? parseFloat(rawValue.toFixed(2)) : Math.floor(rawValue);
+
+    if (!updateOnly) {
+      element.textContent = formatFn(value);
+    } else {
+      formatFn(value);
+    }
+
+    if (progress < 1) {
+      requestAnimationFrame(update);
+    }
+  }
+
+  requestAnimationFrame(update);
+}
+
+
+    const boxConfigs = [
+      { type: "number", target: 0, duration: 2000, label: "PV mesačne" },
+      { type: "number", target: 954, duration: 3000, label: "Titulov" },
+      { type: "percent", target: 76, duration: 2500, label: "Žien vo vydavateľstve" },
+      { type: "number", target: 42190, duration: 4000, label: "Časopiseckých strán" },
+      { type: "number", target: 0, duration: 2000, label: "Kumulatívne kníh " },
+      { type: "number", target: 997, duration: 3000, label: "Uzávierok za rok" },
+      { type: "number", target: 245, duration: 3500, label: "Počet zamestnancov " },
+      { type: "number", target: 16.33 , duration: 1500, label: "Obrat v mil. €" }
+    ];
+
+    const boxesContainer = document.getElementById("boxes");
+
+    boxConfigs.forEach((config, index) => {
+      const boxWrapper = document.createElement("div");
+      boxWrapper.className = "box-container";
+
+      const box = document.createElement("div");
+      box.className = `box box-${index}`; // unikátna CSS trieda
+
+      const value = document.createElement("div");
+      value.className = "value";
+      value.id = `value-${index}`;
+      value.textContent = "0";
+
+      box.appendChild(value);
+
+      if (config.type === "percent") {
+        const progressContainer = document.createElement("div");
+        progressContainer.className = "progress-container";
+
+        const progressBar = document.createElement("div");
+        progressBar.className = "progress-bar";
+        progressBar.id = `progress-${index}`;
+
+        progressContainer.appendChild(progressBar);
+        box.appendChild(progressContainer);
+      }
+
+      const label = document.createElement("div");
+      label.className = "label";
+      label.textContent = config.label;
+      box.appendChild(label);
+
+      boxWrapper.appendChild(box);
+      boxesContainer.appendChild(boxWrapper);
+
+      const valueEl = document.getElementById(`value-${index}`);
+
+      if (config.type === "number") {
+        animateValue(valueEl, 0, config.target, config.duration, val => val.toLocaleString());
+      } else if (config.type === "percent") {
+        const progressBar = document.getElementById(`progress-${index}`);
+        animateValue(valueEl, 0, config.target, config.duration, val => + val + "%");
+        animateValue(progressBar, 0, config.target, config.duration, val => {
+          progressBar.style.width = val + "%";
+          return "";
+        }, true);
+      }
+    });
+  </script>
 </body>
 </html>
