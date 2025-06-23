@@ -218,50 +218,6 @@
     background-color: #004471;
 }
 
-    .dropdown {
-      display: inline-block;
-      position: relative;
-      margin-left: 0;
-    }
-    .dropdown-toggle {
-      background: #003049;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      cursor: pointer;
-      margin: 5px 5px;
-      font-size: 16px;
-      text-align: left;
-      width: 100%;
-    }
-    .dropdown-menu {
-      display: none;
-      position: absolute;
-      left: 0;
-      top: 100%;
-      background: #fff;
-      min-width: 180px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-      z-index: 50;
-      border-radius: 0 0 6px 6px;
-      padding: 0;
-    }
-    .dropdown-menu .product-detail-btn {
-      color: #003049;
-      background: none;
-      border: none;
-      width: 100%;
-      text-align: left;
-      padding: 10px 20px;
-      margin: 0;
-      display: block;
-      border-radius: 0;
-    }
-    .dropdown-menu .product-detail-btn:hover {
-      background: #f0f0f0;
-      color: #e4061f;
-    }
-    
 /* MOBILE */
 @media screen and (max-width: 768px) {
     .sub-categories{
@@ -541,115 +497,113 @@ function filterByCategory(category) {
 
 // Zobrazenie detailu produktu podľa jeho identifikátora (slug)
 function showProductDetail(productSlug) {
-    const product = products[productSlug];
+    const product = products[productSlug]; // Nájde produkt podľa ID
     if (!product) return;
 
-    currentProductId = productSlug;
+    currentProductId = productSlug; // Nastaví aktuálny produkt
+
     const detailContainer = document.getElementById('product-detail-container');
-    detailContainer.classList.remove('hidden');
+    detailContainer.classList.remove('hidden'); // Zobrazí detailnú sekciu
     detailContainer.innerHTML = `
     <div class="product-detail">
-      <div class="product-detail-headline"><h2>${product.name}</h2></div>
-      <div class="product-detail-text">
-        <p>${product.description}</p>
-        <p>${product.zameranie}</p>
-        <p>${product.vznik}</p>
-        <p>${product.periodicita}</p>
-        <p>${product.kontakt}</p>
-        <div class="product-detail-holder-mobile">
-          <img class="product-detail-img" src="${product.image}" alt="${product.name}">
-        </div>
-        <div class="buttons">
-          <a class="product-detail-btn btn-predplatne" href="${product.btnPredUrl}">${product.btnPred}</a>
-          <div class="dropdown">
-            <button class="dropdown-toggle" onclick="toggleDropdown(event)">Viac</button>
-            <div class="dropdown-menu">
-              <a class="product-detail-btn" href="${product.btnCennikUrl}">${product.btnCennik}</a>
-              <a class="product-detail-btn" href="${product.btnHarmUrl}">${product.btnHarm}</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="product-detail-holder">
-        <img class="product-detail-img" src="${product.image}" alt="${product.name}">
-      </div>
+    <div class="product-detail-headline"><h2>${product.name}</h2></div>
+    <div class="product-detail-text">
+    <p>${product.description}</p>
+    <p>${product.zameranie}</p>
+    <p>${product.vznik}</p>
+    <p>${product.periodicita}</p>
+    <p>${product.kontakt}</p>
+    <div class="product-detail-holder-mobile">
+    <img class="product-detail-img" src="${product.image}" alt="${product.name}">
+    </div>
+    <div class="buttons">
+    <a class="product-detail-btn btn-predplatne" href="${product.btnPredUrl}">${product.btnPred}</a>
+    <a class="product-detail-btn" href="${product.btnCennikUrl}">${product.btnCennik}</a>
+    <a class="product-detail-btn" href="${product.btnHarmUrl}">${product.btnHarm}</a>
+    </div>
+    </div>
+    <div class="product-detail-holder">
+    <img class="product-detail-img" src="${product.image}" alt="${product.name}">
+    </div>
     </div>
     `;
-    // Dynamický title a description
-    let titleTag = document.querySelector('title');
-    let metaDescription = document.querySelector('meta[name="description"]');
-    titleTag.innerText = `MAFRA Slovakia - ${product.name}`;
-    metaDescription.setAttribute('content', product.description);
 
-    // Aktualizácia URL
+// Získanie existujúceho meta tagu s názvom 'title'
+let titleTag = document.querySelector('title');
+// Získanie existujúceho meta tagu s názvom 'meta description'
+let metaDescription = document.querySelector('meta[name="description"]');
+// Zmena obsahu title tagu
+titleTag.innerText = `MAFRA Slovakia - ${product.name}`;
+
+// Dynamické nastavenie obsahu pre description
+metaDescription.setAttribute('content', product.description);
+
+
+
+    // Normalizácia textu na vytvorenie slug pre názov
     function normalizeText(text) {
-        return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, "-").toLowerCase();
-    }
-    const productNameSlug = normalizeText(product.name);
-    const urlPath = `/titul/${productSlug}/${productNameSlug}`;
-    updateURL(urlPath);
+        return text
+        .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "") // Odstránenie diakritiky
+            .replace(/\s+/g, "-") // Nahradenie medzier pomlčkami
+            .toLowerCase(); // Malé písmená
+        }
+
+    const productNameSlug = normalizeText(product.name); // Vytvorí slug z názvu produktu
+    const urlPath = `/titul/${productSlug}/${productNameSlug}`; // Spojí ID a názov do URL
+    updateURL(urlPath); // Aktualizácia URL
 }
 
+// Obnovenie detailu produktu alebo jeho skrytie
 function refreshProductDetail() {
     const detailContainer = document.getElementById('product-detail-container');
-    if (!currentProductId) {
-        detailContainer.classList.add('hidden');
+
+    if (!currentProductId) { // Ak nie je aktuálny produkt
+        detailContainer.classList.add('hidden'); // Skryje detail
         return;
     }
+
     const product = products[currentProductId];
-    if (!product) {
-        detailContainer.classList.add('hidden');
+    if (!product) { // Ak sa produkt nenájde
+        detailContainer.classList.add('hidden'); // Skryje detail
         return;
     }
+
+    // Vygeneruje HTML pre detail produktu
     detailContainer.innerHTML = `
     <div class="product-detail">
-      <div class="product-detail-headline"><h2>${product.name}</h2></div>
-      <div class="product-detail-text">
-        <p>${product.description}</p>
-        <p>${product.zameranie}</p>
-        <p>${product.vznik}</p>
-        <p>${product.periodicita}</p>
-        <p>${product.kontakt}</p>
-        <div class="product-detail-holder-mobile">
-          <img class="product-detail-img" src="${product.image}" alt="${product.name}">
-        </div>
-        <div class="buttons">
-          <a class="product-detail-btn btn-predplatne" href="${product.btnPredUrl}">${product.btnPred}</a>
-          <div class="dropdown">
-            <button class="dropdown-toggle" onclick="toggleDropdown(event)">Viac</button>
-            <div class="dropdown-menu">
-              <a class="product-detail-btn" href="${product.btnCennikUrl}">${product.btnCennik}</a>
-              <a class="product-detail-btn" href="${product.btnHarmUrl}">${product.btnHarm}</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="product-detail-holder">
-        <img class="product-detail-img" src="${product.image}" alt="${product.name}">
-      </div>
+    <div class="product-detail-headline"><h2>${product.name}</h2></div>
+    <div class="product-detail-text">
+    <p>${product.description}</p>
+    <p>${product.zameranie}</p>
+    <p>${product.vznik}</p>
+    <p>${product.periodicita}</p>
+    <p>${product.kontakt}</p>
+    <div class="product-detail-holder-mobile">
+    <img class="product-detail-img" src="${product.image}" alt="${product.name}">
+    </div>
+    <div class="buttons">
+    <a class="product-detail-btn btn-predplatne" href="${product.btnPredUrl}">${product.btnPred}</a>
+    <a class="product-detail-btn" href="${product.btnCennikUrl}">${product.btnCennik}</a>
+    <a class="product-detail-btn" href="${product.btnHarmUrl}">${product.btnHarm}</a>
+    </div>
+    </div>
+    <div class="product-detail-holder">
+    <img class="product-detail-img" src="${product.image}" alt="${product.name}">
+    </div>
     </div>
     `;
-    let titleTag = document.querySelector('title');
-    let metaDescription = document.querySelector('meta[name="description"]');
-    titleTag.innerText = `MAFRA Slovakia - ${product.name}`;
-    metaDescription.setAttribute('content', product.description);
-    detailContainer.classList.remove('hidden');
-}
+    // Získanie existujúceho meta tagu s názvom 'title'
+let titleTag = document.querySelector('title');
+// Získanie existujúceho meta tagu s názvom 'meta description'
+let metaDescription = document.querySelector('meta[name="description"]');
+// Zmena obsahu title tagu
+titleTag.innerText = `MAFRA Slovakia - ${product.name}`;
 
-/* DROPDOWN LOGIKA */
-function toggleDropdown(event) {
-    event.stopPropagation();
-    const dropdown = event.target.closest('.dropdown');
-    const menu = dropdown.querySelector('.dropdown-menu');
-    const isVisible = menu.style.display === 'block';
-    // Skryť všetky dropdowny pred zobrazením tohto
-    document.querySelectorAll('.dropdown-menu').forEach(m => m.style.display = 'none');
-    menu.style.display = isVisible ? 'none' : 'block';
+// Dynamické nastavenie obsahu pre description
+metaDescription.setAttribute('content', product.description);
+    detailContainer.classList.remove('hidden'); // Zobrazí detail
 }
-// Skryť dropdown pri kliknutí mimo
-document.addEventListener('click', function() {
-    document.querySelectorAll('.dropdown-menu').forEach(m => m.style.display = 'none');
-});
 
 // Spracovanie zmien v hash URL
 function handleHashChange() {
@@ -693,4 +647,3 @@ window.addEventListener('hashchange', handleHashChange);
 </script>
 </body>
 </html>
-
