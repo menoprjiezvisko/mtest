@@ -182,42 +182,6 @@
     background-color: #004471;
 }
 
-    .dropdown {
-  display: inline-block;
-  position: relative;
-}
-.dropdown-toggle {
-  background: #003049;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  margin-left: 5px;
-}
-.dropdown-menu {
-  display: none;
-  position: absolute;
-  left: 0;
-  top: 100%;
-  background: #fff;
-  min-width: 180px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-  z-index: 50;
-}
-.dropdown-menu .product-detail-btn {
-  color: #003049;
-  background: none;
-  border: none;
-  width: 100%;
-  text-align: left;
-  padding: 10px 20px;
-  margin: 0;
-  display: block;
-}
-.dropdown-menu .product-detail-btn:hover {
-  background: #f0f0f0;
-  color: #e4061f;
-}
 /* MOBILE */
 @media screen and (max-width: 768px) {
     .sub-categories{
@@ -475,30 +439,24 @@ function showProductDetail(productSlug) {
     const detailContainer = document.getElementById('product-detail-container');
     detailContainer.classList.remove('hidden'); // Zobrazí detailnú sekciu
     detailContainer.innerHTML = `
-  <div class="product-detail">
+    <div class="product-detail">
     <div class="product-detail-headline"><h2>${product.name}</h2></div>
     <div class="product-detail-text">
-      <p>${product.description}</p>
-      <p>${product.kontakt}</p>
-      <div class="product-detail-holder-mobile">
-        <img class="product-detail-img" src="${product.image}" alt="${product.name}">
-      </div>
-      <div class="buttons">
-        <a class="product-detail-btn btn-predplatne" href="${product.btnPredUrl}">${product.btnPred}</a>
-        <div class="dropdown">
-          <button class="product-detail-btn dropdown-toggle" onclick="toggleDropdown(event)">Viac</button>
-          <div class="dropdown-menu">
-            <a class="product-detail-btn" href="${product.btnCennikUrl}">${product.btnCennik}</a>
-            <a class="product-detail-btn" href="${product.btnHarmonogramUrl}">${product.btnHarmonogram}</a>
-          </div>
-        </div>
-      </div>
+    <p>${product.description}</p>
+    <p>${product.kontakt}</p>
+    <div class="product-detail-holder-mobile">
+    <img class="product-detail-img" src="${product.image}" alt="${product.name}">
+    </div>
+    <div class="buttons">
+    <a class="product-detail-btn btn-predplatne" href="${product.btnPredUrl}">${product.btnPred}</a>
+    <a class="product-detail-btn" href="${product.btnCennikUrl}">${product.btnCennik}</a>
+    </div>
     </div>
     <div class="product-detail-holder">
-      <img class="product-detail-img" src="${product.image}" alt="${product.name}">
+    <img class="product-detail-img" src="${product.image}" alt="${product.name}">
     </div>
-  </div>
-`;
+    </div>
+    `;
 // Získanie existujúceho meta tagu s názvom 'title'
 let titleTag = document.querySelector('title');
 // Získanie existujúceho meta tagu s názvom 'meta description'
@@ -541,30 +499,24 @@ function refreshProductDetail() {
 
     // Vygeneruje HTML pre detail produktu
     detailContainer.innerHTML = `
-  <div class="product-detail">
+    <div class="product-detail">
     <div class="product-detail-headline"><h2>${product.name}</h2></div>
     <div class="product-detail-text">
-      <p>${product.description}</p>
-      <p>${product.kontakt}</p>
-      <div class="product-detail-holder-mobile">
-        <img class="product-detail-img" src="${product.image}" alt="${product.name}">
-      </div>
-      <div class="buttons">
-        <a class="product-detail-btn btn-predplatne" href="${product.btnPredUrl}">${product.btnPred}</a>
-        <div class="dropdown">
-          <button class="product-detail-btn dropdown-toggle" onclick="toggleDropdown(event)">Viac</button>
-          <div class="dropdown-menu">
-            <a class="product-detail-btn" href="${product.btnCennikUrl}">${product.btnCennik}</a>
-            <a class="product-detail-btn" href="${product.btnHarmonogramUrl}">${product.btnHarmonogram}</a>
-          </div>
-        </div>
-      </div>
+    <p>${product.description}</p>
+    <p>${product.kontakt}</p>
+    <div class="product-detail-holder-mobile">
+    <img class="product-detail-img" src="${product.image}" alt="${product.name}">
+    </div>
+    <div class="buttons">
+    <a class="product-detail-btn btn-predplatne" href="${product.btnPredUrl}">${product.btnPred}</a>
+    <a class="product-detail-btn" href="${product.btnCennikUrl}">${product.btnCennik}</a>
+    </div>
     </div>
     <div class="product-detail-holder">
-      <img class="product-detail-img" src="${product.image}" alt="${product.name}">
+    <img class="product-detail-img" src="${product.image}" alt="${product.name}">
     </div>
-  </div>
-`;
+    </div>
+    `;
 
     // Získanie existujúceho meta tagu s názvom 'title'
 let titleTag = document.querySelector('title');
@@ -619,22 +571,6 @@ productItems.forEach(item => {
 // Udalosť na spracovanie zmeny hash v URL
 window.addEventListener('hashchange', handleHashChange);
 
-    
-function toggleDropdown(event) {
-  event.stopPropagation();
-  const dropdown = event.target.closest('.dropdown');
-  const menu = dropdown.querySelector('.dropdown-menu');
-  const isVisible = menu.style.display === 'block';
-  // Skryť všetky dropdowny pred zobrazením tohto
-  document.querySelectorAll('.dropdown-menu').forEach(m => m.style.display = 'none');
-  menu.style.display = isVisible ? 'none' : 'block';
-}
-
-// Skryť dropdown pri kliknutí mimo
-document.addEventListener('click', function() {
-  document.querySelectorAll('.dropdown-menu').forEach(m => m.style.display = 'none');
-});
 </script>
 </body>
 </html>
-
