@@ -622,7 +622,10 @@ border-bottom: 2px solid transparent;
     border: none;
    }
 
+    .budova-text h1{
+      font-size:2.8em;
 
+    }
 
   #page-nav-sub label {
     display: inline-block;
