@@ -261,7 +261,7 @@
       flex-wrap:wrap;
       gap:20px}
     .footer img{
-      width:150px}
+      width:90px}
     .footer a{
       color:#fff;
       text-decoration:none;
@@ -387,18 +387,23 @@ border-bottom: 2px solid transparent;
       display:flex;
       justify-content:space-around;
       text-align:left;
-      padding:20px}
+      padding:20px;
+      align-items: flex-end;
+    }
     .footer .columns .column{
       flex:1;
       margin:10px}
+      .footer .columns .logos {
+        text-align: right;
+      }
     .footer .columns .column p{
       margin:5px 0}
     .footer .logos img{
-      margin:10px}
+      }
     .footer .copyright{
       margin:20px 0;
       border-top:1px solid #fff;
-      padding-top:10px;
+      padding:10px 0px 10px 20px;
       text-align: left;
     }
 
@@ -419,6 +424,7 @@ border-bottom: 2px solid transparent;
     animation: scroll 90s linear infinite;
     display: flex;
     width: calc(250px * 20);
+    align-items: center;
 
 }
 

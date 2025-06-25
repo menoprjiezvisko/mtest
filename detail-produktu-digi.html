@@ -440,23 +440,27 @@ function showProductDetail(productSlug) {
     detailContainer.classList.remove('hidden'); // Zobrazí detailnú sekciu
     detailContainer.innerHTML = `
     <div class="product-detail">
-    <div class="product-detail-headline"><h2>${product.name}</h2></div>
-    <div class="product-detail-text">
-    <p>${product.description}</p>
-    <p>${product.kontakt}</p>
-    <div class="product-detail-holder-mobile">
-    <img class="product-detail-img" src="${product.image}" alt="${product.name}">
+        <div class="product-detail-headline"><h2>${product.name}</h2></div>
+        <div class="product-detail-text">
+            <p>${product.description}</p>
+            <p>${product.kontakt}</p>
+            <div class="product-detail-holder-mobile">
+                <img class="product-detail-img" src="${product.image}" alt="${product.name}">
+            </div>
+            <div class="buttons">
+                ${
+                    product.btnPred && product.btnPred.trim() !== ''
+                        ? `<a class="product-detail-btn btn-predplatne" href="${product.btnPredUrl}" target="_blank" rel="noopener noreferrer">${product.btnPred}</a>`
+                        : ''
+                }
+                <a class="product-detail-btn" href="${product.btnCennikUrl}" target="_blank" rel="noopener noreferrer">${product.btnCennik}</a>
+            </div>
+        </div>
+        <div class="product-detail-holder">
+            <img class="product-detail-img" src="${product.image}" alt="${product.name}">
+        </div>
     </div>
-    <div class="buttons">
-    <a class="product-detail-btn btn-predplatne" href="${product.btnPredUrl}">${product.btnPred}</a>
-    <a class="product-detail-btn" href="${product.btnCennikUrl}">${product.btnCennik}</a>
-    </div>
-    </div>
-    <div class="product-detail-holder">
-    <img class="product-detail-img" src="${product.image}" alt="${product.name}">
-    </div>
-    </div>
-    `;
+`;
 // Získanie existujúceho meta tagu s názvom 'title'
 let titleTag = document.querySelector('title');
 // Získanie existujúceho meta tagu s názvom 'meta description'
@@ -500,23 +504,27 @@ function refreshProductDetail() {
     // Vygeneruje HTML pre detail produktu
     detailContainer.innerHTML = `
     <div class="product-detail">
-    <div class="product-detail-headline"><h2>${product.name}</h2></div>
-    <div class="product-detail-text">
-    <p>${product.description}</p>
-    <p>${product.kontakt}</p>
-    <div class="product-detail-holder-mobile">
-    <img class="product-detail-img" src="${product.image}" alt="${product.name}">
+        <div class="product-detail-headline"><h2>${product.name}</h2></div>
+        <div class="product-detail-text">
+            <p>${product.description}</p>
+            <p>${product.kontakt}</p>
+            <div class="product-detail-holder-mobile">
+                <img class="product-detail-img" src="${product.image}" alt="${product.name}">
+            </div>
+            <div class="buttons">
+                ${
+                    product.btnPred && product.btnPred.trim() !== ''
+                        ? `<a class="product-detail-btn btn-predplatne" href="${product.btnPredUrl}" target="_blank" rel="noopener noreferrer">${product.btnPred}</a>`
+                        : ''
+                }
+                <a class="product-detail-btn" href="${product.btnCennikUrl}" target="_blank" rel="noopener noreferrer">${product.btnCennik}</a>
+            </div>
+        </div>
+        <div class="product-detail-holder">
+            <img class="product-detail-img" src="${product.image}" alt="${product.name}">
+        </div>
     </div>
-    <div class="buttons">
-    <a class="product-detail-btn btn-predplatne" href="${product.btnPredUrl}">${product.btnPred}</a>
-    <a class="product-detail-btn" href="${product.btnCennikUrl}">${product.btnCennik}</a>
-    </div>
-    </div>
-    <div class="product-detail-holder">
-    <img class="product-detail-img" src="${product.image}" alt="${product.name}">
-    </div>
-    </div>
-    `;
+`;
 
     // Získanie existujúceho meta tagu s názvom 'title'
 let titleTag = document.querySelector('title');

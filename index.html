@@ -26,6 +26,36 @@
       font-size: 48px;
       font-weight: 800;
     }
+    #value-0 {
+color: #002140;
+    }
+    #value-1 {
+      color: red;
+    }
+    #value-2 {
+      color: red;
+    }
+    .box-3 .label{
+color: black;
+    }
+
+    .box-4 .label{
+font-size: 22px!important;
+    color: red;
+    }
+    #value-5 {
+
+      color: black;
+    }
+    #value-6 {
+      color: red;
+    }
+    #value-7 {
+      color: red;
+    }
+    .box-7 .label{
+font-size: 21px!important;
+    }
     .box .label {
         font-size: 25px;
         margin-top: 5px;
@@ -81,6 +111,54 @@
       background: #002f63;
       color: white;
     }
+    .news-rows {
+  width: 100%;
+}
+.news-row {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.news-article {
+  flex: 1 1 0;
+  min-width: 0;
+  background: #f6f6f6;
+  padding: 18px 14px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      font-size: 1rem;
+      height: 130px;
+      background: #002f63;
+      color: white;
+}
+.news-article a,
+.news-box a {
+  text-decoration: none;
+  color: white;
+}
+.news-box {
+        padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      font-size: 1rem;
+      height: 130px;
+}
+@media (max-width: 900px) {
+  .news-row {
+    flex-wrap: wrap;
+  }
+  .news-article {
+    min-width: 220px;
+    flex: 1 1 100%;
+  }
+}
 
   @media screen and (max-width: 768px) {
     .ponuka h2,
@@ -96,6 +174,14 @@
      padding: 0px 0px;
      margin-top: 15px;
    }
+   .news-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .news-article {
+
+  }
+}
  }
 </style>
 <body>
@@ -145,12 +231,12 @@
         </h1>
         <p class="content-vydavatelstvo" >Vydavateľstvo 
           <span class="content-mafra" style="color:red;font-weight:700">MAFRA</span>
-          <span class="content-slovakia" style="color:#787a7b;">Slovakia
-          </span class="content-vydavatelstvo"> pôsobí na slovenskom trhu od roku 1992. Vydáva Hospodárske noviny a odborné tituly, prevádzkuje ekonomické a finančné portály a organizuje podujatia pre odbornú verejnosť.
+          <span class="content-slovakia" style="color:#787a7b;">Slovakia, a.s.,
+          </span class="content-vydavatelstvo"> bolo založené v roku 1992 a od 1. 1. 2020 sa zlúčilo so spoločnosťou Mafra Slovakia Print, a. s. Nástupnícka spoločnosť MAFRA Slovakia, a. s., v plnom rozsahu pokračuje v podnikateľskej činnosti.
         </p>
         <p style="font-size:22px;text-align:left;color:#000;margin:0">
-          Sme dôveryhodným zdrojom informácií pre čitateľov so záujmom o ekonomiku, marketing, zdravotníctvo až po šport.
-          <br />Na Mafra Slovakia, a.s. sa vzťahuje pôsobnosť Slovenskej republiky a slovenského regulátora.
+          Na slovenskom trhu je MAFRA Slovakia vydavateľom ekonomického denníka Hospodárske noviny a odborných titulov z oblasti zdravotníctva, marketingu a reklamy, hotelierstva a gastronómie, obchodu a zdravého životného štýlu.
+          <br />V súčasnosti vydáva široké portfólio titulov a prevádzkuje niekoľko webových portálov. Okrem toho vydáva ročne niekoľko desiatok knižných titulov.
         </p>
         <div class="ponuka"><span><h2>Ponuka</h2></span>
         </div>
@@ -170,7 +256,7 @@
   </div>
 </div>
 <div class="preco-mafra">
-  <span><h2 class="">Prečo Mafra
+  <span><h2 class="">Mafra v číslach
   </h2></span>
 </div>
 
@@ -183,30 +269,25 @@
 <div id="boxes" class="why-mafra"></div>
 
 <div class="spravy-noviny">
-  <span><h2>Správy a novinky
-  </h2></span>
+  <span><h2>Tlačové správy</h2></span>
 </div>
-<div class="news">
-  <div>
-    <h3>Eurotelevizia je opäť najpredávanejším časopisom Vianoc
-    </h3>
-    <p> Čítať ďalej ->
-    </p>
-  </div>
-  <div>
-    <h3>Eurotelevizia bola v decembri najpredávanejším týždenníkom
-    </h3>
-    <p> Čítať ďalej ->
-    </p>
-  </div>
-  <div>
-    <h3>Vianočná Eurotelevizia sa opäť stala najpredávanejšou!
-    </h3>
-    <p> Čítať ďalej ->
-    </p>
+<div class="news-rows" id="news-rows">
+  <div class="news-row">
+    <div class="news-box box-1">
+      <h3>Eurotelevizia je opäť najpredávanejším časopisom Vianoc</h3>
+      <p><a href="https://www.hnonline.sk/ekonomika/9605742-hospodarske-noviny-oslavuju-30-rokov-na-trhu" target="_blank" rel="noopener noreferrer">Čítať ďalej -&gt;</a></p>
+    </div>
+    <div class="news-box box-1">
+      <h3>Eurotelevizia bola v decembri najpredávanejším týždenníkom</h3>
+      <p><a href="https://www.hnonline.sk/ekonomika/9605742-hospodarske-noviny-oslavuju-30-rokov-na-trhu" target="_blank" rel="noopener noreferrer">Čítať ďalej -&gt;</a></p>
+    </div>
+    <div class="news-box box-1">
+      <h3>Vianočná Eurotelevizia sa opäť stala najpredávanejšou!</h3>
+      <p><a href="https://www.hnonline.sk/ekonomika/9605742-hospodarske-noviny-oslavuju-30-rokov-na-trhu" target="_blank" rel="noopener noreferrer">Čítať ďalej -&gt;</a></p>
+    </div>
   </div>
 </div>
-<div class="spravy-btn"><a href="#">Staršie správy</a></div>
+<div class="spravy-btn"><a href="#" id="load-more-news">Staršie</a></div>
 </div>
 </div>
 <div class="footer">
@@ -216,21 +297,52 @@
   </div>
   <div class="top-section slider">
     <div class="slide-track">
-      <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
-      <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
-      <div class="slide"><img alt="Brainee" src="images/brainee_logo.png" /></div>
-      <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
-      <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
-      <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
-      <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
-      <div class="slide"><img alt="Brainee" src="images/brainee_logo.png" /></div>
-      <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
-      <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
-      <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
-      <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
-      <div class="slide"><img alt="Brainee" src="images/brainee_logo.png" /></div>
-      <div class="slide"><img alt="Svet Evity" src="images/a.png" /></div>
-      <div class="slide"><img alt="HN Online" src="images/hnonline_logo.png" /></div>
+      <div class="slide"><img src="images/zdn.svg"></div>
+<div class="slide"><img src="images/zahady.svg"></div>
+<div class="slide"><img src="images/vpz.svg"></div>
+<div class="slide"><img src="images/varimespolu.svg"></div>
+<div class="slide"><img src="images/tvmax.svg"></div>
+<div class="slide"><img src="images/tema.svg"></div>
+<div class="slide"><img src="images/teleplus.svg"></div>
+<div class="slide"><img src="images/tajomstvazeny.svg"></div>
+<div class="slide"><img src="images/strategie.svg"></div>
+<div class="slide"><img src="images/rytmuszivotarodinnezdravie.svg"></div>
+<div class="slide"><img src="images/rytmuszivotakrizovky.svg"></div>
+<div class="slide"><img src="images/rytmuszivota.svg"></div>
+<div class="slide"><img src="images/rytmusvarime.svg"></div>
+<div class="slide"><img src="images/pribehyzozivota.svg"></div>
+<div class="slide"><img src="images/preconie.svg"></div>
+<div class="slide"><img src="images/obchod.svg"></div>
+<div class="slide"><img src="images/npz.svg"></div>
+<div class="slide"><img src="images/ndp.svg"></div>
+<div class="slide"><img src="images/nasazahrada.svg"></div>
+<!-- <div class="slide"><img src="images/napisanezivotomkrizovky.svg"></div> -->
+<div class="slide"><img src="images/napisanezivotom.svg"></div>
+<div class="slide"><img src="images/napinavekrizovky.svg"></div>
+<div class="slide"><img src="images/najlepsiekrizovky.svg"></div>
+<div class="slide"><img src="images/mediweb.svg"></div>
+<div class="slide"><img src="images/maxikrizovky.svg"></div>
+<div class="slide"><img src="images/lekarskelisty.svg"></div>
+<div class="slide"><img src="images/krizovkydovrecka.svg"></div>
+<div class="slide"><img src="images/kompendium.svg"></div>
+<!-- <div class="slide"><img src="images/chvilka100krizoviek.svg"></div> -->
+<div class="slide"><img src="images/chptkrizovky.svg"></div>
+<div class="slide"><img src="images/chpt.svg"></div>
+<div class="slide"><img src="images/hospodarskenoviny.svg"></div>
+<div class="slide"><img src="images/horeca.svg"></div>
+<div class="slide"><img src="images/hntv.svg"></div>
+<div class="slide"><img src="images/hnonline.svg"></div>
+<div class="slide"><img src="images/hnmagazin.svg"></div>
+<div class="slide"><img src="images/evitovky.svg"></div>
+<div class="slide"><img src="images/evita.svg"></div> 
+<div class="slide"><img src="images/eurotelevizia.svg"></div>
+<div class="slide"><img src="images/dobreradystarejmamy.svg"></div>
+<div class="slide"><img src="images/diabetik.svg"></div>
+<div class="slide"><img src="images/cs.svg"></div>
+<div class="slide"><img src="images/cnl.svg"></div>
+<div class="slide"><img src="images/brainee.svg"></div>
+<div class="slide"><img src="images/balans.svg"></div>
+<div class="slide"><img src="images/astrokrizovky.svg"></div>
     </div>
   </div>
 
@@ -268,7 +380,7 @@
       </div>
     </div>
     <div class="copyright">
-      <p style="font-weight:700">© 2012-2022 MAFRA Slovakia, a.s.
+      <p style="font-weight:700">© 2012-2025 MAFRA Slovakia, a.s.
       </p>
       <p>
         Všetky práva vyhradené. Publikovanie alebo ďalšie šírenie správ, fotografií a dát je bez predchádzajúceho písomného súhlasu porušením autorského zákona.
@@ -308,14 +420,14 @@ function easeInOutQuad(t) {
 
 
     const boxConfigs = [
-      { type: "number", target: 0, duration: 2000, label: "PV mesačne" },
+      { type: "number", target: 12567195, duration: 3000, label: "PV mesačne" },
       { type: "number", target: 954, duration: 3000, label: "Titulov" },
-      { type: "percent", target: 76, duration: 2500, label: "Žien vo vydavateľstve" },
-      { type: "number", target: 42190, duration: 4000, label: "Časopiseckých strán" },
-      { type: "number", target: 0, duration: 2000, label: "Kumulatívne kníh " },
-      { type: "number", target: 997, duration: 3000, label: "Uzávierok za rok" },
+      { type: "number", target: 16.33 , duration: 1500, label: "Obrat v mil. €" },
+      { type: "number", target: 42190, duration: 3000, label: "Časopiseckých strán" },
+      { type: "number", target: 103, duration: 2000, label: "Knižných titulov od 2018 " },
+      { type: "number", target: 997, duration: 3000, label: "Uzávierok ročne" },
       { type: "number", target: 245, duration: 3500, label: "Počet zamestnancov " },
-      { type: "number", target: 16.33 , duration: 1500, label: "Obrat v mil. €" }
+      { type: "percent", target: 76, duration: 2500, label: "Žien vo vydavateľstve" }
     ];
 
     const boxesContainer = document.getElementById("boxes");
@@ -367,6 +479,100 @@ function easeInOutQuad(t) {
         }, true);
       }
     });
+
+    const oldArticles = [
+  {
+    title: "Hospodárske noviny oslavujú 30 rokov na trhu",
+    content: "Čítať ďalej ->",
+    link: "https://www.hnonline.sk/ekonomika/9605742-hospodarske-noviny-oslavuju-30-rokov-na-trhu"
+  },
+  {
+    title: "Nový titul 'Zdravý život' už v predaji",
+    content: "Čítať ďalej ->",
+    link: "https://www.zdraviezivot.sk/clanok/novy-titul-v-predaji"
+  },
+  {
+    title: "MAFRA Slovakia rozširuje portfólio odborných časopisov",
+    content: "Čítať ďalej ->",
+    link: "https://strategie.hnonline.sk/media/9605743-mafra-slovakia-rozsiruje-portfolio"
+  },
+  {
+    title: "Mediweb získal cenu za najlepší zdravotnícky portál",
+    content: "Čítať ďalej ->",
+    link: "https://mediweb.hnonline.sk/novinky/9605744-mediweb-ziskal-cenu"
+  },
+  {
+    title: "Rytmus života uvádza nový špeciál",
+    content: "Čítať ďalej ->",
+    link: "https://www.rytmuszivota.sk/special"
+  },
+  {
+    title: "Eurotelevízia dosiahla rekordný náklad",
+    content: "Čítať ďalej ->",
+    link: "https://www.eurotelevizia.sk/novinky/rekordny-naklad"
+  },
+  {
+    title: "HNmagazín s novým dizajnom",
+    content: "Čítať ďalej ->",
+    link: "https://hnmagazin.sk/novy-dizajn"
+  },
+  {
+    title: "Téma: Dôležité zmeny v slovenskom zdravotníctve",
+    content: "Čítať ďalej ->",
+    link: "https://www.hnonline.sk/zdravotnictvo/tema-dolezite-zmeny"
+  },
+  {
+    title: "Nová publikácia o marketingu v digitálnej ére",
+    content: "Čítať ďalej ->",
+    link: "https://strategie.hnonline.sk/marketing/9605745-digitalna-era"
+  }
+  // Pridávajte ďalšie podľa potreby
+];
+
+let oldArticleIndex = 0;
+const NEWS_BATCH_SIZE = 3;
+
+document.getElementById("load-more-news").addEventListener("click", function(e) {
+  e.preventDefault();
+  const newsRows = document.getElementById("news-rows");
+
+  let rowDiv = document.createElement("div");
+  rowDiv.className = "news-row";
+
+  let added = 0;
+  while (oldArticleIndex < oldArticles.length && added < NEWS_BATCH_SIZE) {
+    const article = oldArticles[oldArticleIndex];
+    const artDiv = document.createElement("div");
+    artDiv.className = "news-article";
+    const h3 = document.createElement("h3");
+    h3.textContent = article.title;
+    const p = document.createElement("p");
+    // Pridáme odkaz, ak je dostupný
+    if (article.link) {
+      const a = document.createElement("a");
+      a.href = article.link;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      a.textContent = article.content;
+      p.appendChild(a);
+    } else {
+      p.textContent = article.content;
+    }
+    artDiv.appendChild(h3);
+    artDiv.appendChild(p);
+    rowDiv.appendChild(artDiv);
+
+    oldArticleIndex++;
+    added++;
+  }
+
+  newsRows.appendChild(rowDiv);
+
+  // Ak už nie sú ďalšie články, skryjeme tlačidlo
+  if (oldArticleIndex >= oldArticles.length) {
+    this.style.display = "none";
+  }
+});
   </script>
 </body>
 </html>

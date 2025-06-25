@@ -51,6 +51,7 @@
         text-decoration: none;
         border: none;
         cursor: pointer;
+        width: 38%;
     }
     .btn-predplatne {
         background: #e4061f;
@@ -135,17 +136,18 @@
     .main-content .buttons {
         margin-top: 20px;
         display: flex;
-        flex-direction: column;
-        width: 200px;
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: wrap;
     }
 
     .main-content .buttons button {
         background-color: #003049;
-        color: white;
-        padding: 10px;
-        margin-bottom: 10px;
-        font-size: 16px;
-        border: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px 5px;
+    text-decoration: none;
     }
 
     .main-content img {
@@ -216,6 +218,81 @@
 }
 .sidebar ul li:hover {
     background-color: #004471;
+}
+.accordion-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+.accordion-group::after {
+    position: absolute;
+    content: "⯆";
+    right: 0;
+    top: 2px;
+    color: white;
+    font-size: 20px;
+}
+
+.accordion-main {
+  background-color: #666;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 2px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  
+  padding: 10px 15px;
+  font-size: 16px;
+  transition: background 0.2s;
+}
+
+.accordion-main:hover {
+  background: #003049;
+}
+
+.accordion-content {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  /* Remove extra padding/margin so children align perfectly with main btn */
+  box-sizing: border-box;
+  border-radius: 0 0 4px 4px;
+  overflow: hidden;
+  background: #f8f9fa;
+  border-top: 1px solid #ddd;
+  animation: fadeIn .3s;
+}
+
+.accordion-content a {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  text-align: left;
+  padding: 10px 15px;
+  background: #e9ecef;
+  color: #003049;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.accordion-content a:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+}
+
+.accordion-content a:hover, .accordion-content a:focus {
+  background: #003049;
+  color: #fff;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 /* MOBILE */
@@ -328,21 +405,50 @@
         <div class="sidebar" >
             <ul id="product-list" class="product-list">
                 <li class="product activeli" data-id="1" data-category="dennik">Hospodárske noviny</li>
-                <li class="product" data-id="2" data-category="krizovky">HN Magazín</li>
-                <li class="product" data-id="3" data-category="odborne">Prečo nie?!</li>
-                <li class="product" data-id="4" data-category="krizovky">Svet 2025</li>
-                <li class="product" data-id="5" data-category="dennik">Hospodárske noviny</li>
-                <li class="product" data-id="6" data-category="dennik">HN Magazín</li>
-                <li class="product" data-id="7" data-category="zaujmove">Prečo nie?!</li>
-                <li class="product" data-id="8" data-category="odborne">Svet 2025</li>
-                <li class="product" data-id="9" data-category="zenske">Hospodárske noviny</li>
-                <li class="product" data-id="10" data-category="dennik">HN Magazín</li>
-                <li class="product" data-id="11" data-category="odborne">Prečo nie?!</li>
-                <li class="product" data-id="12" data-category="zaujmove">Svet 2025</li>
-                <li class="product" data-id="13" data-category="zaujmove">Hospodárske noviny</li>
-                <li class="product" data-id="14" data-category="dennik">HN Magazín</li>
-                <li class="product" data-id="15" data-category="programove">Prečo nie?!</li>
-                <li class="product" data-id="16" data-category="odborne">Svet 2025</li>
+                <li class="product" data-id="2" data-category="dennik">HN Magazín</li>
+                <li class="product" data-id="3" data-category="dennik">Prečo nie?!</li>
+                <li class="product" data-id="4" data-category="dennik">Svet 2025</li>
+                <li class="product" data-id="5" data-category="odborne">Stratégie</li>
+                <li class="product" data-id="6" data-category="odborne">Diabetik</li>
+                <li class="product" data-id="7" data-category="odborne">Horeca</li>
+                <li class="product" data-id="8" data-category="odborne">Obchod</li>
+                <li class="product" data-id="9" data-category="odborne">Zdravotnícke noviny</li>
+                <li class="product" data-id="10" data-category="spolocenske">Chvíľka pre teba</li>
+                <li class="product" data-id="11" data-category="odborne">Top sestra</li>
+                <li class="product" data-id="12" data-category="zenske">Evita</li>
+                <li class="product" data-id="13" data-category="zenske">Evita Varíme spolu</li>
+                <li class="product" data-id="14" data-category="zenske">Všetko pre ženu</li>
+                <li class="product" data-id="15" data-category="zenske">Tajomstvá ženy</li>
+                <li class="product" data-id="16" data-category="spolocenske">Téma</li>
+                <li class="product" data-id="17" data-category="spolocenske">Rytmus života</li>
+                <li class="product" data-id="18" data-category="spolocenske">Rytmus života Rodinné zdravie</li>
+                <li class="product" data-id="19" data-category="spolocenske">Rytmus života Varíme</li>
+                <li class="product" data-id="20" data-category="spolocenske">Záhady a horoskopy</li>
+                <li class="product" data-id="21" data-category="spolocenske">Balans</li>
+                <li class="product" data-id="22" data-category="spolocenske">Varíme a pečieme</li>
+                <li class="product" data-id="23" data-category="spolocenske">Noviny do pohody</li>
+                <li class="product" data-id="24" data-category="zaujmove">Čarovné Slovensko</li>
+                <li class="product" data-id="25" data-category="zaujmove">Naša záhrada</li>
+                <li class="product" data-id="26" data-category="programove">Eurotelevízia</li>
+                <li class="product" data-id="27" data-category="programove">TV max</li>
+                <li class="product" data-id="28" data-category="programove">Tele plus</li>
+                <li class="product" data-id="29" data-category="programove">Telemagazín pre ženy</li>
+                <li class="product" data-id="30" data-category="krizovky">Astro krížovky</li>
+                <li class="product" data-id="31" data-category="krizovky">Chvíľka na 100 krížoviek</li>
+                <li class="product" data-id="32" data-category="krizovky">Chvíľka pre teba krížovky</li>
+                <li class="product" data-id="33" data-category="krizovky">Krížovky do vrecka</li>
+                <li class="product" data-id="34" data-category="krizovky">Krížovky na každý deň</li>
+                <li class="product" data-id="35" data-category="krizovky">Rytmus života krížovky s humorom</li>
+                <li class="product" data-id="36" data-category="krizovky">MAXI Krížovky plus</li>
+                <li class="product" data-id="37" data-category="krizovky">Najlepšie krížovky</li>
+                <li class="product" data-id="38" data-category="krizovky">Napínavé krížovky</li>
+                <li class="product" data-id="39" data-category="krizovky">Napínavé krížovky plus</li>
+                <li class="product" data-id="40" data-category="krizovky">MAXI Krížovky zábava pre celú rodinu</li>
+                <li class="product" data-id="41" data-category="krizovky">Najlacnejšie krížovky (lúštime bez ouliarov)</li>
+                <li class="product" data-id="42" data-category="krizovky">Napínavé osemsmerovky</li>
+                <li class="product" data-id="43" data-category="krizovky">Napísané životom krížovky</li>
+                <li class="product" data-id="44" data-category="krizovky">Krížovky a noviny</li>
+                <li class="product" data-id="45" data-category="krizovky">Sudoku MINI</li>
             </ul>
         </div>
         <div class="main-content">
@@ -420,25 +526,25 @@
 </div>
 <script>
 
-        // stranka sa po načítaní načíta v rovnakej scroll pozícii
-    function storePagePosition() {
-      var page_y = window.pageYOffset;
-      localStorage.setItem("page_y", page_y);
+// stranka sa po načítaní načíta v rovnakej scroll pozícii
+function storePagePosition() {
+  var page_y = window.pageYOffset;
+  localStorage.setItem("page_y", page_y);
+}
+window.addEventListener("scroll", storePagePosition);
+var currentPageY;
+try {
+  currentPageY = localStorage.getItem("page_y");
+  if (currentPageY === undefined) {
+    localStorage.setItem("page_y") = 0;
   }
-  window.addEventListener("scroll", storePagePosition);
-  var currentPageY;
-  try {
-      currentPageY = localStorage.getItem("page_y");
-      if (currentPageY === undefined) {
-        localStorage.setItem("page_y") = 0;
-    }
-    window.scrollTo( 0, currentPageY );
+  window.scrollTo( 0, currentPageY );
 } catch (e) {
-    // no localStorage available
+  // no localStorage available
 };
 
 
-        // Po načítaní stránky pridáva udalosti tlačidlám a produktovým položkám
+// Po načítaní stránky pridáva udalosti tlačidlám a produktovým položkám
 window.addEventListener('load', () => {
     // Tlačidlo na zobrazenie všetkých produktov
     document.getElementById('all-products-btn').addEventListener('click', showAllProducts);
@@ -463,7 +569,7 @@ window.addEventListener('load', () => {
 });
 
 // Premenné na sledovanie aktuálnej kategórie a produktu
-let currentCategory = null;
+let currentCategory = "all"; // defaultne "all"
 let currentProductId = null;
 
 // Funkcia na aktualizáciu URL pomocou hash
@@ -475,6 +581,14 @@ function updateURL(path) {
 function showAllProducts() {
     const productElements = document.querySelectorAll('.product');
     productElements.forEach(product => product.classList.remove('hidden')); // Odstráni skrytie všetkých produktov
+
+    // Nastav aktuálnu kategóriu na "all"
+    currentCategory = "all";
+
+    // Po zobrazení všetkých produktov zruš aktívne označenie produktu v sidebar-e aj podkategóriách
+    document.querySelectorAll('.product').forEach(prod => prod.classList.remove('activeli'));
+    document.querySelectorAll('.sub-categories button').forEach(btn => btn.classList.remove('active'));
+    document.getElementById('all-products-btn').classList.add('active');
 
     updateURL('/'); // Nastavenie hash na root
     refreshProductDetail(); // Skrytie detailov produktu
@@ -491,8 +605,61 @@ function filterByCategory(category) {
         }
     });
 
+    // Nastav aktuálnu kategóriu
+    currentCategory = category;
+
+    // Po filtrovaní produktov, zruš aktívne označenie produktu v sidebar-e
+    document.querySelectorAll('.product').forEach(prod => prod.classList.remove('activeli'));
+
     updateURL(`/kategoria/${category}`); // Aktualizácia hash URL podľa kategórie
     refreshProductDetail(); // Skrytie detailov produktu
+}
+
+// Fixné tlačidlá
+function renderFixedButtons(product) {
+  let html = '';
+  if (product.btnPred && product.btnPredUrl) {
+    html += `<a class="product-detail-btn btn-predplatne" target="_blank" href="${product.btnPredUrl}">${product.btnPred}</a>`;
+  }
+  if (product.btnCennik && product.btnCennikUrl) {
+    html += `<a class="product-detail-btn" target="_blank" href="${product.btnCennikUrl}">${product.btnCennik}</a>`;
+  }
+  if (product.btnHarm && product.btnHarmUrl) {
+    html += `<a class="product-detail-btn" target="_blank" href="${product.btnHarmUrl}">${product.btnHarm}</a>`;
+  }
+  return html;
+}
+
+// Extra tlačidlá zobrazované vždy pod fixnými tlačidlami
+function renderExtraAlwaysButtons(extraButtons = []) {
+  return extraButtons.map(btn =>
+    `<a class="${btn.class}" href="${btn.url}" target="_blank">${btn.label}</a>`
+  ).join('');
+}
+
+// Accordion/harmonika tlačidlá
+function renderAccordionButtons(accordionButtons = [], accordionTitle = "Viac možností") {
+  if (!accordionButtons.length) return '';
+  return `
+    <div class="accordion-group">
+      <button class="accordion-main product-detail-btn" onclick="toggleAccordion(this)">${accordionTitle}</button>
+      <div class="accordion-content" style="display:none;">
+        ${accordionButtons.map(btn =>
+          `<a class="${btn.class}" href="${btn.url}" target="_blank">${btn.label}</a>`
+        ).join('')}
+      </div>
+    </div>
+  `;
+}
+
+// Accordion JS
+function toggleAccordion(button) {
+  const content = button.nextElementSibling;
+  if (content.style.display === "none" || content.style.display === "") {
+    content.style.display = "block";
+  } else {
+    content.style.display = "none";
+  }
 }
 
 // Zobrazenie detailu produktu podľa jeho identifikátora (slug)
@@ -517,10 +684,10 @@ function showProductDetail(productSlug) {
     <img class="product-detail-img" src="${product.image}" alt="${product.name}">
     </div>
     <div class="buttons">
-    <a class="product-detail-btn btn-predplatne" href="${product.btnPredUrl}">${product.btnPred}</a>
-    <a class="product-detail-btn" href="${product.btnCennikUrl}">${product.btnCennik}</a>
-    <a class="product-detail-btn" href="${product.btnHarmUrl}">${product.btnHarm}</a>
-    </div>
+  ${renderFixedButtons(product)}
+  ${renderExtraAlwaysButtons(product.extraButtons)}
+  ${renderAccordionButtons(product.accordionButtons, product.accordionButtonsTitle)}
+</div>
     </div>
     <div class="product-detail-holder">
     <img class="product-detail-img" src="${product.image}" alt="${product.name}">
@@ -528,17 +695,15 @@ function showProductDetail(productSlug) {
     </div>
     `;
 
-// Získanie existujúceho meta tagu s názvom 'title'
-let titleTag = document.querySelector('title');
-// Získanie existujúceho meta tagu s názvom 'meta description'
-let metaDescription = document.querySelector('meta[name="description"]');
-// Zmena obsahu title tagu
-titleTag.innerText = `MAFRA Slovakia - ${product.name}`;
+    // Získanie existujúceho meta tagu s názvom 'title'
+    let titleTag = document.querySelector('title');
+    // Získanie existujúceho meta tagu s názvom 'meta description'
+    let metaDescription = document.querySelector('meta[name="description"]');
+    // Zmena obsahu title tagu
+    titleTag.innerText = `MAFRA Slovakia - ${product.name}`;
 
-// Dynamické nastavenie obsahu pre description
-metaDescription.setAttribute('content', product.description);
-
-
+    // Dynamické nastavenie obsahu pre description
+    metaDescription.setAttribute('content', product.description);
 
     // Normalizácia textu na vytvorenie slug pre názov
     function normalizeText(text) {
@@ -552,6 +717,40 @@ metaDescription.setAttribute('content', product.description);
     const productNameSlug = normalizeText(product.name); // Vytvorí slug z názvu produktu
     const urlPath = `/titul/${productSlug}/${productNameSlug}`; // Spojí ID a názov do URL
     updateURL(urlPath); // Aktualizácia URL
+
+    // Ak je aktuálny filter "all", zobraz všetky produkty v sidebar-e
+    if (currentCategory === "all") {
+        document.querySelectorAll('.product').forEach(prod => prod.classList.remove('hidden'));
+    } else {
+        // Inak zobraz len produkty danej kategórie
+        const productElement = document.querySelector(`.product[data-id='${productSlug}']`);
+        if (productElement) {
+            document.querySelectorAll('.product').forEach(prod => {
+                if (prod.dataset.category === currentCategory) {
+                    prod.classList.remove('hidden');
+                } else {
+                    prod.classList.add('hidden');
+                }
+            });
+        }
+    }
+
+    // Nastav aktívny produkt v sidebar-e
+    const productElement = document.querySelector(`.product[data-id='${productSlug}']`);
+    if (productElement) {
+        document.querySelectorAll('.product').forEach(prod => prod.classList.remove('activeli'));
+        productElement.classList.add('activeli');
+    }
+
+    // --- OPRAVA: filter podkategórií ---
+    // Nastav aktívny filter podľa toho, čo si užívateľ vybral
+    document.querySelectorAll('.sub-categories button').forEach(btn => btn.classList.remove('active'));
+    if (currentCategory === "all") {
+        document.getElementById('all-products-btn').classList.add('active');
+    } else {
+        const categoryButton = document.getElementById(`${currentCategory}-btn`);
+        if (categoryButton) categoryButton.classList.add('active');
+    }
 }
 
 // Obnovenie detailu produktu alebo jeho skrytie
@@ -583,10 +782,10 @@ function refreshProductDetail() {
     <img class="product-detail-img" src="${product.image}" alt="${product.name}">
     </div>
     <div class="buttons">
-    <a class="product-detail-btn btn-predplatne" href="${product.btnPredUrl}">${product.btnPred}</a>
-    <a class="product-detail-btn" href="${product.btnCennikUrl}">${product.btnCennik}</a>
-    <a class="product-detail-btn" href="${product.btnHarmUrl}">${product.btnHarm}</a>
-    </div>
+  ${renderFixedButtons(product)}
+  ${renderExtraAlwaysButtons(product.extraButtons)}
+  ${renderAccordionButtons(product.accordionButtons, product.accordionButtonsTitle)}
+</div>
     </div>
     <div class="product-detail-holder">
     <img class="product-detail-img" src="${product.image}" alt="${product.name}">
@@ -594,14 +793,14 @@ function refreshProductDetail() {
     </div>
     `;
     // Získanie existujúceho meta tagu s názvom 'title'
-let titleTag = document.querySelector('title');
-// Získanie existujúceho meta tagu s názvom 'meta description'
-let metaDescription = document.querySelector('meta[name="description"]');
-// Zmena obsahu title tagu
-titleTag.innerText = `MAFRA Slovakia - ${product.name}`;
+    let titleTag = document.querySelector('title');
+    // Získanie existujúceho meta tagu s názvom 'meta description'
+    let metaDescription = document.querySelector('meta[name="description"]');
+    // Zmena obsahu title tagu
+    titleTag.innerText = `MAFRA Slovakia - ${product.name}`;
 
-// Dynamické nastavenie obsahu pre description
-metaDescription.setAttribute('content', product.description);
+    // Dynamické nastavenie obsahu pre description
+    metaDescription.setAttribute('content', product.description);
     detailContainer.classList.remove('hidden'); // Zobrazí detail
 }
 
@@ -617,6 +816,8 @@ function handleHashChange() {
         filterByCategory(category); // Filtrovanie podľa kategórie
     } else if (path[0] === 'titul') {
         const productSlug = path[1]; // Získa slug produktu
+        // Pri priamom načítaní detailu nastav aktuálnu kategóriu podľa hash-u alebo nechaj "all"
+        // Ale sidebar nechaj vo filtri podľa toho, čo bolo naposledy zvolené
         showProductDetail(productSlug); // Zobrazenie detailu produktu
     }
 }

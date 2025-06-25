@@ -105,11 +105,9 @@
         }
 
         .contact-item p {
-            margin-bottom: 10px;
+            margin-bottom: -6px;
         }
-        .contact-ochodnik{
-            font-weight: bold;
-        }
+        
 
         .contact-item a {
             color: red;
@@ -161,6 +159,10 @@
     text-decoration: none;
     background: red;
     padding: 5px 10px;
+
+        }
+        .contact-meno {
+    font-weight: 800;
 
         }
 /* MOBILE */
@@ -267,9 +269,8 @@
         <div class="tabs" id="printSubcategories">
             <ul>
                 <button class="blue" id="btnPrintAll" class="active" onclick="filterContacts('print', 'all')">Všetky</button>
-                <button class="blue" onclick="filterContacts('print', 'Denník')">Denník</button>
-                <button class="blue" onclick="filterContacts('print', 'Odborné')">Odborné</button>
-                <button class="blue" onclick="filterContacts('print', 'Ženské')">Ženské</button>
+                <button class="blue" onclick="filterContacts('print', 'HN/B2B')">HN/B2B</button>
+                <button class="blue" onclick="filterContacts('print', 'Lifestyle')">Lifestyle</button>
             </ul>
 
         </div>
@@ -277,9 +278,6 @@
         <div class="tabs" id="digitalSubcategories" style="display: none;">
             <ul>
                 <button class="blue" id="btnDigitalAll" class="active" onclick="filterContacts('digital', 'all')">Všetky</button>
-                <button class="blue" onclick="filterContacts('digital', 'HNonline')">HNonline</button>
-                <button class="blue" onclick="filterContacts('digital', 'Svetevity')">Svetevity</button>
-                <button class="blue" onclick="filterContacts('digital', 'Brainee')">Brainee</button>
             </ul>
         </div>
     </div>
@@ -288,98 +286,104 @@
 <div class="contacts ">
     <div class="contact print" id="contactsPrint" style="display: block;">
         <div class="contact-item">
-            <p class="contact-ochodnik">Denník</p>
-            <p class="contact-meno">Meno 1</p>
-            <p>tel.: +421 (2) 00 000 000</p>
-            <a href="mailto:meno1@mafraslovakia.sk">meno1@mafraslovakia.sk</a>
-            <span class="filtrovacka">Denník</span>
+            <p class="contact-meno">Katarína Michalechová</p>
+            <p class="contact-pozicia">Obchodný riaditeľ</p>
+            <p >katarina.michalechova@mafraslovakia.sk</p>
+            <span class="filtrovacka"></span>
         </div>
 
         <div class="contact-item">
-            <p class="contact-ochodnik">Denník</p>
-            <p class="contact-meno">Meno 1</p>
-            <p>tel.: +421 (2) 00 000 000</p>
-            <a href="mailto:meno1@mafraslovakia.sk">meno1@mafraslovakia.sk</a>
-            <span class="filtrovacka">Denník</span>
+            <p class="contact-meno">Henrieta Kainová </p>
+            <p class="contact-pozicia">Administratívna pracovníčka obchodného oddelenia</p>
+            <p>tel.: +421 905 849 083</p>
+            <p >henrieta.kainova@mafraslovakia.sk</p>
+            <span class="filtrovacka">HN/B2B</span>
         </div>
 
         <div class="contact-item">
-            <p class="contact-ochodnik">Odborné</p>
-            <p class="contact-meno">Meno 1</p>
-            <p>tel.: +421 (2) 00 000 000</p>
-            <a href="mailto:meno1@mafraslovakia.sk">meno1@mafraslovakia.sk</a>
-            <span class="filtrovacka">Odborné</span>
+            <p class="contact-meno">Peter Tomek</p>
+            <p class="contact-pozicia">Senior sales manager</p>
+            <p>tel.: +421 918 726 304</p>
+            <p >peter.tomek@mafraslovakia.sk</p>
+            <span class="filtrovacka">Lifestyle</span>
         </div>
 
         <div class="contact-item">
-            <p class="contact-ochodnik">Odborné</p>
-            <p class="contact-meno">Meno 1</p>
-            <p>tel.: +421 (2) 00 000 000</p>
-            <a href="mailto:meno1@mafraslovakia.sk">meno1@mafraslovakia.sk</a>
-            <span class="filtrovacka">Odborné</span>
+            <p class="contact-meno">Peter Vlašič</p>
+            <p class="contact-pozicia">Senior sales manager</p>
+            <p>tel.: +421 915 886 439</p>
+            <p >peter.vlasic@mafraslovakia.sk</p>
+            <span class="filtrovacka">Lifestyle</span>
         </div>
 
         <div class="contact-item">
-            <p class="contact-ochodnik">Odborné</p>
-            <p class="contact-meno">Meno 1</p>
-            <p>tel.: +421 (2) 00 000 000</p>
-            <a href="mailto:meno1@mafraslovakia.sk">meno1@mafraslovakia.sk</a>
-            <span class="filtrovacka">Odborné</span>
+            <p class="contact-meno">Terézia Pócsiková</p>
+            <p class="contact-pozicia">Produkčný manažér obchodného oddelenia</p>
+            <p>tel.: +421 905 363 418</p>
+            <p >terezia.pocsikova@mafraslovakia.sk</p>
+            <span class="filtrovacka">Lifestyle</span>
         </div>
 
         <div class="contact-item">
-            <p class="contact-ochodnik">Ženské</p>
-            <p class="contact-meno">Meno 1</p>
-            <p>tel.: +421 (2) 00 000 000</p>
-            <a href="mailto:meno1@mafraslovakia.sk">meno1@mafraslovakia.sk</a>
-            <span class="filtrovacka">Ženské</span>
+            <p class="contact-meno">Klaudia Hurbánková</p>
+            <p class="contact-pozicia">Senior sales manager</p>
+            <p>tel.: +421 915 884 300</p>
+            <p >klaudia.hurbankova@mafraslovakia.sk</p>
+            <span class="filtrovacka">HN/B2B</span>
         </div>
+
+        <div class="contact-item">
+            <p class="contact-meno">Zuzana Koleníková</p>
+            <p class="contact-pozicia">Senior sales manager</p>
+            <p>tel.: +421 917 624 365</p>
+            <p >zuzana.kolenikova@mafraslovakia.sk</p>
+            <span class="filtrovacka">HN/B2B</span>
+        </div>
+
+        <div class="contact-item">
+            <p class="contact-meno">Miloš Kasala</p>
+            <p class="contact-pozicia">Senior sales manager</p>
+            <p>tel.: +421 903 263 553</p>
+            <p >milos.kasala@mafraslovakia.sk</p>
+            <span class="filtrovacka">HN/B2B</span>
+        </div>
+
+        <div class="contact-item">
+            <p class="contact-meno">Nikoleta Kosecová</p>
+            <p class="contact-pozicia">Produkčný manažér obchodného oddelenia</p>
+            <p>tel.: +421 940 995 761</p>
+            <p >nikoleta.kosecova@mafraslovakia.sk</p>
+            <span class="filtrovacka">HN/B2B</span>
+        </div>
+
         <a class="btn-porttit" href="detail-produktu-print.html#/titul/1/hospodarske-noviny">Portfólio print titulov</a>
     </div>
 
     <div id="contactsDigital" class="contact digital" style="display: none;">
         <div class="contact-item ">
-            <p class="contact-ochodnik">HNonline</p>
-            <p class="contact-meno">Meno 2</p>
-            <p>tel.: +421 (2) 00 000 000</p>
-            <a href="mailto:meno2@mafraslovakia.sk">meno2@mafraslovakia.sk</a>
-            <span class="filtrovacka">HNonline</span>
+            <p class="contact-meno">Adriána Vašková</p>
+            <p class="contact-pozicia">Traffic manager</p>
+            <p>tel.: +421 907 912 729</p>
+            <p >adriana.vaskova@mafraslovakia.sk</p>
+            <span class="filtrovacka">all</span>
         </div>
+
         <div class="contact-item ">
-            <p class="contact-ochodnik">HNonline</p>
-            <p class="contact-meno">Meno 2</p>
-            <p>tel.: +421 (2) 00 000 000</p>
-            <a href="mailto:meno2@mafraslovakia.sk">meno2@mafraslovakia.sk</a>
-            <span class="filtrovacka">HNonline</span>
+            <p class="contact-meno">Michal Jaroš</p>
+            <p class="contact-pozicia">Senior sales manager</p>
+            <p>tel.: +421 908 551 433</p>
+            <p >michal.jaros@mafraslovakia.sk</p>
+            <span class="filtrovacka">all</span>
         </div>
+
         <div class="contact-item ">
-            <p class="contact-ochodnik">Svetevity</p>
-            <p class="contact-meno">Meno 2</p>
-            <p>tel.: +421 (2) 00 000 000</p>
-            <a href="mailto:meno2@mafraslovakia.sk">meno2@mafraslovakia.sk</a>
-            <span class="filtrovacka">Svetevity</span>
+            <p class="contact-meno">Jarmila Kovalská</p>
+            <p class="contact-pozicia">Junior online manager</p>
+            <p>tel.: +421 905 287 337</p>
+            <p >jarmila.kovalska@mafraslovakia.sk</p>
+            <span class="filtrovacka">all</span>
         </div>
-        <div class="contact-item ">
-            <p class="contact-ochodnik">Brainee</p>
-            <p class="contact-meno">Meno 2</p>
-            <p>tel.: +421 (2) 00 000 000</p>
-            <a href="mailto:meno2@mafraslovakia.sk">meno2@mafraslovakia.sk</a>
-            <span class="filtrovacka">Brainee</span>
-        </div>
-        <div class="contact-item ">
-            <p class="contact-ochodnik" class="contact-ochodnik">Obchodník 5</p>
-            <p class="contact-meno">Brainee</p>
-            <p>tel.: +421 (2) 00 000 000</p>
-            <a href="mailto:meno2@mafraslovakia.sk">meno2@mafraslovakia.sk</a>
-            <span class="filtrovacka">Brainee</span>
-        </div>
-        <div class="contact-item ">
-            <p class="contact-ochodnik">Brainee</p>
-            <p class="contact-meno">Meno 2</p>
-            <p>tel.: +421 (2) 00 000 000</p>
-            <a href="mailto:meno2@mafraslovakia.sk">meno2@mafraslovakia.sk</a>
-            <span class="filtrovacka">Brainee</span>
-        </div>
+        
         <a class="btn-porttit" href="detail-produktu-digi.html#/titul/1/hnonline">Portfólio digital titulov</a>
     </div>
 </div>
