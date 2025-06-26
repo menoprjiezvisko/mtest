@@ -89,26 +89,42 @@
     .tabs button.blue {
         background-color: #003366;
     }
+
+    .contact {
+        margin-bottom: 50px;
+    }
     #contactsDigital .contact-item {
         width: 100%;
         text-align: center;
+        display: block;
+        background: none;
+        height: auto;
     }
 
     .contact-item {
         padding-top: 10px;
         position: relative;
+        background: red;
+    height: 220px;
+    display: flex
+;
+    justify-content: center;
 
     }
 
     .contact-item a {
-        color: black;
-        text-decoration: underline;
-        font-size: 20px;
+        display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
     }
     .contact-item img{
         height: auto;
         margin-bottom: 40px;
-        width: 100%;
+        width: 80%;
     }
     .category-buttons img {
         
@@ -237,6 +253,10 @@
                 <button class="blue" onclick="filterContacts('print', 'Denník')">Denník</button>
                 <button class="blue" onclick="filterContacts('print', 'Odborné')">Odborné</button>
                 <button class="blue" onclick="filterContacts('print', 'Ženské')">Ženské</button>
+                <button class="blue" onclick="filterContacts('print', 'Spoločenské')">Spoločenské</button>
+                <button class="blue" onclick="filterContacts('print', 'Záujmové')">Záujmové</button>
+                <button class="blue" onclick="filterContacts('print', 'Programové')">Programové</button>
+                <button class="blue" onclick="filterContacts('print', 'Krížovky')">Krížovky</button>
             </ul>
             
         </div>
@@ -252,33 +272,7 @@
     </div>
     
     <div class="contacts ">
-        <div class="contact print" id="contactsPrint" style="display: grid;">
-            <div class="contact-item">
-                <a href="" style="position: absolute;width: 100%;height: 100%;"></a>
-                <img src="https://static.svetevity.sk/pdfs/kuciak.jpg">
-                <span class="filtrovacka">Denník</span>
-            </div>
-            <div class="contact-item">
-                <img src="https://static.hnonline.sk/images/slike/2022/03/20/o_4912120_340.jpg?20241114110541">
-                <span class="filtrovacka">Odborné</span>
-            </div>
-            <div class="contact-item">
-                <img src="https://static.hnonline.sk/images/slike/2022/03/20/o_4247773_340.jpg?20240614093213">
-                <span class="filtrovacka">Odborné</span>
-            </div>
-            <div class="contact-item">
-                <img src="https://static.hnonline.sk/images/slike/2022/03/20/o_4828359_340.jpg?20241024132930">
-                <span class="filtrovacka">Ženské</span>
-            </div>
-            <div class="contact-item">
-                <img src="https://static.hnonline.sk/images/slike/2022/03/20/o_2910944_340.jpg?20241119153934">
-                <span class="filtrovacka">Ženské</span>
-            </div>
-            <div class="contact-item">
-                <img src="https://static.hnonline.sk/images/slike/2022/03/20/o_4828327_340.jpg?20241024131520">
-                <span class="filtrovacka">Ženské</span>
-            </div>
-        </div>
+        <div id="contactsPrint" class="contact print"></div>
 
         <div id="contactsDigital" class="contact digital" style="display: none;">
             <div class="contact-item" >
@@ -485,12 +479,12 @@ function normalizeText(text) {
 
         if (subcategory === 'all') {
         // Zobrazenie všetkých kontaktov pre danú kategóriu
-            contacts.forEach(contact => contact.style.display = 'block');
+            contacts.forEach(contact => contact.style.display = 'flex');
         } else {
         // Zobrazenie iba kontaktov zodpovedajúcich podkategórii
             contacts.forEach(contact => {
                 if (contact.textContent.includes(subcategory)) {
-                    contact.style.display = 'block';
+                    contact.style.display = 'flex';
                 }
             });
         }
@@ -529,7 +523,78 @@ function normalizeText(text) {
     window.addEventListener('popstate', loadFromURL);
 
 
+const tituly = [
+    { id: 1, name: "Hospodárske noviny", img: "hospodarskenoviny.svg", category: "Denník" },
+    { id: 2, name: "HN Magazín", img: "hnmagazin.svg", category: "Denník" },
+    { id: 3, name: "Prečo nie?!", img: "preconie.svg", category: "Denník" },
+    { id: 4, name: "Svet 2025", img: "svet2025.svg", category: "Denník" }, // ak nemáš SVG, zmeň názov
+    { id: 5, name: "Stratégie", img: "strategie.svg", category: "Odborné" },
+    { id: 6, name: "Diabetik", img: "diabetik.svg", category: "Odborné" },
+    { id: 7, name: "Horeca", img: "horeca.svg", category: "Odborné" },
+    { id: 8, name: "Obchod", img: "obchod.svg", category: "Odborné" },
+    { id: 9, name: "Zdravotnícke noviny", img: "zdn.svg", category: "Odborné" },
+    { id: 10, name: "Chvíľka pre teba", img: "chpt.svg", category: "Spoločenské" },
+    { id: 11, name: "Top sestra", img: "topsestra.svg", category: "Odborné" }, // uprav podľa SVG
+    { id: 12, name: "Evita", img: "evita.svg", category: "Ženské" },
+    { id: 13, name: "Evita Varíme spolu", img: "varimespolu.svg", category: "Ženské" },
+    { id: 14, name: "Všetko pre ženu", img: "vpz.svg", category: "Ženské" },
+    { id: 15, name: "Tajomstvá ženy", img: "tajomstvazeny.svg", category: "Ženské" },
+    { id: 16, name: "Téma", img: "tema.svg", category: "Spoločenské" },
+    { id: 17, name: "Rytmus života", img: "rytmuszivota.svg", category: "Spoločenské" },
+    { id: 18, name: "Rytmus života Rodinné zdravie", img: "rytmuszivotarodinnezdravie.svg", category: "Spoločenské" },
+    { id: 19, name: "Rytmus života Varíme", img: "rytmusvarime.svg", category: "Spoločenské" },
+    { id: 20, name: "Záhady a horoskopy", img: "zahady.svg", category: "Spoločenské" },
+    { id: 21, name: "Balans", img: "balans.svg", category: "Spoločenské" },
+    { id: 22, name: "Varíme a pečieme", img: "varimeapecieme.svg", category: "Spoločenské" }, // uprav SVG
+    { id: 23, name: "Noviny do pohody", img: "ndp.svg", category: "Spoločenské" },
+    { id: 24, name: "Čarovné Slovensko", img: "cs.svg", category: "Záujmové" },
+    { id: 25, name: "Naša záhrada", img: "nasazahrada.svg", category: "Záujmové" },
+    { id: 26, name: "Eurotelevízia", img: "eurotelevizia.svg", category: "Programové" },
+    { id: 27, name: "TV max", img: "tvmax.svg", category: "Programové" },
+    { id: 28, name: "Tele plus", img: "teleplus.svg", category: "Programové" },
+    { id: 29, name: "Telemagazín pre ženy", img: "telemagazinprezeny.svg", category: "Programové" }, // uprav SVG
+    { id: 30, name: "Astro krížovky", img: "astrokrizovky.svg", category: "Krížovky" },
+    { id: 31, name: "Chvíľka na 100 krížoviek", img: "chvilka100krizoviek.svg", category: "Krížovky" },
+    { id: 32, name: "Chvíľka pre teba krížovky", img: "chptkrizovky.svg", category: "Krížovky" },
+    { id: 33, name: "Krížovky do vrecka", img: "krizovkydovrecka.svg", category: "Krížovky" },
+    { id: 34, name: "Krížovky na každý deň", img: "krizovkynakazdyden.svg", category: "Krížovky" }, // uprav SVG
+    { id: 35, name: "Rytmus života krížovky s humorom", img: "rytmuszivotakrizovky.svg", category: "Krížovky" },
+    { id: 36, name: "MAXI Krížovky plus", img: "maxikrizovky.svg", category: "Krížovky" },
+    { id: 37, name: "Najlepšie krížovky", img: "najlepsiekrizovky.svg", category: "Krížovky" },
+    { id: 38, name: "Napínavé krížovky", img: "napinavekrizovky.svg", category: "Krížovky" },
+    { id: 39, name: "Napínavé krížovky plus", img: "napinavekrizovkyplus.svg", category: "Krížovky" }, // uprav SVG
+    { id: 40, name: "MAXI Krížovky zábava pre celú rodinu", img: "maxikrizovkyzabavaprecelurodinu.svg", category: "Krížovky" }, // uprav SVG
+    { id: 41, name: "Najlacnejšie krížovky (lúštime bez ouliarov)", img: "najlacnejsiekrizovky.svg", category: "Krížovky" }, // uprav SVG
+    { id: 42, name: "Napínavé osemsmerovky", img: "napinaveosemsmerovky.svg", category: "Krížovky" }, // uprav SVG
+    { id: 43, name: "Napísané životom krížovky", img: "napisanezivotomkrizovky.svg", category: "Krížovky" },
+    { id: 44, name: "Krížovky a noviny", img: "krizovkyanoviny.svg", category: "Krížovky" }, // uprav SVG
+    { id: 45, name: "Sudoku MINI", img: "sudokumini.svg", category: "Krížovky" } // uprav SVG
+];
 
+function normalizeText(text) {
+    return text
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/\s+/g, "-")
+        .replace(/\?/g, "")
+        .replace(/!/g, "")
+        .replace(/[\(\)]/g, "")
+        .replace(/-+/g, "-")
+        .toLowerCase();
+}
+
+function renderPortfolio() {
+    const container = document.getElementById('contactsPrint');
+    container.innerHTML = tituly.map(t => `
+        <div class="contact-item" data-category="${t.category}">
+            <a href="detail-produktu-print.html#/titul/${t.id}/${normalizeText(t.name)}"></a>
+            <img src="images/${t.img}" alt="${t.name}">
+            <span class="filtrovacka">${t.category}</span>
+        </div>
+    `).join('');
+}
+
+window.addEventListener('DOMContentLoaded', renderPortfolio);
 
 </script>
 </body>
