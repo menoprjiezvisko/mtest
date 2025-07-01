@@ -22,7 +22,7 @@
       },
     3: {
         name: "Svetevity",
-        description: "Online platforma pre ženy (25-55 rokov), zameraná na lifestyle, módu, krásu, zdravie, vzťahy a rodinu. Obsah je ľahký, informatívny a inšpiratívny. Typická čitateľka je moderná, aktívna žena hľadajúca praktické rady a trendy pre každodenný život.",
+        description: "Online platforma pre ženy (25-55 rokov), zameraná na lifestyle, módu, krásu, zdravie, vzťahy a rodinu. Obsah je ľahký, informatívny a inšpiratívny. Typická čitateľka je moderná, aktívna žena hľadajúca praktické rady a trendy pre každodenný život. varímespolu.sk je gastro web pre všetkých, ktorí milujú dobré jedlo a spoločné chvíle pri varení. Nájdete tu overené recepty, tipy do kuchyne, sezónne inšpirácie aj nápady na rýchle a zdravé jedlá. Či už ste začiatočník alebo skúsený kuchár, u nás si určite vyberiete.",
         kontakt: "Kontakt: inzercia@mafraslovakia.sk",
         image: "images/port_svetevity.png",
         btnCennik: "Cenník",

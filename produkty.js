@@ -210,7 +210,7 @@
         btnPred:"Predplatné",
         btnPredUrl: "", 
       },
-    13: {
+/*    13: {
         name: "Evita Varíme spolu",
         description: "varímespolu.sk je online priestor pre všetkých, ktorí milujú dobré jedlo a spoločné chvíle pri varení. Nájdete tu overené recepty, tipy do kuchyne, sezónne inšpirácie aj nápady na rýchle a zdravé jedlá. Či už ste začiatočník alebo skúsený kuchár, u nás si určite vyberiete.",
         zameranie: "",
@@ -224,7 +224,7 @@
         btnHarmUrl: "https://mafraslovakia.hnonline.sk/files/title_schedule/evita_cennik_2025.pdf", 
         btnPred:"Predplatné",
         btnPredUrl: "", 
-      },
+      },*/
     14: {
         name: "Všetko pre ženu",
         description: "Mesačník pre ženy v cieľovej skupine 35+ prináša pestrý mix oddychových tém, predovšetkým praktické rady a návody týkajúce sa každodenného života. Dôraz kladie na skutočné príbehy, ktoré časopisu posielajú samotné čitateľky, aby sa podelili o svoje životné skúsenosti, trampoty aj radosti a pomohli tak iným čitateľkám, ktoré sa ocitnú v podobnej životnej situácii. Prináša tiež ľahkou a jednoduchou formou spracované informácie o zdraví, oddych pri reportážach z ciest, pri krížovkách aj horoskopoch. Nechýbajú rady, ako sa zdravo stravovať, ako aj čitateľkami overené diéty.",

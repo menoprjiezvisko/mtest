@@ -545,6 +545,10 @@ border-bottom: 2px solid transparent;
         font-size: 25px;
         color: ;
       }
+      .activemenu {
+  font-weight: bold;
+    color: #e4051f!important;
+}
 /* MOBILE */
 @media screen and (max-width: 768px){
   /* Show Hamburger */

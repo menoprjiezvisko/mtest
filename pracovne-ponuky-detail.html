@@ -18,27 +18,37 @@
             padding: 40px;
             background-color: #fff;
         }
-
         .job-header {
+            background-color: #00468B;
+            color: white;
+            padding: 20px;
+            font-size: 35px;
+        }
+
+        .job-detail {
             display: flex;
             justify-content: space-between;
             background-color: #00468B;
             color: white;
             padding: 20px;
+            float: right;
+            width: 30%;
+            flex-direction: column;
+            margin: 0 0 10px 10px;
         }
 
-        .job-header div {
+        .job-detail div {
             display: flex;
             flex-direction: column;
         }
 
-        .job-header div span {
+        .job-detail div span {
             font-size: 14px;
             color: #ddd;
             margin-bottom: 8px;
         }
 
-        .job-header div strong {
+        .job-detail div strong {
             font-size: 18px;
             color: white;
         }
@@ -124,16 +134,25 @@
 
 /* MOBILE */
 @media screen and (max-width: 768px) {
+    .job-header {
+
+        font-size: 20px;
+    }
 	.job-listing {
 		padding: 0;
 	}
-    .job-header{
+    .job-detail{
        flex-direction: column;
        margin-top: 25px;
        margin-bottom: 0px;
+               width: 100%;
+        margin: 0;
+        padding: 0;
+        float: none;
    }
-   .job-header div {
+   .job-detail div {
        margin-bottom: 6px;
+           padding: 10px 10px 0px;
    }
    .job-content, .job-requirements{
        padding: 0 20px 15px;
@@ -164,7 +183,7 @@
             </div>
         </li>
         <li><a href="inzercia.html">Inzercia</a></li>
-        <li><a href="pracovne-ponuky.html">Pracovné ponuky</a></li>
+        <li><a class="activemenu" href="pracovne-ponuky.html">Pracovné ponuky</a></li>
         <li><a href="kontakt.html">Kontakty</a></li>
     </ul>
     <label for="hamburger" &#9776;></label>
@@ -181,80 +200,42 @@
   </div>
 </div>
 <div class="container">
-
     <section class="job-listing">
-        <div class="job-header" style="display:none">
-            <div>
-                <span>Mesto práce</span>
-                <strong>Bratislava</strong>
-            </div>
-            <div>
-                <span>Termín nástupu</span>
-                <strong>01.05.2024</strong>
-            </div>
-            <div>
-                <span>Druh pracovného pomeru</span>
-                <strong>Plný úväzok</strong>
-            </div>
-            <div>
-                <span>Mzdové podmienky (brutto)</span>
-                <strong>1 200 EUR/mesiac</strong>
-            </div>
-        </div>
-        <div class="job-header">
-            <div>
-                <strong style="font-size:14px">Mesto práce</strong>
-                <span>Bratislava</span>
-            </div>
-            <div>
-                <strong style="font-size:14px">Termín nástupu</strong>
-                <span>01.05.2024</span>
-            </div>
-            <div>
-                <strong style="font-size:14px">Druh pracovného pomeru</strong>
-                <span>Plný úväzok</span>
-            </div>
-            <div>
-                <strong style="font-size:14px">Mzdové podmienky (brutto)</strong>
-                <span>1 200 EUR/mesiac</span>
-            </div>
-        </div>
+            <div class="job-header">
+        Webový editor pre Hospodárske noviny
+    </div>
         <br>
 
         <div class="job-content">
-            <h2 style="color:darkblue">Informácie o pracovnom mieste</h2>
-
-            <h4 class="category">Náplň práce, právomoci a zodpovednosti</h4>
-            <p>Do nášho grafického tímu hľadáme nového kolegu/kolegyňu na pozíciu grafika titulov nášho vydavateľstva. Očakávame kandidáta s tímovým a zodpovedným prístupom, pozitívnou energiou, ochotou učiť sa a zmyslom pre detail.</p>
-            <p>Sme najväčšie ekonomické vydavateľstvo. Do nášho portfólia titulov patria napr. denník Hospodárske noviny a magazíny Eurotelevízia, TV max, Rytmus života, Téma, EVITA, Čarovné Slovensko, Moja chalupa, a mnoho ďalších. Nižšie nájdete náplň práce a požiadavky. Ak vás to oslovilo, neváhajte a ozvite sa nám.</p>
-            <ul>
-                <li>úprava fotografií</li>
-                <li>kontrola inzercie</li>
-                <li>zalamovanie časopiseckých strán</li>
-                <li>zapracovávanie zmien do textov po korektúre</li>
-                <li>tvorba grafických návrhov rôznych typov: katalógy, letáky, inzercia, bannery, billboardy, logá...</li>
-                <li>kontrola a príprava podkladov do tlače</li>
-                <li>úprava fotografií;</li>
-            </ul>
-
-            <h4 class="category">Zamestnanecké výhody, benefity</h4>
-            <ul>
-                <li>príspevok spoločnosti na dôchodkové sporenie</li>
-                <li>program "nájdi svojho kolegu"</li>
-                <li>sickday</li>
-                <li>odborné školenia a osobnostný rozvoj</li>
-                <li>návštevy kultúrnych podujatí</li>
-            </ul>
-
-            <h4 class="category">Informácie o výberovom konaní</h4>
-            <p>V prípade veľkého záujmu zo strany uchádzačov, bohužiaľ nebude možné kontaktovať každého kandidáta osobne. Preto kontaktovať budeme len tých uchádzačov, ktorí spĺňajú požadované kritériá.</p>
+                    <div class="job-detail">
+            <div>
+                <strong style="font-size:14px">Druh pracovného pomeru:</strong>
+                <span>trvalý</span>
+            </div>
+            <div>
+                <strong style="font-size:14px">Mzdové podmienky:</strong>
+                <span>xxxxx €</span>
+            </div>
+            <div>
+                <strong style="font-size:14px">Termín nástupu:</strong>
+                <span>asap</span>
+            </div>
         </div>
+            <h4 class="category" style="font-weight: ;">Staň sa súčasťou mediálneho sveta s MAFROU.</h4>
+            <p>Sme MAFRA Slovakia – partia ľudí, ktorých spája vášeň pre médiá, kvalitný obsah a neustály posun vpred. Stojíme za titulmi ako Hospodárske noviny, Stratégie, Evita, Téma či Eurotelevízia. Naším cieľom je prinášať kvalitný a dôveryhodný obsah, inovatívne digitálne riešenia a zároveň vytvárať priestor pre talentovaných ľudí, ktorí chcú formovať budúcnosť médií na Slovensku. Preto každý deň pracujeme na tom, aby sme našim čitateľom prinášali zaujímavé príbehy, aktuálne správy a inšpiráciu.
+
+<p>Ak hľadáš príležitosť v prostredí, kde sa stretáva kreativita s profesionálnym rastom, si na správnom mieste.</p>
+</p>
+
+            <h4 class="category">Náplň práce</h4>
+<p>Toffee fruitcake sesame snaps tootsie roll jelly-o bear claw cupcake tootsie roll. Gummi bears tart carrot cake marshmallow sesame snaps. Danish tiramisu toffee shortbread tart sesame snaps topping jelly-o sesame snaps. Donut bear claw candy canes candy muffin. Chocolate cake marshmallow pie jelly beans apple pie shortbread biscuit sesame snaps danish. Lollipop marzipan candy canes candy canes carrot cake liquorice chocolate toffee. Marzipan jujubes ice cream toffee pudding pudding jelly beans cake pudding. Oat cake apple pie macaroon apple pie chocolate cake powdere marshmallow tiramisu sweet shortbread powder. Fruitcake sesame snaps cookie gingerbread sweet tiramisu tart. Cake tiramisu gingerbread cheesecake tootsie roll. Jelly soufflé croissant marshmallow croissant tiramisu lemon drops croissant bonbon.
+</p>
 
         <div class="job-requirements">
             <h3>Požiadavky na zamestnanca</h3>
             <div class="requirements-grid">
                 <div>
-                    <h4 class="category">Pozícii vyhovujúci uchádzači so vzdelaním</h4>
+                    <h4 class="category">Schopnosti a skúsenosti</h4>
                     <ul>
                         <li>stredoškolské s maturitou</li>
                         <li>nadstavbové/vyššie odborné vzdelanie</li>
@@ -264,27 +245,10 @@
                         <li>vysokoškolské III. stupňa</li>
                     </ul>
 
-                    <h4 class="category">Vzdelanie v odbore</h4>
-                    <p>polygrafické, grafické, umelecké</p>
-
-                    <h4 class="category">Jazykové znalosti</h4>
-                    <p>Anglický jazyk - Úplný začiatočník (A1)</p>
-
-                    <h4 class="category">Osobnostné predpoklady a zručnosti</h4>
-                    <ul>
-                        <li>základné skúsenosti s elektronickým publikovaním</li>
-                        <li>praxe v magazíne / na obdobnej pozícii podmienkou</li>
-                        <li>kreativita, vizuálna predstavivosť, cit pre detail a grafiku</li>
-                        <li>samostatnosť, zodpovednosť a stresová odolnosť</li>
-                        <li>systematická práca a presnosť</li>
-                        <li>pozitívne myslenie, priateľská osobnosť</li>
-                        <li>samostatné, rýchle a flexibilné reagovať na zmeny alebo neplánované požiadavky</li>
-                        <li>ogické myslenie vďaka čomu si viete prácu zefektívniť</li>
-                    </ul>
                 </div>
 
                 <div class="right-column">
-                    <h4 class="category">Ostatné znalosti</h4>
+                    <h4 class="category">Požadované zručnosti</h4>
                     <ul>
                         <li>Adobe Illustrator - Pokročilý</li>
                         <li>Adobe InDesign - Expert</li>
@@ -292,13 +256,8 @@
                         <li>Microsoft Word - Pokročilý</li>
                         <li>Microsoft Excel - Pokročilý</li>
                     </ul>
-
-                    <h4 class="category">Vodičský preukaz</h4>
-                    <p>B</p>
-
-                    <h4 class="category">Počet rokov praxe</h4>
-                    <p>2</p>
                 </div>
+                <div>Ak ťa zaujala naša pracovaná ponuka, zašli svoj životopis na adresu: <span style="color: #c92642; font-weight: bold;">cv@mafraslovakia.sk</span></div>
             </div>
         </div>
     </section>
