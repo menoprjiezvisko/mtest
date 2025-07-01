@@ -31,4 +31,22 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-// DIDOMI CMP
+  // Po načítaní stránky pridá triedu 'loaded'
+  window.addEventListener('DOMContentLoaded', () => {
+    document.body.classList.add('loaded');
+  });
+
+  // Pri kliknutí na odkaz najprv spustí animáciu fade-out
+  document.querySelectorAll('a').forEach(link => {
+    // Iba ak je to interný odkaz
+    if (link.hostname === window.location.hostname) {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+        const href = this.href;
+        document.body.classList.remove('loaded');
+        setTimeout(() => {
+          window.location.href = href;
+        }, 100); // Trvanie fade-out animácie
+      });
+    }
+  });
