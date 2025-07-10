@@ -143,7 +143,7 @@
       },
     9: {
         name: "Zdravotnícke noviny",
-        description: "Týždenník pre odbornú verejnosť – lekárov, farmaceutov a ďalších zdravotníckych pracovníkov už 30 rokov. Zdravotnícke noviny prinášajú novinky v zdravotníckej politike a legislatíve, nové trendy v diagnostike a liečbe. Na pravidelnej báze spolupracujú s najdôležitejšími lekárskymi asociáciami, informujú o ich činnostiach a aktivitách. Silná odborná kredibilita týždenníka je podporená špecializovanými medicínskymi magazínmi Lekárske listy, Kompendium medicíny a Medical Practice, ktoré sú súčasťou Zdravotníckych novín v špeciálnej periodicite.",
+        description: "Týždenník pre odbornú verejnosť – lekárov, farmaceutov a ďalších zdravotníckych pracovníkov už 30 rokov. Zdravotnícke noviny prinášajú novinky v zdravotníckej politike a legislatíve, nové trendy v diagnostike a liečbe. Na pravidelnej báze spolupracujú s najdôležitejšími organizáciami v zdravotníctve, informujú o ich činnostiach a aktivitách. Silná odborná kredibilita týždenníka je podporená špecializovanými medicínskymi magazínmi Lekárske listy, Kompendium medicíny a Medical Practice, ktoré sú súčasťou Zdravotníckych novín v špeciálnej periodicite.",
         zameranie: "Zameranie: zdravotníctvo",
         vznik: "Vznik: 1952",
         periodicita: "Periodicita: týždenník ",
