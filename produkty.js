@@ -208,7 +208,7 @@
         btnHarm:"Harmonogram",
         btnHarmUrl: "https://mafraslovakia.hnonline.sk/files/title_schedule/evita_cennik_2025.pdf", 
         btnPred:"Predplatné",
-        btnPredUrl: "", 
+        btnPredUrl: "https://hnonline.sk/predplatne/tlacene-tituly/96016046-evita-magazin", 
       },
 /*    13: {
         name: "Evita Varíme spolu",
@@ -238,7 +238,7 @@
         btnHarm:"Harmonogram",
         btnHarmUrl: "https://mafraslovakia.hnonline.sk/files/title_schedule/vsetko_pre_zenu_harmonogram_2025.pdf", 
         btnPred:"Predplatné",
-        btnPredUrl: "", 
+        btnPredUrl: "https://hnonline.sk/predplatne/tlacene-tituly/96016067-vsetko-pre-zenu", 
       },
     15: {
         name: "Tajomstvá ženy",
@@ -253,7 +253,7 @@
         btnHarm:"Harmonogram",
         btnHarmUrl: "https://mafraslovakia.hnonline.sk/files/title_schedule/chvilka_pre_teba_tajomstva_zeny_harmonogram_2025.pdf", 
         btnPred:"Predplatné",
-        btnPredUrl: "", 
+        btnPredUrl: "https://hnonline.sk/predplatne/tlacene-tituly/96016071-chvilka-pre-teba-tajomstva-zeny", 
       },
     16: {
         name: "Téma",
@@ -283,7 +283,7 @@
         btnHarm:"Harmonogram",
         btnHarmUrl: "https://mafraslovakia.hnonline.sk/files/title_schedule/rytmus_harmonogram_2025.pdf", 
         btnPred:"Predplatné",
-        btnPredUrl: "", 
+        btnPredUrl: "https://hnonline.sk/predplatne/tlacene-tituly/96016050-rytmus-zivota", 
       },
       18: {
         name: "Rytmus života Rodinné zdravie",
@@ -358,7 +358,7 @@
         btnHarm:"Harmonogram",
         btnHarmUrl: "https://mafraslovakia.hnonline.sk/files/title_schedule/chpt_varime_harmonogram_2025.pdf", 
         btnPred:"Predplatné",
-        btnPredUrl: "", 
+        btnPredUrl: "https://hnonline.sk/predplatne/tlacene-tituly/96016062-chvilka-pre-teba-varime-a-pecieme", 
       },
       23: {
         name: "Noviny do pohody",
@@ -373,7 +373,7 @@
         btnHarm:"Harmonogram",
         btnHarmUrl: "https://mafraslovakia.hnonline.sk/files/title_schedule/Noviny_Do_Pohody_harmonogram%202025.pdf", 
         btnPred:"Predplatné",
-        btnPredUrl: "", 
+        btnPredUrl: "https://hnonline.sk/predplatne/tlacene-tituly/96016061-noviny-do-pohody", 
       },
       24: {
         name: "Čarovné Slovensko",
@@ -403,7 +403,7 @@
         btnHarm:"Harmonogram",
         btnHarmUrl: "https://mafraslovakia.hnonline.sk/files/title_schedule/nasa_zahrada_harmonogram_2025.pdf", 
         btnPred:"Predplatné",
-        btnPredUrl: "", 
+        btnPredUrl: "https://hnonline.sk/predplatne/tlacene-tituly/96016065-nasa-zahrada", 
       },
       26: {
         name: "Eurotelevízia",
@@ -478,7 +478,7 @@
         btnHarm:"Harmonogram",
         btnHarmUrl: "", 
         btnPred:"Predplatné",
-        btnPredUrl: "", 
+        btnPredUrl: "https://hnonline.sk/predplatne/tlacene-tituly/96016078-astro-krizovky", 
       },
       31: {
         name: "Chvíľka na 100 krížoviek",
@@ -523,7 +523,7 @@
         btnHarm:"Harmonogram",
         btnHarmUrl: "", 
         btnPred:"Predplatné",
-        btnPredUrl: "", 
+        btnPredUrl: "https://hnonline.sk/predplatne/tlacene-tituly/96016076-krizovky-do-vrecka", 
       },
       34: {
         name: "Krížovky na každý deň",
@@ -538,7 +538,7 @@
         btnHarm:"Harmonogram",
         btnHarmUrl: "", 
         btnPred:"Predplatné",
-        btnPredUrl: "", 
+        btnPredUrl: "https://hnonline.sk/predplatne/tlacene-tituly/96016077-krizovky-na-kazdy-den", 
       },
       35: {
         name: "Rytmus života krížovky s humorom",
@@ -568,7 +568,7 @@
         btnHarm:"Harmonogram",
         btnHarmUrl: "", 
         btnPred:"Predplatné",
-        btnPredUrl: "", 
+        btnPredUrl: "https://hnonline.sk/predplatne/tlacene-tituly/96016079-maxi-krizovky", 
       },
       37: {
         name: "Najlepšie krížovky",
@@ -598,7 +598,7 @@
         btnHarm:"Harmonogram",
         btnHarmUrl: "", 
         btnPred:"Predplatné",
-        btnPredUrl: "", 
+        btnPredUrl: "https://hnonline.sk/predplatne/tlacene-tituly/96018748-napinave-krizovky", 
       },
       39: {
         name: "Napínavé krížovky plus",
@@ -613,7 +613,7 @@
         btnHarm:"Harmonogram",
         btnHarmUrl: "", 
         btnPred:"Predplatné",
-        btnPredUrl: "", 
+        btnPredUrl: "https://hnonline.sk/predplatne/tlacene-tituly/96018754-napinave-krizovky-plus", 
       },
       40: {
         name: "MAXI Krížovky zábava pre celú rodinu",
@@ -643,7 +643,7 @@
         btnHarm:"Harmonogram",
         btnHarmUrl: "", 
         btnPred:"Predplatné",
-        btnPredUrl: "", 
+        btnPredUrl: "https://hnonline.sk/predplatne/tlacene-tituly/96016080-najlacnejsie-krizovky", 
       },
       42: {
         name: "Napínavé osemsmerovky",
@@ -658,7 +658,7 @@
         btnHarm:"Harmonogram",
         btnHarmUrl: "", 
         btnPred:"Predplatné",
-        btnPredUrl: "", 
+        btnPredUrl: "https://hnonline.sk/predplatne/tlacene-tituly/96018757-napinave-osemsmerovky", 
       },
       43: {
         name: "Napísané životom krížovky",
@@ -688,7 +688,7 @@
         btnHarm:"Harmonogram",
         btnHarmUrl: "", 
         btnPred:"Predplatné",
-        btnPredUrl: "", 
+        btnPredUrl: "https://hnonline.sk/predplatne/tlacene-tituly/96016081-krizovky-a-novinky", 
       },
       45: {
         name: "Sudoku MINI",
@@ -703,7 +703,7 @@
         btnHarm:"Harmonogram",
         btnHarmUrl: "", 
         btnPred:"Predplatné",
-        btnPredUrl: "", 
+        btnPredUrl: "https://hnonline.sk/predplatne/tlacene-tituly/96178827-sudoku-mini", 
       },
       46: {
         name: "Dobré rady starej mamy",
@@ -733,7 +733,7 @@
         btnHarm:"Harmonogram",
         btnHarmUrl: "", 
         btnPred:"Predplatné",
-        btnPredUrl: "", 
+        btnPredUrl: "https://hnonline.sk/predplatne/tlacene-tituly/96016068-cas-na-lasku", 
       },
       48: {
         name: "Napísané životom",
@@ -748,7 +748,7 @@
         btnHarm:"Harmonogram",
         btnHarmUrl: "", 
         btnPred:"Predplatné",
-        btnPredUrl: "", 
+        btnPredUrl: "https://hnonline.sk/predplatne/tlacene-tituly/96016066-napisane-zivotom", 
       },
       49: {
         name: "Návraty hviezd",
