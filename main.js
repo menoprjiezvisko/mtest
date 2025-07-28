@@ -2,18 +2,14 @@
 document.addEventListener("DOMContentLoaded", function () {
   // Nájde všetky šípky v menu
   const arrows = document.querySelectorAll(".menu-item .arrow");
-
   // Pridať event listener na každú šípku
   arrows.forEach(arrow => {
     arrow.addEventListener("click", function (event) {
       // Zastaví propagáciu, aby sa neaktivovali iné klikacie prvky
       event.stopPropagation();
-
       const menuItem = event.target.closest(".menu-item");
-
       // Prepína triedu "open" na aktuálnej položke
       menuItem.classList.toggle("open");
-
       // Zavrie všetky ostatné submenu
       document.querySelectorAll(".menu-item").forEach(item => {
         if (item !== menuItem) {
@@ -22,7 +18,6 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
   });
-
   // Zavrie všetky submenu pri kliknutí mimo menu
   document.addEventListener("click", function () {
     document.querySelectorAll(".menu-item").forEach(item => {
@@ -30,12 +25,10 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
-
   // Po načítaní stránky pridá triedu 'loaded'
   window.addEventListener('DOMContentLoaded', () => {
     document.body.classList.add('loaded');
   });
-
   // Pri kliknutí na odkaz najprv spustí animáciu fade-out
   document.querySelectorAll('a').forEach(link => {
     // Iba ak je to interný odkaz
