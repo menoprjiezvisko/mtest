@@ -187,7 +187,7 @@
         vznik: "",
         periodicita: "",
         kontakt: "Kontakt: inzercia@mafraslovakia.sk",
-        image: "images/titulky/tttttttttttt.png",
+        image: "images/titulky/topsestra.png",
         btnCennik: "Cenník",
         btnCennikUrl: "", 
         btnHarm:"Harmonogram",
