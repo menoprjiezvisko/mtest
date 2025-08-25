@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="icon" href="images/favicon.ico" />
+    <meta name="charset" content="utf-8" />
+    <title>MAFRA Slovakia - Pracovné ponuky</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <script type="text/javascript" src="main.js"></script>
+  <script src='https://cdn.cpex.cz/cmp/v2/cpex-cmp.min.js?v2'></script>
+    <style>
+        .job-listing {
+            margin: 0 auto;
+            padding: 40px;
+            background-color: #fff;
+        }
+        .job-header {
+            background-color: #00468B;
+            color: white;
+            padding: 20px;
+            font-size: 35px;
+        }
+
+        .job-detail {
+            display: flex;
+            justify-content: space-between;
+            background-color: #00468B;
+            color: white;
+            padding: 20px;
+            float: right;
+            width: 30%;
+            flex-direction: column;
+            margin: 0 0 10px 10px;
+        }
+
+        .job-detail div {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .job-detail div span {
+            font-size: 14px;
+            color: #ddd;
+            margin-bottom: 8px;
+        }
+
+        .job-detail div strong {
+            font-size: 18px;
+            color: white;
+        }
+
+        .job-content h2 {
+            font-size: 24px;
+            color: #c00;
+            margin-bottom: 20px;
+        }
+
+        h4 {
+            font-weight: 300;
+            color: #c00;
+            font-size: 20px;
+            margin-bottom: 0px;
+            font-weight: 600;
+        }
+
+        .job-content p, .job-content li {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .job-content ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        .job-content ul li {
+            margin-bottom: 10px;
+        }
+
+        .job-content .highlight {
+            color: #c00;
+            font-weight: bold;
+        }
+
+        .job-requirements {
+            margin-top: 40px;
+        }
+
+        .job-requirements h3 {
+            font-size: 23px;
+            color: #00468B;
+            margin-bottom: 0px;
+        }
+
+        .requirements-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 40px;
+        }
+
+        .requirements-grid div {
+            font-size: 16px;
+        }
+
+        .requirements-grid ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .requirements-grid ul li {
+            margin-bottom: 8px;
+        }
+
+        .requirements-grid .category {
+            font-weight: 300;
+            color: #c00;
+        }
+
+        .requirements-grid .right-column {
+            color: #000;
+        }
+
+        .requirements-grid .right-column ul li {
+            margin-bottom: 15px;
+        }
+
+        .requirements-grid .right-column li.category {
+            margin-top: 10px;
+        }
+
+/* MOBILE */
+@media screen and (max-width: 768px) {
+    .job-header {
+
+        font-size: 20px;
+    }
+	.job-listing {
+		padding: 0;
+	}
+    .job-detail{
+       flex-direction: column;
+       margin-top: 25px;
+       margin-bottom: 0px;
+               width: 100%;
+        margin: 0;
+        padding: 0;
+        float: none;
+   }
+   .job-detail div {
+       margin-bottom: 6px;
+           padding: 10px 10px 0px;
+   }
+   .job-content, .job-requirements{
+       padding: 0 20px 15px;
+   }
+   .requirements-grid {
+       grid-template-columns: 1fr;
+   }
+}
+
+</style>
+
+</head>
+<body>
+  <div class="header">
+      <div class="header-logo">
+          <a href="index.html"><img alt="MAFRA Slovakia Logo" src="images/mafra_logo.png" /></a>
+      </div>
+      <div class="navbar" id="page-nav">
+        <input type="checkbox" id="hamburger"/>
+        <ul>
+            <li><a href="o-spolocnosti.html">O spoločnosti</a></li>
+            <li class="menu-item">
+              <a href="portfolio-titulov.html">Portfólio titulov</a>
+              <span class="arrow" >⌵</span>
+              <div class="submenu">
+                <a href="detail-produktu-digi.html#/titul/1/hnonline">Online</a>
+                <a href="detail-produktu-print.html#/titul/1/hospodarske-noviny">Print</a>
+            </div>
+        </li>
+        <li><a href="inzercia.html">Inzercia</a></li>
+        <li><a class="activemenu" href="pracovne-ponuky.html">Pracovné ponuky</a></li>
+        <li><a href="kontakt.html">Kontakty</a></li>
+    </ul>
+    <label for="hamburger" &#9776;></label>
+</div>
+</div>
+<div class="budova" style="background-image:url(images/mafraslovakia_headers_pracovneponuky.png)">
+    <video autoplay loop muted>
+      <source src="example_video.mp4" type="video/mp4" />
+  </video>
+  <div class="budova-text">
+      <h1><span>Pracovné</span> ponuky
+      </h1>
+      
+  </div>
+</div>
+<div class="container">
+    <section class="job-listing">
+            <div class="job-header">
+        Redaktor Hospodárskych novín - servisné prílohy            
+    </div>
+        <br>
+
+        <div class="job-content">
+                    <div class="job-detail">
+            <div>
+                <strong style="font-size:14px">Druh pracovného pomeru:</strong>
+                <span>Plný úväzok/živnosť</span>
+            </div>
+            <div>
+                <strong style="font-size:14px">Mzdové podmienky:</strong>
+                <span>od 1300€</span>
+            </div>
+            <div>
+                <strong style="font-size:14px">Termín nástupu:</strong>
+                <span>dohodou</span>
+            </div>
+        </div>
+            <h4 class="category" style="font-weight: ;">Staň sa súčasťou mediálneho sveta s MAFROU.</h4>
+            <p>Sme MAFRA Slovakia – partia ľudí, ktorých spája vášeň pre médiá, kvalitný obsah a neustály posun vpred. Stojíme za titulmi ako Hospodárske noviny, Stratégie, Evita, Téma či Eurotelevízia. Naším cieľom je prinášať kvalitný a dôveryhodný obsah, inovatívne digitálne riešenia a zároveň vytvárať priestor pre talentovaných ľudí, ktorí chcú formovať budúcnosť médií na Slovensku. Preto každý deň pracujeme na tom, aby sme našim čitateľom prinášali zaujímavé príbehy, aktuálne správy a inšpiráciu.
+
+<p>Ak hľadáš príležitosť v prostredí, kde sa stretáva kreativita s profesionálnym rastom, si na správnom mieste.</p>
+</p>
+
+            <h4 class="category">Náplň práce</h4>
+            <ul>
+<li>plánovanie, príprava a autorské spracovanie vlastných redakčných textov do denníka HN a Hnonline.sk - na dennej báze,</li>
+<li>získavanie a navrhovanie zaujímavých tém, práca so zahraničnými zdrojmi,</li>
+<li>výber fotografií, návrh vizuálov a zalomenia strán,</li>
+<li>príprava podkladov pre infografiku,</li>
+<li>participácia na projektoch, seriáloch a magazínoch.</li>
+
+
+</ul>
+
+        <div class="job-requirements">
+            <h4>Požiadavky na zamestnanca</h4>
+            <div class="requirements-grid">
+                                <div class="right-column">
+                    <h4 class="category">Požadované zručnosti</h4>
+                    <ul>
+<li>prax v médiach/denníku podmienkou (prípadne vlastný blog, uverejnené články v periodikách),</li>
+<li>rozhľad v ekonomických a finančných témach,</li>
+<li>ovládanie prostredia web admin rozhraní výhodou,</li>
+<li>očakávame výborný všeobecný a spoločenský prehľad,</li>
+<li>kreativita, vizuálna predstavivosť, cit pre detail a grafiku,</li>
+<li>vysoká úroveň slovenskej gramatiky a štylistiky,</li>
+<li>samostatnosť, zodpovednosť a stresová odolnosť,</li>
+<li>systematická práca a presnosť,</li>
+<li>pozitívne myslenie, priateľská osobnosť,</li>
+<li>vynikajúce komunikačné a prezentačné zručnosti v písomnom i ústnom prejave,</li>
+<li>proaktívny prístup,</li>
+<li>samostatne, rýchlo a flexibilne reagovať na zmeny alebo neplánované požiadavky</li>
+<li>logické myslenie vďaka čomu si viete prácu zefektívniť.</li>
+
+
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="category">Schopnosti a skúsenosti</h4>
+                    <ul>
+<li>Minimálne dosiahnuté vzdelanie: stredoškolské s maturitou</li>
+<li>Vzdelanie v odbore: žurnalistika, marketing, ekonomika, všeobecné</li>
+<li>Počet rokov praxe: 2</li>
+<li>Jazykové znalosti:  Anglický jazyk (B2)</li>
+<li><ul>Technické znalosti: <li>Microsoft Outlook - Pokročilý</li>
+                                  <li>Microsoft Excel - Pokročilý</li>
+                                   <li>Microsoft Word – Pokročilý</li>
+</ul></li>
+
+<li>Vodičský preukaz: B</li>
+
+                    </ul>
+
+                </div>
+
+
+                <div>Ak ťa zaujala naša pracovaná ponuka, zašli svoj životopis na adresu: <span style="color: #c92642; font-weight: bold;">cv@mafraslovakia.sk</span></div>
+            </div>
+        </div>
+    </section>
+</div>
+<div class="footer">
+    <div class="map">
+        <iframe style="border:0" allowfullscreen aria-hidden="false" frameborder="0" src="https://maps.google.com/maps?q=Kalinčiakova%2033,%20831%2004%20Bratislava&t=&z=13&ie=UTF8&iwloc=&output=embed" tabindex="0">
+        </iframe>
+    </div>
+    <div class="top-section slider">
+<div class="slide-track">
+<div class="slide"><img src="images/zdn.svg"></div>
+<div class="slide"><img src="images/zahady.svg"></div>
+<div class="slide"><img src="images/vpz.svg"></div>
+<div class="slide"><img src="images/varimespolu.svg"></div>
+<div class="slide"><img src="images/tvmax.svg"></div>
+<div class="slide"><img src="images/tema.svg"></div>
+<div class="slide"><img src="images/teleplus.svg"></div>
+<div class="slide"><img src="images/tajomstvazeny.svg"></div>
+<div class="slide"><img src="images/strategie.svg"></div>
+<div class="slide"><img src="images/rytmuszivotarodinnezdravie.svg"></div>
+<div class="slide"><img src="images/rytmuszivotakrizovky.svg"></div>
+<div class="slide"><img src="images/rytmuszivota.svg"></div>
+<div class="slide"><img src="images/rytmusvarime.svg"></div>
+<div class="slide"><img src="images/pribehyzozivota.svg"></div>
+<div class="slide"><img src="images/preconie.svg"></div>
+<div class="slide"><img src="images/obchod.svg"></div>
+<div class="slide"><img src="images/npz.svg"></div>
+<div class="slide"><img src="images/ndp.svg"></div>
+<div class="slide"><img src="images/nasazahrada.svg"></div>
+<div class="slide"><img src="images/napisanezivotomkrizovky.svg"></div>
+<div class="slide"><img src="images/napisanezivotom.svg"></div>
+<div class="slide"><img src="images/napinavekrizovky.svg"></div>
+<div class="slide"><img src="images/najlepsiekrizovky.svg"></div>
+<div class="slide"><img src="images/mediweb.svg"></div>
+<div class="slide"><img src="images/maxikrizovky.svg"></div>
+<div class="slide"><img src="images/lekarskelisty.svg"></div>
+<div class="slide"><img src="images/krizovkydovrecka.svg"></div>
+<div class="slide"><img src="images/kompendium.svg"></div>
+<div class="slide"><img src="images/chvilkana100krizoviek.svg"></div>
+<div class="slide"><img src="images/chptkrizovky.svg"></div>
+<div class="slide"><img src="images/chpt.svg"></div>
+<div class="slide"><img src="images/hospodarskenoviny.svg"></div>
+<div class="slide"><img src="images/horeca.svg"></div>
+<div class="slide"><img src="images/hntv.svg"></div>
+<div class="slide"><img src="images/hnonline.svg"></div>
+<div class="slide"><img src="images/hnmagazin.svg"></div>
+<div class="slide"><img src="images/evitovky.svg"></div>
+<div class="slide"><img src="images/evita.svg"></div> 
+<div class="slide"><img src="images/eurotelevizia.svg"></div>
+<div class="slide"><img src="images/dobreradystarejmamy.svg"></div>
+<div class="slide"><img src="images/diabetik.svg"></div>
+<div class="slide"><img src="images/cs.svg"></div>
+<div class="slide"><img src="images/cnl.svg"></div>
+<div class="slide"><img src="images/brainee.svg"></div>
+<div class="slide"><img src="images/balans.svg"></div>
+<div class="slide"><img src="images/astrokrizovky.svg"></div>
+</div>
+    </div>
+
+    <div class="footer-align">
+      <div class="columns">
+        <div class="column">
+          <p style="font-weight:700">Kontaktujte nás
+          </p>
+          <p> 
+          </p>
+          <p>MAFRA Slovakia a.s.
+          </p>
+          <p>Kalinčiakova 33
+          </p>
+          <p>831 04 Bratislava
+          </p>
+      </div>
+      <div class="column">
+          <p> 
+          </p>
+          <p> 
+          </p>
+          <p>Predplatné: +421 (2) 48 238 238
+          </p>
+          <p>Vydavateľstvo: +421 (2) 48 238 111
+          </p>
+          <p>Inzercia: +421 (2) 48 238 103
+          </p>
+      </div>
+      <div class="column logos">
+          <img style="width:150px" alt="EKLogo" src="images/ek_logo.png" />
+      </div>
+      <div class="column logos">
+          <img style="width:150px" alt="Mafra Logo" src="images/mafra_logo.png" />
+      </div>
+  </div>
+  <div class="copyright">
+    <p style="font-weight:700">© 2012-2025 MAFRA Slovakia, a.s.
+    </p>
+    <p>
+      Všetky práva vyhradené. Publikovanie alebo ďalšie šírenie správ, fotografií a dát je bez predchádzajúceho písomného súhlasu porušením autorského zákona.
+  </p>
+</div>
+</div>
+</div>
+</body>
+</html>
