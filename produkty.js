@@ -637,7 +637,7 @@
         vznik: "Vznik: 2011",
         periodicita: "Periodicita: dvojmesačník ",
         kontakt: "Kontakt: inzercia@mafraslovakia.sk",
-        image: "images/titulky/tttttttttttt.png",
+        image: "images/titulky/najlacnejsiekrizovky.png",
         btnCennik: "Cenník",
         btnCennikUrl: "", 
         btnHarm:"Harmonogram",
