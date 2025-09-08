@@ -382,7 +382,7 @@ border-bottom: 2px solid transparent;
       background-color:#002f63;
       color:#fff}
     .footer .top-section{
-      background-color:#d71921;
+      background-color:white;
       padding:10px 0;
       text-align:center}
     .footer .top-section img{
@@ -565,7 +565,7 @@ border-bottom: 2px solid transparent;
     padding: 10px;
   }
     .budova {
-        height: auto;
+        height: 200px;
     }
   #page-nav label:before {
     content: "☰";
